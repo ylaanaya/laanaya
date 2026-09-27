@@ -476,7 +476,7 @@ body.elementor-kit-1685 .bv-form :is(input, select, textarea):focus,
 body.elementor-kit-1685 .bv-form :is(input, select, textarea):focus-visible {
   border-color: var(--bvd-accent-soft) !important; box-shadow: 0 0 0 3px rgba(94, 170, 227, .28) !important; outline: none !important;
 }
-body.elementor-kit-1685 .bv-form input[type=file] { max-width: 100%; color: var(--bvd-muted); font-family: var(--bvd-font-sans); }
+body.elementor-kit-1685 .bv-form input[type=file] { max-width: 100%; color: var(--bvd-ink-2) !important; background: transparent !important; border: 0 !important; padding: 0 !important; min-height: 44px; font-family: var(--bvd-font-sans); }
 body.elementor-kit-1685 .bv-form input[type=file]::file-selector-button {
   margin-right: 12px; padding: 10px 14px; border-radius: var(--bvd-r-sm); border: 1px solid var(--bvd-line-strong);
   background: var(--bvd-surface-2); color: var(--bvd-ink); font: 500 .875rem var(--bvd-font-sans); cursor: pointer;

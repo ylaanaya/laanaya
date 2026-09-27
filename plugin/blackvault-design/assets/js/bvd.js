@@ -67,22 +67,28 @@
   }
 
   /* 3. ASTRO : requêtes présentées en interface de conversation ---------- */
-  $$('.elementor-heading-title', main).forEach(function (h) {
-    if (h.textContent.trim() !== 'ASTRO') { return; }
-    var card = h.closest('.e-con');
-    if (!card || card.classList.contains('bvd-astro')) { return; }
-    var msgs = $$('.elementor-widget-text-editor', card).filter(function (w) {
-      var t = w.textContent.trim();
-      return t.charAt(0) === '«' && t.charAt(t.length - 1) === '»';
-    }).map(function (w) { return w.closest('.e-con') !== card ? w.closest('.e-con') : w; });
-    if (!msgs.length) { return; }
-    card.classList.add('bvd-astro');
+  var quotes = $$('.elementor-widget-text-editor', main).filter(function (w) {
+    var t = w.textContent.trim();
+    return t.length > 12 && t.charAt(0) === '«' && t.charAt(t.length - 1) === '»';
+  });
+  var groups = [];
+  quotes.forEach(function (w) {
+    var bubble = w.parentElement && w.parentElement.closest('.e-con') ? w.parentElement.closest('.e-con') : w;
+    if (bubble.querySelectorAll('.elementor-widget-text-editor').length > 1) { bubble = w; }
+    var host = bubble.parentElement;
+    var g = groups.filter(function (x) { return x.host === host; })[0];
+    if (!g) { g = { host: host, items: [] }; groups.push(g); }
+    g.items.push(bubble);
+  });
+  groups.forEach(function (g) {
+    if (g.items.length < 2) { return; }
+    g.host.classList.add('bvd-astro');
     var head = d.createElement('div');
     head.className = 'bvd-astro-head';
     head.setAttribute('aria-hidden', 'true');
     head.innerHTML = '<span class="bvd-dot"></span>' + (data.session || 'Session ASTRO');
-    msgs[0].parentNode.insertBefore(head, msgs[0]);
-    msgs.forEach(function (m) {
+    g.items[0].parentNode.insertBefore(head, g.items[0]);
+    g.items.forEach(function (m) {
       m.classList.add('bvd-msg');
       m.setAttribute('data-bvd-who', data.who || 'Analyste');
       var typing = d.createElement('div');

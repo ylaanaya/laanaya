@@ -1,0 +1,43 @@
+/* BLACKVAULT « Signal souverain » : tokens (copie de la section 1 de plugin/blackvault-design/assets/css/bvd.css) */
+:root {
+  --bvd-bg: #070B10;
+  --bvd-bg-alt: #0B121A;
+  --bvd-surface: #101923;
+  --bvd-surface-2: #152231;
+  --bvd-line: #1E2C3A;
+  --bvd-line-strong: #2A3B4D;
+  --bvd-ink: #E6EDF4;
+  --bvd-ink-2: #B8C3CF;
+  --bvd-muted: #93A3B5;
+  --bvd-subtle: #6A7B8D;
+
+  --bvd-accent: #2485D0;
+  --bvd-accent-logo: #1F74B5;
+  --bvd-accent-soft: #5EAAE3;
+  --bvd-accent-tint: rgba(36, 133, 208, .12);
+  --bvd-accent-line: rgba(94, 170, 227, .38);
+  --bvd-signal: #F2B138;
+  --bvd-error: #F2767A;
+
+  --bvd-font-sans: "Sora", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --bvd-font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --bvd-fs-display: clamp(2.5rem, 1.75rem + 3.4vw, 4.5rem);
+  --bvd-fs-h1: clamp(2.25rem, 1.7rem + 2.4vw, 3.5rem);
+  --bvd-fs-h2: clamp(1.75rem, 1.35rem + 1.8vw, 2.625rem);
+  --bvd-fs-h3: clamp(1.25rem, 1.15rem + .45vw, 1.5rem);
+  --bvd-fs-h4: clamp(1.0625rem, 1.03rem + .15vw, 1.125rem);
+  --bvd-fs-lead: clamp(1.0625rem, 1rem + .35vw, 1.25rem);
+  --bvd-fs-body: clamp(1rem, .96rem + .15vw, 1.0625rem);
+  --bvd-fs-small: .9375rem;
+  --bvd-fs-label: .8125rem;
+  --bvd-fs-stat: clamp(2.5rem, 2rem + 2.2vw, 3.5rem);
+
+  --bvd-s1: 8px; --bvd-s2: 16px; --bvd-s3: 24px; --bvd-s4: 32px;
+  --bvd-s6: 48px; --bvd-s8: 64px; --bvd-s12: 96px;
+  --bvd-section: clamp(72px, 48px + 6vw, 128px);
+
+  --bvd-r-xs: 4px; --bvd-r-sm: 8px; --bvd-r-md: 12px;
+  --bvd-ease: cubic-bezier(.2, .7, .2, 1);
+  --bvd-t-fast: 150ms; --bvd-t: 240ms; --bvd-t-slow: 400ms;
+}

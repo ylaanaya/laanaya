@@ -1,0 +1,632 @@
+{
+ "system_colors": [
+  {
+   "_id": "primary",
+   "title": "Primary : bleu BlackVault (texte AA)",
+   "color": "#2485D0"
+  },
+  {
+   "_id": "secondary",
+   "title": "Secondary : bleu signal (liens, labels)",
+   "color": "#5EAAE3"
+  },
+  {
+   "_id": "text",
+   "title": "Text : texte courant (fond clair)",
+   "color": "#3B4A5A"
+  },
+  {
+   "_id": "accent",
+   "title": "Accent : bleu signal (accent unique)",
+   "color": "#5EAAE3"
+  }
+ ],
+ "custom_colors": [
+  {
+   "_id": "bvacc2",
+   "title": "Accent 2 : bleu signal (ex-citron)",
+   "color": "#5EAAE3"
+  },
+  {
+   "_id": "bvbg",
+   "title": "Background : fond clair",
+   "color": "#F4F7FA"
+  },
+  {
+   "_id": "bvwhite",
+   "title": "Blanc",
+   "color": "#FFFFFF"
+  },
+  {
+   "_id": "bvdark",
+   "title": "Dark Background : nuit",
+   "color": "#070B10"
+  },
+  {
+   "_id": "bvdark2",
+   "title": "Dark Background 2 : nuit bleutée",
+   "color": "#0B121A"
+  },
+  {
+   "_id": "bvsurf",
+   "title": "Surface : cartes sombres",
+   "color": "#101923"
+  },
+  {
+   "_id": "bvsurf2",
+   "title": "Surface 2 : cartes sombres surélevées",
+   "color": "#152231"
+  },
+  {
+   "_id": "bvborder",
+   "title": "Border : filet sombre",
+   "color": "#1E2C3A"
+  },
+  {
+   "_id": "bvborderl",
+   "title": "Border : filet clair",
+   "color": "#DCE3EA"
+  },
+  {
+   "_id": "bvink",
+   "title": "Encre : titres sur fond clair",
+   "color": "#0B121A"
+  },
+  {
+   "_id": "bvonnight",
+   "title": "Texte sur fond sombre",
+   "color": "#E6EDF4"
+  },
+  {
+   "_id": "bvmuted",
+   "title": "Muted Text : texte discret (sombre)",
+   "color": "#93A3B5"
+  },
+  {
+   "_id": "bvmutedl",
+   "title": "Muted Text : texte discret (clair)",
+   "color": "#6A7B8D"
+  },
+  {
+   "_id": "bvnova",
+   "title": "Produit : Nova XSIEM",
+   "color": "#5EAAE3"
+  },
+  {
+   "_id": "bvcasex",
+   "title": "Produit : BlackCaseX",
+   "color": "#5EAAE3"
+  },
+  {
+   "_id": "bvtrace",
+   "title": "Produit : BlackTrace",
+   "color": "#5EAAE3"
+  },
+  {
+   "_id": "bvhound",
+   "title": "Produit : The Hound",
+   "color": "#5EAAE3"
+  },
+  {
+   "_id": "bvvx",
+   "title": "Produit : BlackVault VX",
+   "color": "#5EAAE3"
+  },
+  {
+   "_id": "bvorbit",
+   "title": "Produit : OrbitFix",
+   "color": "#5EAAE3"
+  },
+  {
+   "_id": "bvnexus",
+   "title": "Produit : BlackVault Nexus",
+   "color": "#5EAAE3"
+  },
+  {
+   "_id": "bvsignal",
+   "title": "Signal : alerte (rare)",
+   "color": "#5EAAE3"
+  },
+  {
+   "_id": "bvaccl",
+   "title": "Accent logo : bleu BlackVault (UI, fonds clairs)",
+   "color": "#1F74B5"
+  },
+  {
+   "_id": "bvline2",
+   "title": "Border : filet fort",
+   "color": "#2A3B4D"
+  },
+  {
+   "_id": "bvink2",
+   "title": "Texte courant sur fond sombre",
+   "color": "#B8C3CF"
+  }
+ ],
+ "system_typography": [
+  {
+   "_id": "primary",
+   "title": "H1",
+   "typography_typography": "custom",
+   "typography_font_family": "Sora",
+   "typography_font_weight": "600",
+   "typography_font_size": {
+    "unit": "custom",
+    "size": "clamp(2.25rem, 1.7rem + 2.4vw, 3.5rem)",
+    "sizes": []
+   },
+   "typography_line_height": {
+    "unit": "em",
+    "size": 1.08,
+    "sizes": []
+   },
+   "typography_letter_spacing": {
+    "unit": "em",
+    "size": -0.025,
+    "sizes": []
+   }
+  },
+  {
+   "_id": "secondary",
+   "title": "H3",
+   "typography_typography": "custom",
+   "typography_font_family": "Sora",
+   "typography_font_weight": "600",
+   "typography_font_size": {
+    "unit": "custom",
+    "size": "clamp(1.25rem, 1.15rem + .45vw, 1.5rem)",
+    "sizes": []
+   },
+   "typography_line_height": {
+    "unit": "em",
+    "size": 1.25,
+    "sizes": []
+   },
+   "typography_letter_spacing": {
+    "unit": "em",
+    "size": -0.01,
+    "sizes": []
+   }
+  },
+  {
+   "_id": "text",
+   "title": "Body",
+   "typography_typography": "custom",
+   "typography_font_family": "Sora",
+   "typography_font_weight": "400",
+   "typography_font_size": {
+    "unit": "custom",
+    "size": "clamp(1rem, .96rem + .15vw, 1.0625rem)",
+    "sizes": []
+   },
+   "typography_line_height": {
+    "unit": "em",
+    "size": 1.65,
+    "sizes": []
+   }
+  },
+  {
+   "_id": "accent",
+   "title": "CTA",
+   "typography_typography": "custom",
+   "typography_font_family": "Sora",
+   "typography_font_weight": "600",
+   "typography_font_size": {
+    "unit": "custom",
+    "size": ".9375rem",
+    "sizes": []
+   },
+   "typography_line_height": {
+    "unit": "em",
+    "size": 1.2,
+    "sizes": []
+   },
+   "typography_letter_spacing": {
+    "unit": "em",
+    "size": 0,
+    "sizes": []
+   }
+  }
+ ],
+ "custom_typography": [
+  {
+   "_id": "bvdisplay",
+   "title": "Display",
+   "typography_typography": "custom",
+   "typography_font_family": "Sora",
+   "typography_font_weight": "600",
+   "typography_font_size": {
+    "unit": "custom",
+    "size": "clamp(2.5rem, 1.75rem + 3.4vw, 4.5rem)",
+    "sizes": []
+   },
+   "typography_line_height": {
+    "unit": "em",
+    "size": 1.04,
+    "sizes": []
+   },
+   "typography_letter_spacing": {
+    "unit": "em",
+    "size": -0.03,
+    "sizes": []
+   }
+  },
+  {
+   "_id": "bvh1",
+   "title": "H1",
+   "typography_typography": "custom",
+   "typography_font_family": "Sora",
+   "typography_font_weight": "600",
+   "typography_font_size": {
+    "unit": "custom",
+    "size": "clamp(2.25rem, 1.7rem + 2.4vw, 3.5rem)",
+    "sizes": []
+   },
+   "typography_line_height": {
+    "unit": "em",
+    "size": 1.08,
+    "sizes": []
+   },
+   "typography_letter_spacing": {
+    "unit": "em",
+    "size": -0.025,
+    "sizes": []
+   }
+  },
+  {
+   "_id": "bvh2",
+   "title": "H2",
+   "typography_typography": "custom",
+   "typography_font_family": "Sora",
+   "typography_font_weight": "600",
+   "typography_font_size": {
+    "unit": "custom",
+    "size": "clamp(1.75rem, 1.35rem + 1.8vw, 2.625rem)",
+    "sizes": []
+   },
+   "typography_line_height": {
+    "unit": "em",
+    "size": 1.12,
+    "sizes": []
+   },
+   "typography_letter_spacing": {
+    "unit": "em",
+    "size": -0.02,
+    "sizes": []
+   }
+  },
+  {
+   "_id": "bvh3",
+   "title": "H3",
+   "typography_typography": "custom",
+   "typography_font_family": "Sora",
+   "typography_font_weight": "600",
+   "typography_font_size": {
+    "unit": "custom",
+    "size": "clamp(1.25rem, 1.15rem + .45vw, 1.5rem)",
+    "sizes": []
+   },
+   "typography_line_height": {
+    "unit": "em",
+    "size": 1.25,
+    "sizes": []
+   },
+   "typography_letter_spacing": {
+    "unit": "em",
+    "size": -0.01,
+    "sizes": []
+   }
+  },
+  {
+   "_id": "bvh4",
+   "title": "H4",
+   "typography_typography": "custom",
+   "typography_font_family": "Sora",
+   "typography_font_weight": "600",
+   "typography_font_size": {
+    "unit": "custom",
+    "size": "clamp(1.0625rem, 1.03rem + .15vw, 1.125rem)",
+    "sizes": []
+   },
+   "typography_line_height": {
+    "unit": "em",
+    "size": 1.3,
+    "sizes": []
+   }
+  },
+  {
+   "_id": "bvlead",
+   "title": "Chapeau",
+   "typography_typography": "custom",
+   "typography_font_family": "Sora",
+   "typography_font_weight": "400",
+   "typography_font_size": {
+    "unit": "custom",
+    "size": "clamp(1.0625rem, 1rem + .35vw, 1.25rem)",
+    "sizes": []
+   },
+   "typography_line_height": {
+    "unit": "em",
+    "size": 1.55,
+    "sizes": []
+   }
+  },
+  {
+   "_id": "bvsmall",
+   "title": "Small Text",
+   "typography_typography": "custom",
+   "typography_font_family": "Sora",
+   "typography_font_weight": "400",
+   "typography_font_size": {
+    "unit": "custom",
+    "size": ".9375rem",
+    "sizes": []
+   },
+   "typography_line_height": {
+    "unit": "em",
+    "size": 1.6,
+    "sizes": []
+   }
+  },
+  {
+   "_id": "bvlabel",
+   "title": "Étiquette (mono)",
+   "typography_typography": "custom",
+   "typography_font_family": "IBM Plex Mono",
+   "typography_font_weight": "500",
+   "typography_font_size": {
+    "unit": "custom",
+    "size": ".8125rem",
+    "sizes": []
+   },
+   "typography_line_height": {
+    "unit": "em",
+    "size": 1.35,
+    "sizes": []
+   },
+   "typography_letter_spacing": {
+    "unit": "em",
+    "size": 0.12,
+    "sizes": []
+   },
+   "typography_text_transform": "uppercase"
+  },
+  {
+   "_id": "bvstat",
+   "title": "Chiffre clé",
+   "typography_typography": "custom",
+   "typography_font_family": "Sora",
+   "typography_font_weight": "600",
+   "typography_font_size": {
+    "unit": "custom",
+    "size": "clamp(2.5rem, 2rem + 2.2vw, 3.5rem)",
+    "sizes": []
+   },
+   "typography_line_height": {
+    "unit": "em",
+    "size": 1.0,
+    "sizes": []
+   },
+   "typography_letter_spacing": {
+    "unit": "em",
+    "size": -0.03,
+    "sizes": []
+   }
+  },
+  {
+   "_id": "bvquote",
+   "title": "Citation",
+   "typography_typography": "custom",
+   "typography_font_family": "Sora",
+   "typography_font_weight": "500",
+   "typography_font_size": {
+    "unit": "custom",
+    "size": "clamp(1.25rem, 1.1rem + .6vw, 1.5rem)",
+    "sizes": []
+   },
+   "typography_line_height": {
+    "unit": "em",
+    "size": 1.4,
+    "sizes": []
+   },
+   "typography_letter_spacing": {
+    "unit": "em",
+    "size": -0.01,
+    "sizes": []
+   }
+  }
+ ],
+ "default_generic_fonts": "Sans-serif",
+ "site_name": "BLACKVAULT",
+ "site_description": "Éditeur et opérateur de cybersécurité",
+ "site_logo": {
+  "id": 1690,
+  "url": "https://blackvault.ma/wp-content/uploads/2026/09/blackvault-logo-blanc.png",
+  "alt": "BLACKVAULT",
+  "source": "library",
+  "size": ""
+ },
+ "site_favicon": {
+  "id": 1689,
+  "url": "https://blackvault.ma/wp-content/uploads/2026/09/blackvault-icone.png",
+  "alt": "BLACKVAULT",
+  "source": "library",
+  "size": ""
+ },
+ "body_background_background": "classic",
+ "body_background_color": "#070B10",
+ "body_color": "#B8C3CF",
+ "body_typography_typography": "custom",
+ "body_typography_font_family": "Sora",
+ "body_typography_font_size": {
+  "unit": "custom",
+  "size": "clamp(1rem, .96rem + .15vw, 1.0625rem)",
+  "sizes": []
+ },
+ "body_typography_font_weight": "400",
+ "body_typography_line_height": {
+  "unit": "em",
+  "size": 1.65,
+  "sizes": []
+ },
+ "link_normal_color": "#5EAAE3",
+ "link_hover_color": "#E6EDF4",
+ "h1_color": "#E6EDF4",
+ "h1_typography_typography": "custom",
+ "h1_typography_font_family": "Sora",
+ "h1_typography_font_weight": "600",
+ "h1_typography_font_size": {
+  "unit": "custom",
+  "size": "clamp(2.25rem, 1.7rem + 2.4vw, 3.5rem)",
+  "sizes": []
+ },
+ "h1_typography_line_height": {
+  "unit": "em",
+  "size": 1.1,
+  "sizes": []
+ },
+ "h2_color": "#E6EDF4",
+ "h2_typography_typography": "custom",
+ "h2_typography_font_family": "Sora",
+ "h2_typography_font_weight": "600",
+ "h2_typography_font_size": {
+  "unit": "custom",
+  "size": "clamp(1.75rem, 1.35rem + 1.8vw, 2.625rem)",
+  "sizes": []
+ },
+ "h2_typography_line_height": {
+  "unit": "em",
+  "size": 1.1,
+  "sizes": []
+ },
+ "h3_color": "#E6EDF4",
+ "h3_typography_typography": "custom",
+ "h3_typography_font_family": "Sora",
+ "h3_typography_font_weight": "600",
+ "h3_typography_font_size": {
+  "unit": "custom",
+  "size": "clamp(1.25rem, 1.15rem + .45vw, 1.5rem)",
+  "sizes": []
+ },
+ "h3_typography_line_height": {
+  "unit": "em",
+  "size": 1.25,
+  "sizes": []
+ },
+ "h4_color": "#E6EDF4",
+ "h4_typography_typography": "custom",
+ "h4_typography_font_family": "Sora",
+ "h4_typography_font_weight": "600",
+ "h4_typography_font_size": {
+  "unit": "custom",
+  "size": "clamp(1.0625rem, 1.03rem + .15vw, 1.125rem)",
+  "sizes": []
+ },
+ "h4_typography_line_height": {
+  "unit": "em",
+  "size": 1.25,
+  "sizes": []
+ },
+ "h5_color": "#E6EDF4",
+ "h5_typography_typography": "custom",
+ "h5_typography_font_family": "Sora",
+ "h5_typography_font_weight": "600",
+ "h5_typography_font_size": {
+  "unit": "custom",
+  "size": "1rem",
+  "sizes": []
+ },
+ "h5_typography_line_height": {
+  "unit": "em",
+  "size": 1.25,
+  "sizes": []
+ },
+ "h6_color": "#E6EDF4",
+ "h6_typography_typography": "custom",
+ "h6_typography_font_family": "Sora",
+ "h6_typography_font_weight": "600",
+ "h6_typography_font_size": {
+  "unit": "custom",
+  "size": ".875rem",
+  "sizes": []
+ },
+ "h6_typography_line_height": {
+  "unit": "em",
+  "size": 1.25,
+  "sizes": []
+ },
+ "button_typography_typography": "custom",
+ "button_typography_font_family": "Sora",
+ "button_typography_font_weight": "600",
+ "button_typography_font_size": {
+  "unit": "px",
+  "size": 15,
+  "sizes": []
+ },
+ "button_text_color": "#0B121A",
+ "button_background_color": "#FFFFFF",
+ "button_hover_text_color": "#0B121A",
+ "button_hover_background_color": "#E6EDF4",
+ "button_border_radius": {
+  "unit": "px",
+  "top": "8",
+  "right": "8",
+  "bottom": "8",
+  "left": "8",
+  "isLinked": true
+ },
+ "button_padding": {
+  "unit": "px",
+  "top": "15",
+  "right": "26",
+  "bottom": "15",
+  "left": "26",
+  "isLinked": false
+ },
+ "form_field_typography_typography": "custom",
+ "form_field_typography_font_family": "Sora",
+ "form_field_text_color": "#E6EDF4",
+ "form_field_background_color": "#070B10",
+ "form_field_border_color": "#2A3B4D",
+ "form_field_border_width": {
+  "unit": "px",
+  "top": "1",
+  "right": "1",
+  "bottom": "1",
+  "left": "1",
+  "isLinked": true
+ },
+ "form_field_border_radius": {
+  "unit": "px",
+  "top": "8",
+  "right": "8",
+  "bottom": "8",
+  "left": "8",
+  "isLinked": true
+ },
+ "form_field_focus_border_color": "#5EAAE3",
+ "form_label_color": "#E6EDF4",
+ "container_width": {
+  "unit": "px",
+  "size": 1280,
+  "sizes": []
+ },
+ "container_padding": {
+  "unit": "px",
+  "top": "0",
+  "right": "0",
+  "bottom": "0",
+  "left": "0",
+  "isLinked": true
+ },
+ "space_between_widgets": {
+  "column": "16",
+  "row": "16",
+  "isLinked": true,
+  "unit": "px",
+  "size": 16
+ },
+ "page_title_selector": "h1.entry-title",
+ "hello_page_title": "",
+ "form_field_border_border": "solid"
+}
