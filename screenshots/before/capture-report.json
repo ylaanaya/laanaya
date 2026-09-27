@@ -1,0 +1,5187 @@
+{
+ "404": {
+  "390": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 2,
+     "targets": [
+      "h1",
+      ".page-content > p"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #0b121a, background color: #070b10, font size: 27.0pt (36px), font weight: normal). Expected contrast ratio of 3:1"
+    }
+   ],
+   "metrics": {
+    "docHeight": 1950,
+    "domNodes": 303,
+    "hScroll": false,
+    "h": [
+     "H1: La page ne peut pas être trouvée."
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "1440": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 2,
+     "targets": [
+      "h1",
+      ".page-content > p"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #0b121a, background color: #070b10, font size: 43.5pt (58px), font weight: normal). Expected contrast ratio of 3:1"
+    },
+    {
+     "id": "nested-interactive",
+     "impact": "serious",
+     "help": "Interactive controls must not be nested",
+     "count": 4,
+     "targets": [
+      "#menu-item-2433 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2436 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2445 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2455 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]"
+     ],
+     "summary": "Fix any of the following:\n  Element has focusable descendants"
+    }
+   ],
+   "metrics": {
+    "docHeight": 900,
+    "domNodes": 303,
+    "hScroll": false,
+    "h": [
+     "H1: La page ne peut pas être trouvée."
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "id": "404",
+  "url": "https://blackvault.ma/page-inexistante-bv-test/"
+ },
+ "accueil": {
+  "390": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 12,
+     "targets": [
+      ".elementor-element-36a19a5 > p",
+      ".elementor-element-3c12642 > p",
+      ".elementor-element-878de41 > h3",
+      ".elementor-element-5f089e4 > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-4ee5620 > p",
+      ".elementor-element-92da57a > .elementor-heading-title.elementor-size-default"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #3d8bef, background color: #162940, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 123,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-68ea569",
+      ".elementor-element-7f32c1e",
+      ".elementor-element-f63d622",
+      ".elementor-element-527d7b6 > .elementor-size-md.elementor-button[href$=\"solutions/\"] > .elementor-button-content-wrapper > .elementor-button-text",
+      ".elementor-element-c5ff073 > .elementor-size-md.elementor-button[href$=\"services/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 19192,
+    "domNodes": 1139,
+    "hScroll": false,
+    "h": [
+     "H1: Master your cyber exposure.",
+     "H2: Nous ne revendons pas la solution d’un autre.",
+     "H3: Éditeur",
+     "H3: Opérateur",
+     "H3: Innovateur",
+     "H3: Souverain",
+     "H2: Le SOC traditionnel a atteint ses limites",
+     "H3: Le déluge d’alertes",
+     "H3: Le niveau 1 en tension",
+     "H3: Le temps de qualification",
+     "H3: Les faux positifs éternels",
+     "H3: Des outils qui ne se parlent pas",
+     "H3: La souveraineté en question",
+     "H2: Le SOC augmenté par l’IA",
+     "H3: Détecter",
+     "H3: Qualifier",
+     "H3: Enrichir",
+     "H3: Investiguer",
+     "H3: Exposer",
+     "H3: Corriger",
+     "H2: Un écosystème intégré, pas sept outils côte à côte",
+     "H2: Nos solutions",
+     "H3: Nova XSIEM",
+     "H3: BlackCaseX",
+     "H3: BlackTrace",
+     "H3: The Hound",
+     "H3: BlackVault VX",
+     "H3: OrbitFix",
+     "H3: BlackVault Nexus",
+     "H3: Sept solutions, une seule chaîne de défense",
+     "H2: Deux couches d’intelligence au cœur de la plateforme",
+     "H3: IA Orchestrator",
+     "H3: ASTRO",
+     "H2: Une IA qui fonctionne sous notre contrôle",
+     "H2: Des services de cybersécurité opérés par nos experts",
+     "H3: SOC managé 24/7",
+     "H3: Audit et tests d’intrusion",
+     "H3: Intégration de solutions de sécurité",
+     "H3: Gouvernance, risques et conformité",
+     "H3: Cloud souverain, hébergement et continuité",
+     "H3: Infogérance et supervision IT",
+     "H3: Hyperautomatisation et IA",
+     "H3: Un besoin précis ?",
+     "H2: Conçu pour les organisations régulées",
+     "H3: Banques et établissements de crédit",
+     "H3: Assurances et mutuelles",
+     "H3: Administrations et établissements publics",
+     "H3: Infrastructures d’importance vitale",
+     "H2: Pourquoi BLACKVAULT",
+     "H3: Cloisonnement par client",
+     "H3: Traçabilité complète",
+     "H3: L’humain garde la main",
+     "H3: Une réponse réversible",
+     "H2: Sécurisons ce qui compte."
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "1440": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 12,
+     "targets": [
+      ".elementor-element-36a19a5 > p",
+      ".elementor-element-3c12642 > p",
+      ".elementor-element-878de41 > h3",
+      ".elementor-element-5f089e4 > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-4ee5620 > p",
+      ".elementor-element-92da57a > .elementor-heading-title.elementor-size-default"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #3d8bef, background color: #162940, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "nested-interactive",
+     "impact": "serious",
+     "help": "Interactive controls must not be nested",
+     "count": 4,
+     "targets": [
+      "#menu-item-2433 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2436 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2445 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2455 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]"
+     ],
+     "summary": "Fix any of the following:\n  Element has focusable descendants"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 123,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-68ea569",
+      ".elementor-element-7f32c1e",
+      ".elementor-element-f63d622",
+      ".elementor-element-527d7b6 > .elementor-size-md.elementor-button[href$=\"solutions/\"] > .elementor-button-content-wrapper > .elementor-button-text",
+      ".elementor-element-c5ff073 > .elementor-size-md.elementor-button[href$=\"services/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 10674,
+    "domNodes": 1139,
+    "hScroll": false,
+    "h": [
+     "H1: Master your cyber exposure.",
+     "H2: Nous ne revendons pas la solution d’un autre.",
+     "H3: Éditeur",
+     "H3: Opérateur",
+     "H3: Innovateur",
+     "H3: Souverain",
+     "H2: Le SOC traditionnel a atteint ses limites",
+     "H3: Le déluge d’alertes",
+     "H3: Le niveau 1 en tension",
+     "H3: Le temps de qualification",
+     "H3: Les faux positifs éternels",
+     "H3: Des outils qui ne se parlent pas",
+     "H3: La souveraineté en question",
+     "H2: Le SOC augmenté par l’IA",
+     "H3: Détecter",
+     "H3: Qualifier",
+     "H3: Enrichir",
+     "H3: Investiguer",
+     "H3: Exposer",
+     "H3: Corriger",
+     "H2: Un écosystème intégré, pas sept outils côte à côte",
+     "H2: Nos solutions",
+     "H3: Nova XSIEM",
+     "H3: BlackCaseX",
+     "H3: BlackTrace",
+     "H3: The Hound",
+     "H3: BlackVault VX",
+     "H3: OrbitFix",
+     "H3: BlackVault Nexus",
+     "H3: Sept solutions, une seule chaîne de défense",
+     "H2: Deux couches d’intelligence au cœur de la plateforme",
+     "H3: IA Orchestrator",
+     "H3: ASTRO",
+     "H2: Une IA qui fonctionne sous notre contrôle",
+     "H2: Des services de cybersécurité opérés par nos experts",
+     "H3: SOC managé 24/7",
+     "H3: Audit et tests d’intrusion",
+     "H3: Intégration de solutions de sécurité",
+     "H3: Gouvernance, risques et conformité",
+     "H3: Cloud souverain, hébergement et continuité",
+     "H3: Infogérance et supervision IT",
+     "H3: Hyperautomatisation et IA",
+     "H3: Un besoin précis ?",
+     "H2: Conçu pour les organisations régulées",
+     "H3: Banques et établissements de crédit",
+     "H3: Assurances et mutuelles",
+     "H3: Administrations et établissements publics",
+     "H3: Infrastructures d’importance vitale",
+     "H2: Pourquoi BLACKVAULT",
+     "H3: Cloisonnement par client",
+     "H3: Traçabilité complète",
+     "H3: L’humain garde la main",
+     "H3: Une réponse réversible",
+     "H2: Sécurisons ce qui compte."
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "id": "1722",
+  "url": "https://blackvault.ma/"
+ },
+ "solutions": {
+  "390": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 1,
+     "targets": [
+      ".elementor-element-77880b0 > p"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #3d8bef, background color: #162940, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "heading-order",
+     "impact": "moderate",
+     "help": "Heading levels should only increase by one",
+     "count": 1,
+     "targets": [
+      ".elementor-element-4bf6bee > h3"
+     ],
+     "summary": "Fix any of the following:\n  Heading order invalid"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 50,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-4315039",
+      ".elementor-element-84f4a8f",
+      ".elementor-element-bf37052",
+      ".elementor-element-d80da1d > .elementor-size-md.elementor-button[href$=\"contact/#formulaire\"] > .elementor-button-content-wrapper > .elementor-button-text",
+      ".elementor-size-md.elementor-button[href$=\"plateforme/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 8461,
+    "domNodes": 660,
+    "hScroll": false,
+    "h": [
+     "H1: Sept solutions, une seule chaîne de défense",
+     "H3: Nova XSIEM",
+     "H3: BlackCaseX",
+     "H3: BlackTrace",
+     "H3: The Hound",
+     "H3: BlackVault VX",
+     "H3: OrbitFix",
+     "H3: BlackVault Nexus",
+     "H3: Sept solutions, une seule chaîne de défense",
+     "H2: Chaque solution couvre un maillon",
+     "H3: Détecter",
+     "H3: Qualifier",
+     "H3: Enrichir",
+     "H3: Investiguer",
+     "H3: Exposer",
+     "H3: Corriger",
+     "H2: Deux couches d’intelligence transverses",
+     "H3: IA Orchestrator",
+     "H3: ASTRO",
+     "H2: Chez vous ou sur un cloud souverain : la même plateforme",
+     "H3: Dans votre datacenter",
+     "H3: Opérée par nos équipes",
+     "H2: Voyez la plateforme sur votre périmètre"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "1440": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 1,
+     "targets": [
+      ".elementor-element-77880b0 > p"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #3d8bef, background color: #162940, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "heading-order",
+     "impact": "moderate",
+     "help": "Heading levels should only increase by one",
+     "count": 1,
+     "targets": [
+      ".elementor-element-4bf6bee > h3"
+     ],
+     "summary": "Fix any of the following:\n  Heading order invalid"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "nested-interactive",
+     "impact": "serious",
+     "help": "Interactive controls must not be nested",
+     "count": 4,
+     "targets": [
+      "#menu-item-2433 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2436 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2445 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2455 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]"
+     ],
+     "summary": "Fix any of the following:\n  Element has focusable descendants"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 50,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-4315039",
+      ".elementor-element-84f4a8f",
+      ".elementor-element-bf37052",
+      ".elementor-element-d80da1d > .elementor-size-md.elementor-button[href$=\"contact/#formulaire\"] > .elementor-button-content-wrapper > .elementor-button-text",
+      ".elementor-size-md.elementor-button[href$=\"plateforme/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 4476,
+    "domNodes": 660,
+    "hScroll": false,
+    "h": [
+     "H1: Sept solutions, une seule chaîne de défense",
+     "H3: Nova XSIEM",
+     "H3: BlackCaseX",
+     "H3: BlackTrace",
+     "H3: The Hound",
+     "H3: BlackVault VX",
+     "H3: OrbitFix",
+     "H3: BlackVault Nexus",
+     "H3: Sept solutions, une seule chaîne de défense",
+     "H2: Chaque solution couvre un maillon",
+     "H3: Détecter",
+     "H3: Qualifier",
+     "H3: Enrichir",
+     "H3: Investiguer",
+     "H3: Exposer",
+     "H3: Corriger",
+     "H2: Deux couches d’intelligence transverses",
+     "H3: IA Orchestrator",
+     "H3: ASTRO",
+     "H2: Chez vous ou sur un cloud souverain : la même plateforme",
+     "H3: Dans votre datacenter",
+     "H3: Opérée par nos équipes",
+     "H2: Voyez la plateforme sur votre périmètre"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "id": "1725",
+  "url": "https://blackvault.ma/solutions/"
+ },
+ "solutions__nova-xsiem": {
+  "390": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 3,
+     "targets": [
+      ".elementor-element-99cfee2 > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-a41906b > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-b59beb0 > .elementor-heading-title.elementor-size-default"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 45,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-7db4020",
+      ".elementor-element-f7fb354",
+      ".elementor-element-2f92f5f",
+      ".elementor-element-77caaad",
+      ".elementor-element-9927a8a"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 9001,
+    "domNodes": 652,
+    "hScroll": false,
+    "h": [
+     "H1: Nova XSIEM",
+     "H2: Trop d’événements, trop peu d’yeux",
+     "H3: Ce que Nova XSIEM change",
+     "H2: Capacités clés",
+     "H3: Collecte universelle",
+     "H3: Détection sur mesure",
+     "H3: Réponse active",
+     "H3: Bruit maîtrisé",
+     "H3: Tableau de bord dédié",
+     "H2: Cas d’usage",
+     "H3: Unifier un parc hétérogène",
+     "H3: Détecter selon votre métier",
+     "H3: Contenir sans attendre",
+     "H2: Sa place dans la plateforme",
+     "H2: Chez vous ou sur un cloud souverain : la même plateforme",
+     "H3: Dans votre datacenter",
+     "H3: Opérée par nos équipes",
+     "H2: Voir Nova XSIEM sur votre périmètre"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 500 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "1440": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 3,
+     "targets": [
+      ".elementor-element-99cfee2 > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-a41906b > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-b59beb0 > .elementor-heading-title.elementor-size-default"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "nested-interactive",
+     "impact": "serious",
+     "help": "Interactive controls must not be nested",
+     "count": 4,
+     "targets": [
+      "#menu-item-2433 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2436 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2445 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2455 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]"
+     ],
+     "summary": "Fix any of the following:\n  Element has focusable descendants"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 45,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-7db4020",
+      ".elementor-element-f7fb354",
+      ".elementor-element-2f92f5f",
+      ".elementor-element-77caaad",
+      ".elementor-element-9927a8a"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 5296,
+    "domNodes": 652,
+    "hScroll": false,
+    "h": [
+     "H1: Nova XSIEM",
+     "H2: Trop d’événements, trop peu d’yeux",
+     "H3: Ce que Nova XSIEM change",
+     "H2: Capacités clés",
+     "H3: Collecte universelle",
+     "H3: Détection sur mesure",
+     "H3: Réponse active",
+     "H3: Bruit maîtrisé",
+     "H3: Tableau de bord dédié",
+     "H2: Cas d’usage",
+     "H3: Unifier un parc hétérogène",
+     "H3: Détecter selon votre métier",
+     "H3: Contenir sans attendre",
+     "H2: Sa place dans la plateforme",
+     "H2: Chez vous ou sur un cloud souverain : la même plateforme",
+     "H3: Dans votre datacenter",
+     "H3: Opérée par nos équipes",
+     "H2: Voir Nova XSIEM sur votre périmètre"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 500 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "id": "1728",
+  "url": "https://blackvault.ma/solutions/nova-xsiem/"
+ },
+ "solutions__blackcasex": {
+  "390": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 2,
+     "targets": [
+      ".elementor-element-cdc05e4 > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-89f35b4 > .elementor-heading-title.elementor-size-default"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 45,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-64a7625",
+      ".elementor-element-f758f73",
+      ".elementor-element-4599fd8",
+      ".elementor-element-a15d1d8",
+      ".elementor-element-575d690"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 8659,
+    "domNodes": 651,
+    "hScroll": false,
+    "h": [
+     "H1: BlackCaseX",
+     "H2: Du contexte perdu à chaque étape",
+     "H3: Ce que BlackCaseX change",
+     "H2: Capacités clés",
+     "H3: Cycle de vie complet",
+     "H3: Notification à chaque étape",
+     "H3: Preuves attachées",
+     "H3: Piste d’audit",
+     "H3: Livrable automatique",
+     "H2: Cas d’usage",
+     "H3: Répondre au régulateur",
+     "H3: Escalader sans perte",
+     "H3: Livrer un rapport clair",
+     "H2: Sa place dans la plateforme",
+     "H2: Chez vous ou sur un cloud souverain : la même plateforme",
+     "H3: Dans votre datacenter",
+     "H3: Opérée par nos équipes",
+     "H2: Voir BlackCaseX sur votre périmètre"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 500 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "1440": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 2,
+     "targets": [
+      ".elementor-element-cdc05e4 > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-89f35b4 > .elementor-heading-title.elementor-size-default"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "nested-interactive",
+     "impact": "serious",
+     "help": "Interactive controls must not be nested",
+     "count": 4,
+     "targets": [
+      "#menu-item-2433 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2436 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2445 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2455 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]"
+     ],
+     "summary": "Fix any of the following:\n  Element has focusable descendants"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 45,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-64a7625",
+      ".elementor-element-f758f73",
+      ".elementor-element-4599fd8",
+      ".elementor-element-a15d1d8",
+      ".elementor-element-575d690"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 5217,
+    "domNodes": 651,
+    "hScroll": false,
+    "h": [
+     "H1: BlackCaseX",
+     "H2: Du contexte perdu à chaque étape",
+     "H3: Ce que BlackCaseX change",
+     "H2: Capacités clés",
+     "H3: Cycle de vie complet",
+     "H3: Notification à chaque étape",
+     "H3: Preuves attachées",
+     "H3: Piste d’audit",
+     "H3: Livrable automatique",
+     "H2: Cas d’usage",
+     "H3: Répondre au régulateur",
+     "H3: Escalader sans perte",
+     "H3: Livrer un rapport clair",
+     "H2: Sa place dans la plateforme",
+     "H2: Chez vous ou sur un cloud souverain : la même plateforme",
+     "H3: Dans votre datacenter",
+     "H3: Opérée par nos équipes",
+     "H2: Voir BlackCaseX sur votre périmètre"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 500 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "id": "1731",
+  "url": "https://blackvault.ma/solutions/blackcasex/"
+ },
+ "solutions__blacktrace": {
+  "390": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 2,
+     "targets": [
+      ".elementor-element-b89d5ba > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-334bd60 > .elementor-heading-title.elementor-size-default"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 44,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-ad67267",
+      ".elementor-element-a517d3e",
+      ".elementor-element-e7b8e92",
+      ".elementor-element-12941c8",
+      ".elementor-element-8def6cd"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 8675,
+    "domNodes": 646,
+    "hScroll": false,
+    "h": [
+     "H1: BlackTrace",
+     "H2: Chaque heure compte, chaque preuve aussi",
+     "H3: Ce que BlackTrace change",
+     "H2: Capacités clés",
+     "H3: Collecte ciblée",
+     "H3: Chasse à l’échelle",
+     "H3: Prélèvement avant nettoyage",
+     "H3: Chronologie d’attaque",
+     "H3: Retour au dossier",
+     "H2: Cas d’usage",
+     "H3: Mesurer l’étendue d’une compromission",
+     "H3: Préserver la preuve",
+     "H3: Reconstituer l’attaque",
+     "H2: Sa place dans la plateforme",
+     "H2: Chez vous ou sur un cloud souverain : la même plateforme",
+     "H3: Dans votre datacenter",
+     "H3: Opérée par nos équipes",
+     "H2: Voir BlackTrace sur votre périmètre"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 500 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "1440": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 2,
+     "targets": [
+      ".elementor-element-b89d5ba > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-334bd60 > .elementor-heading-title.elementor-size-default"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "nested-interactive",
+     "impact": "serious",
+     "help": "Interactive controls must not be nested",
+     "count": 4,
+     "targets": [
+      "#menu-item-2433 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2436 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2445 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2455 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]"
+     ],
+     "summary": "Fix any of the following:\n  Element has focusable descendants"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 44,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-ad67267",
+      ".elementor-element-a517d3e",
+      ".elementor-element-e7b8e92",
+      ".elementor-element-12941c8",
+      ".elementor-element-8def6cd"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 5179,
+    "domNodes": 646,
+    "hScroll": false,
+    "h": [
+     "H1: BlackTrace",
+     "H2: Chaque heure compte, chaque preuve aussi",
+     "H3: Ce que BlackTrace change",
+     "H2: Capacités clés",
+     "H3: Collecte ciblée",
+     "H3: Chasse à l’échelle",
+     "H3: Prélèvement avant nettoyage",
+     "H3: Chronologie d’attaque",
+     "H3: Retour au dossier",
+     "H2: Cas d’usage",
+     "H3: Mesurer l’étendue d’une compromission",
+     "H3: Préserver la preuve",
+     "H3: Reconstituer l’attaque",
+     "H2: Sa place dans la plateforme",
+     "H2: Chez vous ou sur un cloud souverain : la même plateforme",
+     "H3: Dans votre datacenter",
+     "H3: Opérée par nos équipes",
+     "H2: Voir BlackTrace sur votre périmètre"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 500 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "id": "1734",
+  "url": "https://blackvault.ma/solutions/blacktrace/"
+ },
+ "solutions__the-hound": {
+  "390": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 2,
+     "targets": [
+      ".elementor-element-4515ad0 > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-570fc17 > .elementor-heading-title.elementor-size-default"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 45,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-80f88db",
+      ".elementor-element-a5419a2",
+      ".elementor-element-364a6f9",
+      ".elementor-element-e0a44d2",
+      ".elementor-element-7c12a30"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 8850,
+    "domNodes": 652,
+    "hScroll": false,
+    "h": [
+     "H1: The Hound",
+     "H2: Des avis contradictoires, du temps perdu",
+     "H3: Ce que The Hound change",
+     "H2: Capacités clés",
+     "H3: Consolidation multi-sources",
+     "H3: Verdict unifié",
+     "H3: Appel automatique",
+     "H3: Historique",
+     "H3: Cloisonnement",
+     "H2: Cas d’usage",
+     "H3: Qualifier une alerte en quelques secondes",
+     "H3: Trier un courriel suspect",
+     "H3: Capitaliser sur l’historique",
+     "H2: Sa place dans la plateforme",
+     "H2: Chez vous ou sur un cloud souverain : la même plateforme",
+     "H3: Dans votre datacenter",
+     "H3: Opérée par nos équipes",
+     "H2: Voir The Hound sur votre périmètre"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 500 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "1440": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 2,
+     "targets": [
+      ".elementor-element-4515ad0 > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-570fc17 > .elementor-heading-title.elementor-size-default"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "nested-interactive",
+     "impact": "serious",
+     "help": "Interactive controls must not be nested",
+     "count": 4,
+     "targets": [
+      "#menu-item-2433 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2436 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2445 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2455 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]"
+     ],
+     "summary": "Fix any of the following:\n  Element has focusable descendants"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 45,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-80f88db",
+      ".elementor-element-a5419a2",
+      ".elementor-element-364a6f9",
+      ".elementor-element-e0a44d2",
+      ".elementor-element-7c12a30"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 5262,
+    "domNodes": 652,
+    "hScroll": false,
+    "h": [
+     "H1: The Hound",
+     "H2: Des avis contradictoires, du temps perdu",
+     "H3: Ce que The Hound change",
+     "H2: Capacités clés",
+     "H3: Consolidation multi-sources",
+     "H3: Verdict unifié",
+     "H3: Appel automatique",
+     "H3: Historique",
+     "H3: Cloisonnement",
+     "H2: Cas d’usage",
+     "H3: Qualifier une alerte en quelques secondes",
+     "H3: Trier un courriel suspect",
+     "H3: Capitaliser sur l’historique",
+     "H2: Sa place dans la plateforme",
+     "H2: Chez vous ou sur un cloud souverain : la même plateforme",
+     "H3: Dans votre datacenter",
+     "H3: Opérée par nos équipes",
+     "H2: Voir The Hound sur votre périmètre"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 500 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "id": "1737",
+  "url": "https://blackvault.ma/solutions/the-hound/"
+ },
+ "solutions__blackvault-vx": {
+  "390": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 2,
+     "targets": [
+      ".elementor-element-d84bb59 > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-cc666f9 > .elementor-heading-title.elementor-size-default"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 44,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-d7e060c",
+      ".elementor-element-eca99ce",
+      ".elementor-element-ea48881",
+      ".elementor-element-9685806",
+      ".elementor-element-46e0fd9"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 8692,
+    "domNodes": 646,
+    "hScroll": false,
+    "h": [
+     "H1: BlackVault VX",
+     "H2: Des milliers de lignes, aucune priorité",
+     "H3: Ce que BlackVault VX change",
+     "H2: Capacités clés",
+     "H3: Orchestration de scanners",
+     "H3: Déduplication",
+     "H3: Risque explicable",
+     "H3: Multi-tenant natif",
+     "H3: Ouvert",
+     "H2: Cas d’usage",
+     "H3: Prioriser la remédiation",
+     "H3: Piloter plusieurs entités",
+     "H3: Intégrer à vos outils",
+     "H2: Sa place dans la plateforme",
+     "H2: Chez vous ou sur un cloud souverain : la même plateforme",
+     "H3: Dans votre datacenter",
+     "H3: Opérée par nos équipes",
+     "H2: Voir BlackVault VX sur votre périmètre"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 500 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "1440": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 2,
+     "targets": [
+      ".elementor-element-d84bb59 > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-cc666f9 > .elementor-heading-title.elementor-size-default"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "nested-interactive",
+     "impact": "serious",
+     "help": "Interactive controls must not be nested",
+     "count": 4,
+     "targets": [
+      "#menu-item-2433 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2436 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2445 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2455 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]"
+     ],
+     "summary": "Fix any of the following:\n  Element has focusable descendants"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 44,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-d7e060c",
+      ".elementor-element-eca99ce",
+      ".elementor-element-ea48881",
+      ".elementor-element-9685806",
+      ".elementor-element-46e0fd9"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 5176,
+    "domNodes": 646,
+    "hScroll": false,
+    "h": [
+     "H1: BlackVault VX",
+     "H2: Des milliers de lignes, aucune priorité",
+     "H3: Ce que BlackVault VX change",
+     "H2: Capacités clés",
+     "H3: Orchestration de scanners",
+     "H3: Déduplication",
+     "H3: Risque explicable",
+     "H3: Multi-tenant natif",
+     "H3: Ouvert",
+     "H2: Cas d’usage",
+     "H3: Prioriser la remédiation",
+     "H3: Piloter plusieurs entités",
+     "H3: Intégrer à vos outils",
+     "H2: Sa place dans la plateforme",
+     "H2: Chez vous ou sur un cloud souverain : la même plateforme",
+     "H3: Dans votre datacenter",
+     "H3: Opérée par nos équipes",
+     "H2: Voir BlackVault VX sur votre périmètre"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 500 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "id": "1740",
+  "url": "https://blackvault.ma/solutions/blackvault-vx/"
+ },
+ "solutions__orbitfix": {
+  "390": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 2,
+     "targets": [
+      ".elementor-element-4cab7a4 > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-186d2d0 > .elementor-heading-title.elementor-size-default"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 44,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-7068f0d",
+      ".elementor-element-adb6700",
+      ".elementor-element-bc0fe3b",
+      ".elementor-element-695e0b0",
+      ".elementor-element-4a1940d"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 8774,
+    "domNodes": 646,
+    "hScroll": false,
+    "h": [
+     "H1: OrbitFix",
+     "H2: Un correctif poussé n’est pas un correctif appliqué",
+     "H3: Ce que OrbitFix change",
+     "H2: Capacités clés",
+     "H3: Déploiement piloté",
+     "H3: Vérification après coup",
+     "H3: Couverture mesurée",
+     "H3: Boucle fermée avec VX",
+     "H3: Pilotage par client",
+     "H2: Cas d’usage",
+     "H3: Respecter vos fenêtres de maintenance",
+     "H3: Prouver la conformité",
+     "H3: Réduire l’exposition réelle",
+     "H2: Sa place dans la plateforme",
+     "H2: Chez vous ou sur un cloud souverain : la même plateforme",
+     "H3: Dans votre datacenter",
+     "H3: Opérée par nos équipes",
+     "H2: Voir OrbitFix sur votre périmètre"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 500 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "1440": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 2,
+     "targets": [
+      ".elementor-element-4cab7a4 > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-186d2d0 > .elementor-heading-title.elementor-size-default"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "nested-interactive",
+     "impact": "serious",
+     "help": "Interactive controls must not be nested",
+     "count": 4,
+     "targets": [
+      "#menu-item-2433 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2436 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2445 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2455 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]"
+     ],
+     "summary": "Fix any of the following:\n  Element has focusable descendants"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 44,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-7068f0d",
+      ".elementor-element-adb6700",
+      ".elementor-element-bc0fe3b",
+      ".elementor-element-695e0b0",
+      ".elementor-element-4a1940d"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 5148,
+    "domNodes": 646,
+    "hScroll": false,
+    "h": [
+     "H1: OrbitFix",
+     "H2: Un correctif poussé n’est pas un correctif appliqué",
+     "H3: Ce que OrbitFix change",
+     "H2: Capacités clés",
+     "H3: Déploiement piloté",
+     "H3: Vérification après coup",
+     "H3: Couverture mesurée",
+     "H3: Boucle fermée avec VX",
+     "H3: Pilotage par client",
+     "H2: Cas d’usage",
+     "H3: Respecter vos fenêtres de maintenance",
+     "H3: Prouver la conformité",
+     "H3: Réduire l’exposition réelle",
+     "H2: Sa place dans la plateforme",
+     "H2: Chez vous ou sur un cloud souverain : la même plateforme",
+     "H3: Dans votre datacenter",
+     "H3: Opérée par nos équipes",
+     "H2: Voir OrbitFix sur votre périmètre"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 500 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "id": "1743",
+  "url": "https://blackvault.ma/solutions/orbitfix/"
+ },
+ "solutions__blackvault-nexus": {
+  "390": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 2,
+     "targets": [
+      ".elementor-element-882abcb > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-0542d24 > .elementor-heading-title.elementor-size-default"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 45,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-c0ddf57",
+      ".elementor-element-79018af",
+      ".elementor-element-1676ecf",
+      ".elementor-element-23d5322",
+      ".elementor-element-248c6a8"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 8937,
+    "domNodes": 652,
+    "hScroll": false,
+    "h": [
+     "H1: BlackVault Nexus",
+     "H2: Une veille qui ne connaît pas votre parc",
+     "H3: Ce que BlackVault Nexus change",
+     "H2: Capacités clés",
+     "H3: Collecte continue",
+     "H3: Corrélation à votre parc",
+     "H3: Score d’exposition",
+     "H3: Bulletin client",
+     "H3: Souveraineté",
+     "H2: Cas d’usage",
+     "H3: Réagir à une faille critique",
+     "H3: Informer la direction",
+     "H3: Alimenter la détection",
+     "H2: Sa place dans la plateforme",
+     "H2: Chez vous ou sur un cloud souverain : la même plateforme",
+     "H3: Dans votre datacenter",
+     "H3: Opérée par nos équipes",
+     "H2: Voir BlackVault Nexus sur votre périmètre"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 500 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "1440": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 2,
+     "targets": [
+      ".elementor-element-882abcb > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-0542d24 > .elementor-heading-title.elementor-size-default"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "nested-interactive",
+     "impact": "serious",
+     "help": "Interactive controls must not be nested",
+     "count": 4,
+     "targets": [
+      "#menu-item-2433 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2436 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2445 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2455 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]"
+     ],
+     "summary": "Fix any of the following:\n  Element has focusable descendants"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 45,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-c0ddf57",
+      ".elementor-element-79018af",
+      ".elementor-element-1676ecf",
+      ".elementor-element-23d5322",
+      ".elementor-element-248c6a8"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 5248,
+    "domNodes": 652,
+    "hScroll": false,
+    "h": [
+     "H1: BlackVault Nexus",
+     "H2: Une veille qui ne connaît pas votre parc",
+     "H3: Ce que BlackVault Nexus change",
+     "H2: Capacités clés",
+     "H3: Collecte continue",
+     "H3: Corrélation à votre parc",
+     "H3: Score d’exposition",
+     "H3: Bulletin client",
+     "H3: Souveraineté",
+     "H2: Cas d’usage",
+     "H3: Réagir à une faille critique",
+     "H3: Informer la direction",
+     "H3: Alimenter la détection",
+     "H2: Sa place dans la plateforme",
+     "H2: Chez vous ou sur un cloud souverain : la même plateforme",
+     "H3: Dans votre datacenter",
+     "H3: Opérée par nos équipes",
+     "H2: Voir BlackVault Nexus sur votre périmètre"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 500 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "id": "1746",
+  "url": "https://blackvault.ma/solutions/blackvault-nexus/"
+ },
+ "plateforme__ia-souveraine": {
+  "390": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 8,
+     "targets": [
+      ".elementor-element-13c8bc4 > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-620e35d > h3",
+      ".elementor-element-0716ae6 > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-dc377cd > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(1) > .elementor-icon-list-text",
+      ".elementor-element-dc377cd > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(2) > .elementor-icon-list-text",
+      ".elementor-element-dc377cd > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(3) > .elementor-icon-list-text"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #0b121a, background color: #070b10, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 46,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-e508659",
+      ".elementor-element-0de7968",
+      ".elementor-element-00ea848",
+      ".elementor-element-0551bf4 > .elementor-size-md.elementor-button[href$=\"contact/#formulaire\"] > .elementor-button-content-wrapper > .elementor-button-text",
+      ".elementor-size-md.elementor-button[href$=\"plateforme/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 10087,
+    "domNodes": 682,
+    "hScroll": false,
+    "h": [
+     "H1: IA Orchestrator et ASTRO",
+     "H2: Une équipe d’agents qui instruit chaque alerte",
+     "H3: Comprendre",
+     "H3: Rassembler",
+     "H3: Conclure",
+     "H3: Cadrer",
+     "H3: Proposer",
+     "H3: Aucune alerte ignorée",
+     "H3: Les trois niveaux couverts",
+     "H3: Mémoire des décisions",
+     "H3: L’humain garde la main",
+     "H2: N1 assuré, N2 instruit, N3 outillé",
+     "H3: Qualification",
+     "H3: Investigation",
+     "H3: Expertise et réponse",
+     "H2: ASTRO : toute la plateforme à portée de phrase",
+     "H3: Il interroge vraiment",
+     "H3: Il prépare, il n’impose pas",
+     "H3: Il connaît vos procédures",
+     "H2: Votre sécurité ne transite pas par le cloud d’un autre",
+     "H2: UEBA : détecter ce qu’aucune règle ne décrit",
+     "H3: Compte compromis",
+     "H3: Menace interne",
+     "H3: Mouvement latéral",
+     "H3: Exfiltration lente",
+     "H3: Abus de privilèges",
+     "H3: Machine déviante",
+     "H2: Voyez l’IA instruire vos propres alertes"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "1440": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 8,
+     "targets": [
+      ".elementor-element-13c8bc4 > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-620e35d > h3",
+      ".elementor-element-0716ae6 > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-dc377cd > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(1) > .elementor-icon-list-text",
+      ".elementor-element-dc377cd > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(2) > .elementor-icon-list-text",
+      ".elementor-element-dc377cd > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(3) > .elementor-icon-list-text"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #0b121a, background color: #070b10, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "nested-interactive",
+     "impact": "serious",
+     "help": "Interactive controls must not be nested",
+     "count": 4,
+     "targets": [
+      "#menu-item-2433 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2436 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2445 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2455 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]"
+     ],
+     "summary": "Fix any of the following:\n  Element has focusable descendants"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 40,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-e508659",
+      ".elementor-element-0de7968",
+      ".elementor-element-00ea848",
+      ".elementor-element-0551bf4 > .elementor-size-md.elementor-button[href$=\"contact/#formulaire\"] > .elementor-button-content-wrapper > .elementor-button-text",
+      ".elementor-size-md.elementor-button[href$=\"plateforme/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 5739,
+    "domNodes": 682,
+    "hScroll": false,
+    "h": [
+     "H1: IA Orchestrator et ASTRO",
+     "H2: Une équipe d’agents qui instruit chaque alerte",
+     "H3: Comprendre",
+     "H3: Rassembler",
+     "H3: Conclure",
+     "H3: Cadrer",
+     "H3: Proposer",
+     "H3: Aucune alerte ignorée",
+     "H3: Les trois niveaux couverts",
+     "H3: Mémoire des décisions",
+     "H3: L’humain garde la main",
+     "H2: N1 assuré, N2 instruit, N3 outillé",
+     "H3: Qualification",
+     "H3: Investigation",
+     "H3: Expertise et réponse",
+     "H2: ASTRO : toute la plateforme à portée de phrase",
+     "H3: Il interroge vraiment",
+     "H3: Il prépare, il n’impose pas",
+     "H3: Il connaît vos procédures",
+     "H2: Votre sécurité ne transite pas par le cloud d’un autre",
+     "H2: UEBA : détecter ce qu’aucune règle ne décrit",
+     "H3: Compte compromis",
+     "H3: Menace interne",
+     "H3: Mouvement latéral",
+     "H3: Exfiltration lente",
+     "H3: Abus de privilèges",
+     "H3: Machine déviante",
+     "H2: Voyez l’IA instruire vos propres alertes"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "id": "1749",
+  "url": "https://blackvault.ma/plateforme/ia-souveraine/"
+ },
+ "services": {
+  "390": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 7,
+     "targets": [
+      ".elementor-element-9d3491f > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-80567fd > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-86d8a5e > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-852fc9b > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-a02ef37 > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-b8adb70 > .elementor-heading-title.elementor-size-default"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.86 (foreground color: #2f80ed, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 34,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-2a555fe",
+      ".elementor-element-bbbb74a",
+      ".elementor-element-6f73c74",
+      ".elementor-element-8a66c4a > .elementor-size-md.elementor-button.elementor-button-link > .elementor-button-content-wrapper > .elementor-button-text",
+      "a[href$=\"solutions/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 6391,
+    "domNodes": 496,
+    "hScroll": false,
+    "h": [
+     "H1: Ce que nous faisons pour vous",
+     "H2: Nos domaines d’intervention",
+     "H3: SOC managé 24/7",
+     "H3: Audit et tests d’intrusion",
+     "H3: Intégration de solutions de sécurité",
+     "H3: Gouvernance, risques et conformité",
+     "H3: Cloud souverain, hébergement et continuité",
+     "H3: Infogérance et supervision IT",
+     "H3: Hyperautomatisation et IA",
+     "H3: Un besoin précis ?",
+     "H2: Notre manière de travailler",
+     "H3: Des experts à votre écoute",
+     "H3: Le service au cœur de l’offre",
+     "H3: Des partenariats solides",
+     "H3: La qualité mesurée",
+     "H2: Parlons de votre prochain projet de sécurité"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "1440": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 7,
+     "targets": [
+      ".elementor-element-9d3491f > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-80567fd > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-86d8a5e > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-852fc9b > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-a02ef37 > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-b8adb70 > .elementor-heading-title.elementor-size-default"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.86 (foreground color: #2f80ed, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "nested-interactive",
+     "impact": "serious",
+     "help": "Interactive controls must not be nested",
+     "count": 4,
+     "targets": [
+      "#menu-item-2433 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2436 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2445 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2455 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]"
+     ],
+     "summary": "Fix any of the following:\n  Element has focusable descendants"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 34,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-2a555fe",
+      ".elementor-element-bbbb74a",
+      ".elementor-element-6f73c74",
+      ".elementor-element-8a66c4a > .elementor-size-md.elementor-button.elementor-button-link > .elementor-button-content-wrapper > .elementor-button-text",
+      "a[href$=\"solutions/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 3295,
+    "domNodes": 496,
+    "hScroll": false,
+    "h": [
+     "H1: Ce que nous faisons pour vous",
+     "H2: Nos domaines d’intervention",
+     "H3: SOC managé 24/7",
+     "H3: Audit et tests d’intrusion",
+     "H3: Intégration de solutions de sécurité",
+     "H3: Gouvernance, risques et conformité",
+     "H3: Cloud souverain, hébergement et continuité",
+     "H3: Infogérance et supervision IT",
+     "H3: Hyperautomatisation et IA",
+     "H3: Un besoin précis ?",
+     "H2: Notre manière de travailler",
+     "H3: Des experts à votre écoute",
+     "H3: Le service au cœur de l’offre",
+     "H3: Des partenariats solides",
+     "H3: La qualité mesurée",
+     "H2: Parlons de votre prochain projet de sécurité"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "id": "1752",
+  "url": "https://blackvault.ma/services/"
+ },
+ "services__soc-manage": {
+  "390": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 10,
+     "targets": [
+      ".elementor-element-ae6d96d > p",
+      ".elementor-element-efc9f6c > p",
+      ".elementor-element-2f18417 > p",
+      ".elementor-element-293b328 > p",
+      ".elementor-element-28cfc8d > p",
+      ".elementor-element-1149f61 > p"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 33,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-d347ffc",
+      ".elementor-element-6495cbb",
+      ".elementor-element-237bf04",
+      ".elementor-element-570a34c > .elementor-size-md.elementor-button[href$=\"contact/\"] > .elementor-button-content-wrapper > .elementor-button-text",
+      "a[href$=\"solutions/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 9682,
+    "domNodes": 644,
+    "hScroll": false,
+    "h": [
+     "H1: Un SOC managé qui décide, pas seulement qui alerte",
+     "H2: Le SOC traditionnel a atteint ses limites",
+     "H3: Le déluge d’alertes",
+     "H3: Le niveau 1 en tension",
+     "H3: Les faux positifs éternels",
+     "H3: Des outils qui ne se parlent pas",
+     "H2: Notre approche : le SOC augmenté",
+     "H3: Collecte",
+     "H3: Détection",
+     "H3: Triage IA",
+     "H3: Enrichissement",
+     "H3: Dossier",
+     "H3: Réponse",
+     "H3: Rapport",
+     "H2: Nos capacités",
+     "H3: Surveillance continue",
+     "H3: Réponse à incident",
+     "H3: Threat hunting",
+     "H3: Veille et renseignement",
+     "H3: Analyse comportementale",
+     "H3: Conformité",
+     "H2: Bénéfices",
+     "H3: Aucune alerte ignorée",
+     "H3: L’humain garde la main",
+     "H3: Une réponse qui ne casse rien",
+     "H3: Vos données restent maîtrisées",
+     "H2: Ce que vous recevez",
+     "H3: Notification d’incident",
+     "H3: Rapport d’incident",
+     "H3: Bulletin de veille",
+     "H3: Tableaux de bord",
+     "H2: Les solutions associées",
+     "H3: Nova XSIEM",
+     "H3: BlackCaseX",
+     "H3: IA Orchestrator et ASTRO",
+     "H2: Parlons de votre contexte"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "1440": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 10,
+     "targets": [
+      ".elementor-element-ae6d96d > p",
+      ".elementor-element-efc9f6c > p",
+      ".elementor-element-2f18417 > p",
+      ".elementor-element-293b328 > p",
+      ".elementor-element-28cfc8d > p",
+      ".elementor-element-1149f61 > p"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "nested-interactive",
+     "impact": "serious",
+     "help": "Interactive controls must not be nested",
+     "count": 4,
+     "targets": [
+      "#menu-item-2433 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2436 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2445 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2455 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]"
+     ],
+     "summary": "Fix any of the following:\n  Element has focusable descendants"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 33,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-d347ffc",
+      ".elementor-element-6495cbb",
+      ".elementor-element-237bf04",
+      ".elementor-element-570a34c > .elementor-size-md.elementor-button[href$=\"contact/\"] > .elementor-button-content-wrapper > .elementor-button-text",
+      "a[href$=\"solutions/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 5470,
+    "domNodes": 644,
+    "hScroll": false,
+    "h": [
+     "H1: Un SOC managé qui décide, pas seulement qui alerte",
+     "H2: Le SOC traditionnel a atteint ses limites",
+     "H3: Le déluge d’alertes",
+     "H3: Le niveau 1 en tension",
+     "H3: Les faux positifs éternels",
+     "H3: Des outils qui ne se parlent pas",
+     "H2: Notre approche : le SOC augmenté",
+     "H3: Collecte",
+     "H3: Détection",
+     "H3: Triage IA",
+     "H3: Enrichissement",
+     "H3: Dossier",
+     "H3: Réponse",
+     "H3: Rapport",
+     "H2: Nos capacités",
+     "H3: Surveillance continue",
+     "H3: Réponse à incident",
+     "H3: Threat hunting",
+     "H3: Veille et renseignement",
+     "H3: Analyse comportementale",
+     "H3: Conformité",
+     "H2: Bénéfices",
+     "H3: Aucune alerte ignorée",
+     "H3: L’humain garde la main",
+     "H3: Une réponse qui ne casse rien",
+     "H3: Vos données restent maîtrisées",
+     "H2: Ce que vous recevez",
+     "H3: Notification d’incident",
+     "H3: Rapport d’incident",
+     "H3: Bulletin de veille",
+     "H3: Tableaux de bord",
+     "H2: Les solutions associées",
+     "H3: Nova XSIEM",
+     "H3: BlackCaseX",
+     "H3: IA Orchestrator et ASTRO",
+     "H2: Parlons de votre contexte"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "id": "1755",
+  "url": "https://blackvault.ma/services/soc-manage/"
+ },
+ "services__audit-tests-intrusion": {
+  "390": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 5,
+     "targets": [
+      ".elementor-element-2509958 > p",
+      ".elementor-element-cbffbf4 > p",
+      ".elementor-element-c6d65a4 > p",
+      ".elementor-element-4bfbdc4 > p",
+      ".elementor-element-cddd2af > p"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 33,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-81c743e",
+      ".elementor-element-45fc110",
+      ".elementor-element-53d16f1",
+      ".elementor-element-84cfb36 > .elementor-size-md.elementor-button[href$=\"contact/\"] > .elementor-button-content-wrapper > .elementor-button-text",
+      "a[href$=\"solutions/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 8659,
+    "domNodes": 617,
+    "hScroll": false,
+    "h": [
+     "H1: Mesurez votre résistance réelle aux attaques",
+     "H2: Ce que l’on ne mesure pas, on ne le protège pas",
+     "H3: Une vision partielle",
+     "H3: Des menaces qui évoluent",
+     "H3: Des obligations croissantes",
+     "H2: Notre démarche",
+     "H3: Analyse de l’existant",
+     "H3: Audit et tests",
+     "H3: Recommandations",
+     "H2: Nos capacités",
+     "H3: Tests d’intrusion",
+     "H3: Red Teaming",
+     "H3: Audit d’architecture",
+     "H3: Audit de configuration et de durcissement",
+     "H3: Audit de sécurité applicative",
+     "H3: Audit organisationnel et de conformité",
+     "H2: Bénéfices",
+     "H3: Intégrité",
+     "H3: Anticipation",
+     "H3: Inventaire",
+     "H3: Continuité",
+     "H2: Livrables",
+     "H3: Rapport d’audit détaillé",
+     "H3: Synthèse exécutive",
+     "H3: Plan de remédiation priorisé",
+     "H2: Les solutions associées",
+     "H3: BlackVault VX",
+     "H3: OrbitFix",
+     "H3: BlackTrace",
+     "H2: Parlons de votre contexte"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "1440": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 5,
+     "targets": [
+      ".elementor-element-2509958 > p",
+      ".elementor-element-cbffbf4 > p",
+      ".elementor-element-c6d65a4 > p",
+      ".elementor-element-4bfbdc4 > p",
+      ".elementor-element-cddd2af > p"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "nested-interactive",
+     "impact": "serious",
+     "help": "Interactive controls must not be nested",
+     "count": 4,
+     "targets": [
+      "#menu-item-2433 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2436 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2445 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2455 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]"
+     ],
+     "summary": "Fix any of the following:\n  Element has focusable descendants"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 33,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-81c743e",
+      ".elementor-element-45fc110",
+      ".elementor-element-53d16f1",
+      ".elementor-element-84cfb36 > .elementor-size-md.elementor-button[href$=\"contact/\"] > .elementor-button-content-wrapper > .elementor-button-text",
+      "a[href$=\"solutions/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 4818,
+    "domNodes": 617,
+    "hScroll": false,
+    "h": [
+     "H1: Mesurez votre résistance réelle aux attaques",
+     "H2: Ce que l’on ne mesure pas, on ne le protège pas",
+     "H3: Une vision partielle",
+     "H3: Des menaces qui évoluent",
+     "H3: Des obligations croissantes",
+     "H2: Notre démarche",
+     "H3: Analyse de l’existant",
+     "H3: Audit et tests",
+     "H3: Recommandations",
+     "H2: Nos capacités",
+     "H3: Tests d’intrusion",
+     "H3: Red Teaming",
+     "H3: Audit d’architecture",
+     "H3: Audit de configuration et de durcissement",
+     "H3: Audit de sécurité applicative",
+     "H3: Audit organisationnel et de conformité",
+     "H2: Bénéfices",
+     "H3: Intégrité",
+     "H3: Anticipation",
+     "H3: Inventaire",
+     "H3: Continuité",
+     "H2: Livrables",
+     "H3: Rapport d’audit détaillé",
+     "H3: Synthèse exécutive",
+     "H3: Plan de remédiation priorisé",
+     "H2: Les solutions associées",
+     "H3: BlackVault VX",
+     "H3: OrbitFix",
+     "H3: BlackTrace",
+     "H2: Parlons de votre contexte"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "id": "1758",
+  "url": "https://blackvault.ma/services/audit-tests-intrusion/"
+ },
+ "services__integration-solutions-securite": {
+  "390": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 6,
+     "targets": [
+      ".elementor-element-acebe2f > p",
+      ".elementor-element-c90a830 > p",
+      ".elementor-element-5641936 > p",
+      ".elementor-element-bb786bd > p",
+      ".elementor-element-e06f133 > p",
+      ".elementor-element-e11cd79 > p"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 33,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-7e9ddf1",
+      ".elementor-element-b3b99c1",
+      ".elementor-element-986ff31",
+      ".elementor-element-a6fb369 > .elementor-size-md.elementor-button[href$=\"contact/\"] > .elementor-button-content-wrapper > .elementor-button-text",
+      "a[href$=\"solutions/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 8696,
+    "domNodes": 617,
+    "hScroll": false,
+    "h": [
+     "H1: Des solutions de sécurité qui s’intègrent vraiment",
+     "H2: Une solution mal intégrée protège mal",
+     "H3: Des choix difficiles",
+     "H3: Des projets complexes",
+     "H3: Une autonomie à construire",
+     "H2: Un accompagnement sur mesure",
+     "H3: Analyse et cadrage",
+     "H3: Sélection et POC",
+     "H3: Déploiement",
+     "H3: Transfert de compétences",
+     "H2: Nos capacités",
+     "H3: Sécurité périmétrique",
+     "H3: Sécurité des utilisateurs et gestion des accès",
+     "H3: Protection des données",
+     "H3: Sécurité du cloud",
+     "H3: Analyse et audit",
+     "H3: Obligations réglementaires",
+     "H2: Bénéfices",
+     "H3: Des solutions éprouvées",
+     "H3: Une méthodologie de projet",
+     "H3: Une relation durable",
+     "H2: Livrables",
+     "H3: Cahier des charges",
+     "H3: Rapport de preuve de concept",
+     "H3: Dossier d’architecture et d’exploitation",
+     "H2: Les solutions associées",
+     "H3: Nova XSIEM",
+     "H3: BlackVault VX",
+     "H3: BlackVault Nexus",
+     "H2: Parlons de votre contexte"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "1440": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 6,
+     "targets": [
+      ".elementor-element-acebe2f > p",
+      ".elementor-element-c90a830 > p",
+      ".elementor-element-5641936 > p",
+      ".elementor-element-bb786bd > p",
+      ".elementor-element-e06f133 > p",
+      ".elementor-element-e11cd79 > p"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "nested-interactive",
+     "impact": "serious",
+     "help": "Interactive controls must not be nested",
+     "count": 4,
+     "targets": [
+      "#menu-item-2433 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2436 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2445 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2455 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]"
+     ],
+     "summary": "Fix any of the following:\n  Element has focusable descendants"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 33,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-7e9ddf1",
+      ".elementor-element-b3b99c1",
+      ".elementor-element-986ff31",
+      ".elementor-element-a6fb369 > .elementor-size-md.elementor-button[href$=\"contact/\"] > .elementor-button-content-wrapper > .elementor-button-text",
+      "a[href$=\"solutions/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 4913,
+    "domNodes": 617,
+    "hScroll": false,
+    "h": [
+     "H1: Des solutions de sécurité qui s’intègrent vraiment",
+     "H2: Une solution mal intégrée protège mal",
+     "H3: Des choix difficiles",
+     "H3: Des projets complexes",
+     "H3: Une autonomie à construire",
+     "H2: Un accompagnement sur mesure",
+     "H3: Analyse et cadrage",
+     "H3: Sélection et POC",
+     "H3: Déploiement",
+     "H3: Transfert de compétences",
+     "H2: Nos capacités",
+     "H3: Sécurité périmétrique",
+     "H3: Sécurité des utilisateurs et gestion des accès",
+     "H3: Protection des données",
+     "H3: Sécurité du cloud",
+     "H3: Analyse et audit",
+     "H3: Obligations réglementaires",
+     "H2: Bénéfices",
+     "H3: Des solutions éprouvées",
+     "H3: Une méthodologie de projet",
+     "H3: Une relation durable",
+     "H2: Livrables",
+     "H3: Cahier des charges",
+     "H3: Rapport de preuve de concept",
+     "H3: Dossier d’architecture et d’exploitation",
+     "H2: Les solutions associées",
+     "H3: Nova XSIEM",
+     "H3: BlackVault VX",
+     "H3: BlackVault Nexus",
+     "H2: Parlons de votre contexte"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "id": "1761",
+  "url": "https://blackvault.ma/services/integration-solutions-securite/"
+ },
+ "services__gouvernance-risques-conformite": {
+  "390": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 8,
+     "targets": [
+      ".elementor-element-46d8c01 > p",
+      ".elementor-element-93e3cbf > p",
+      ".elementor-element-fa100c2 > p",
+      ".elementor-element-378fbce > p",
+      ".elementor-element-9b49040 > p",
+      ".elementor-element-5f2b53d > p"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 33,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-89f4258",
+      ".elementor-element-a1a91dc",
+      ".elementor-element-02c1c4d",
+      ".elementor-element-070d59c > .elementor-size-md.elementor-button[href$=\"contact/\"] > .elementor-button-content-wrapper > .elementor-button-text",
+      "a[href$=\"solutions/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 8764,
+    "domNodes": 612,
+    "hScroll": false,
+    "h": [
+     "H1: Alignez votre cybersécurité sur vos enjeux métier",
+     "H2: La pression réglementaire monte",
+     "H3: Des obligations nouvelles",
+     "H3: Des risques mal hiérarchisés",
+     "H3: Des décisions difficiles à éclairer",
+     "H2: Notre approche",
+     "H3: Évaluation",
+     "H3: Feuille de route",
+     "H3: Mise en conformité",
+     "H3: Amélioration continue",
+     "H2: Nos capacités",
+     "H3: Cartographie des risques",
+     "H3: Politique de sécurité (PSSI)",
+     "H3: Conformité ISO 27001",
+     "H3: Réglementations nationales",
+     "H3: Continuité d’activité",
+     "H3: Sensibilisation",
+     "H2: Bénéfices",
+     "H3: Une vision claire",
+     "H3: Des décisions éclairées",
+     "H3: Une conformité démontrable",
+     "H2: Livrables",
+     "H3: Rapport de maturité et d’écarts",
+     "H3: Cartographie des risques",
+     "H3: Feuille de route",
+     "H2: Les solutions associées",
+     "H3: BlackCaseX",
+     "H3: BlackVault Nexus",
+     "H3: IA Orchestrator et ASTRO",
+     "H2: Parlons de votre contexte"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "1440": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 8,
+     "targets": [
+      ".elementor-element-46d8c01 > p",
+      ".elementor-element-93e3cbf > p",
+      ".elementor-element-fa100c2 > p",
+      ".elementor-element-378fbce > p",
+      ".elementor-element-9b49040 > p",
+      ".elementor-element-5f2b53d > p"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "nested-interactive",
+     "impact": "serious",
+     "help": "Interactive controls must not be nested",
+     "count": 4,
+     "targets": [
+      "#menu-item-2433 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2436 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2445 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2455 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]"
+     ],
+     "summary": "Fix any of the following:\n  Element has focusable descendants"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 33,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-89f4258",
+      ".elementor-element-a1a91dc",
+      ".elementor-element-02c1c4d",
+      ".elementor-element-070d59c > .elementor-size-md.elementor-button[href$=\"contact/\"] > .elementor-button-content-wrapper > .elementor-button-text",
+      "a[href$=\"solutions/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 4979,
+    "domNodes": 612,
+    "hScroll": false,
+    "h": [
+     "H1: Alignez votre cybersécurité sur vos enjeux métier",
+     "H2: La pression réglementaire monte",
+     "H3: Des obligations nouvelles",
+     "H3: Des risques mal hiérarchisés",
+     "H3: Des décisions difficiles à éclairer",
+     "H2: Notre approche",
+     "H3: Évaluation",
+     "H3: Feuille de route",
+     "H3: Mise en conformité",
+     "H3: Amélioration continue",
+     "H2: Nos capacités",
+     "H3: Cartographie des risques",
+     "H3: Politique de sécurité (PSSI)",
+     "H3: Conformité ISO 27001",
+     "H3: Réglementations nationales",
+     "H3: Continuité d’activité",
+     "H3: Sensibilisation",
+     "H2: Bénéfices",
+     "H3: Une vision claire",
+     "H3: Des décisions éclairées",
+     "H3: Une conformité démontrable",
+     "H2: Livrables",
+     "H3: Rapport de maturité et d’écarts",
+     "H3: Cartographie des risques",
+     "H3: Feuille de route",
+     "H2: Les solutions associées",
+     "H3: BlackCaseX",
+     "H3: BlackVault Nexus",
+     "H3: IA Orchestrator et ASTRO",
+     "H2: Parlons de votre contexte"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "id": "1764",
+  "url": "https://blackvault.ma/services/gouvernance-risques-conformite/"
+ },
+ "services__cloud-hebergement-continuite": {
+  "390": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 9,
+     "targets": [
+      ".elementor-element-6d995f2 > p",
+      ".elementor-element-2801c17 > p",
+      ".elementor-element-7952294 > p",
+      ".elementor-element-7dc1d9a > p",
+      ".elementor-element-aa9f2b5 > p",
+      ".elementor-element-b144f55 > p"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 33,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-ef2cf80",
+      ".elementor-element-6da6637",
+      ".elementor-element-cc634ee",
+      ".elementor-element-037cbbf > .elementor-size-md.elementor-button[href$=\"contact/\"] > .elementor-button-content-wrapper > .elementor-button-text",
+      "a[href$=\"solutions/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 8806,
+    "domNodes": 612,
+    "hScroll": false,
+    "h": [
+     "H1: Une infrastructure hébergée, sécurisée et résiliente",
+     "H2: La disponibilité ne se décrète pas",
+     "H3: Des interruptions coûteuses",
+     "H3: La souveraineté des données",
+     "H3: Des plans jamais testés",
+     "H2: Notre approche",
+     "H3: Collecte des besoins",
+     "H3: Stratégie",
+     "H3: Mise en œuvre",
+     "H3: Tests et maintien",
+     "H2: Nos capacités",
+     "H3: Cloud privé",
+     "H3: Cloud hybride",
+     "H3: Cloud public",
+     "H3: Serveurs dédiés",
+     "H3: Virtualisation et hyperconvergence",
+     "H3: PRA et PCA",
+     "H2: Bénéfices",
+     "H3: Disponibilité",
+     "H3: Souveraineté",
+     "H3: Maîtrise des coûts",
+     "H2: Livrables",
+     "H3: Architecture cible",
+     "H3: PRA / PCA documentés",
+     "H3: Rapports de tests",
+     "H2: Les solutions associées",
+     "H3: IA Orchestrator et ASTRO",
+     "H3: Nova XSIEM",
+     "H3: BlackVault VX",
+     "H2: Parlons de votre contexte"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "1440": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 9,
+     "targets": [
+      ".elementor-element-6d995f2 > p",
+      ".elementor-element-2801c17 > p",
+      ".elementor-element-7952294 > p",
+      ".elementor-element-7dc1d9a > p",
+      ".elementor-element-aa9f2b5 > p",
+      ".elementor-element-b144f55 > p"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "nested-interactive",
+     "impact": "serious",
+     "help": "Interactive controls must not be nested",
+     "count": 4,
+     "targets": [
+      "#menu-item-2433 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2436 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2445 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2455 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]"
+     ],
+     "summary": "Fix any of the following:\n  Element has focusable descendants"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 33,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-ef2cf80",
+      ".elementor-element-6da6637",
+      ".elementor-element-cc634ee",
+      ".elementor-element-037cbbf > .elementor-size-md.elementor-button[href$=\"contact/\"] > .elementor-button-content-wrapper > .elementor-button-text",
+      "a[href$=\"solutions/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 4917,
+    "domNodes": 612,
+    "hScroll": false,
+    "h": [
+     "H1: Une infrastructure hébergée, sécurisée et résiliente",
+     "H2: La disponibilité ne se décrète pas",
+     "H3: Des interruptions coûteuses",
+     "H3: La souveraineté des données",
+     "H3: Des plans jamais testés",
+     "H2: Notre approche",
+     "H3: Collecte des besoins",
+     "H3: Stratégie",
+     "H3: Mise en œuvre",
+     "H3: Tests et maintien",
+     "H2: Nos capacités",
+     "H3: Cloud privé",
+     "H3: Cloud hybride",
+     "H3: Cloud public",
+     "H3: Serveurs dédiés",
+     "H3: Virtualisation et hyperconvergence",
+     "H3: PRA et PCA",
+     "H2: Bénéfices",
+     "H3: Disponibilité",
+     "H3: Souveraineté",
+     "H3: Maîtrise des coûts",
+     "H2: Livrables",
+     "H3: Architecture cible",
+     "H3: PRA / PCA documentés",
+     "H3: Rapports de tests",
+     "H2: Les solutions associées",
+     "H3: IA Orchestrator et ASTRO",
+     "H3: Nova XSIEM",
+     "H3: BlackVault VX",
+     "H2: Parlons de votre contexte"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "id": "1767",
+  "url": "https://blackvault.ma/services/cloud-hebergement-continuite/"
+ },
+ "services__infogerance-supervision": {
+  "390": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 6,
+     "targets": [
+      ".elementor-element-c70cdf6 > p",
+      ".elementor-element-aac689c > p",
+      ".elementor-element-48e2b68 > p",
+      ".elementor-element-3b2c709 > p",
+      ".elementor-element-ceb6f33 > p",
+      ".elementor-element-d1bbd55 > p"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 51,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-40be89d",
+      ".elementor-element-f214006",
+      ".elementor-element-8b14507",
+      ".elementor-element-e80ff3c > .elementor-size-md.elementor-button[href$=\"contact/\"] > .elementor-button-content-wrapper > .elementor-button-text",
+      "a[href$=\"solutions/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 9911,
+    "domNodes": 721,
+    "hScroll": false,
+    "h": [
+     "H1: Une infogérance proactive pour un système d’information disponible",
+     "H2: Votre système d’information ne peut pas s’arrêter",
+     "H3: Des incidents qui coûtent cher",
+     "H3: Des équipes absorbées par le quotidien",
+     "H3: Des coûts difficiles à maîtriser",
+     "H2: Notre approche",
+     "H3: Audit du parc",
+     "H3: Mise en place",
+     "H3: Exploitation",
+     "H3: Pilotage",
+     "H2: Nos capacités",
+     "H3: Centre de services",
+     "H3: Supervision et NOC",
+     "H3: Reporting et tableaux de bord",
+     "H3: Responsable Opérationnel de Compte",
+     "H3: Environnement de travail",
+     "H3: Sécurité du SI",
+     "H2: Trois niveaux d’infogérance",
+     "H3: Basic",
+     "H3: Semi-Managed",
+     "H3: Fully-Managed",
+     "H2: Bénéfices",
+     "H3: Disponibilité",
+     "H3: Maîtrise des coûts",
+     "H3: Transparence",
+     "H3: Recentrage",
+     "H2: Rapports inclus",
+     "H3: Rapport des incidents",
+     "H3: Rapport d’exploitation technique",
+     "H3: Rapport d’état du parc",
+     "H2: Les solutions associées",
+     "H3: Nova XSIEM",
+     "H3: OrbitFix",
+     "H3: BlackVault VX",
+     "H2: Parlons de votre contexte"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "1440": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 6,
+     "targets": [
+      ".elementor-element-c70cdf6 > p",
+      ".elementor-element-aac689c > p",
+      ".elementor-element-48e2b68 > p",
+      ".elementor-element-3b2c709 > p",
+      ".elementor-element-ceb6f33 > p",
+      ".elementor-element-d1bbd55 > p"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "nested-interactive",
+     "impact": "serious",
+     "help": "Interactive controls must not be nested",
+     "count": 4,
+     "targets": [
+      "#menu-item-2433 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2436 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2445 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2455 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]"
+     ],
+     "summary": "Fix any of the following:\n  Element has focusable descendants"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 51,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-40be89d",
+      ".elementor-element-f214006",
+      ".elementor-element-8b14507",
+      ".elementor-element-e80ff3c > .elementor-size-md.elementor-button[href$=\"contact/\"] > .elementor-button-content-wrapper > .elementor-button-text",
+      "a[href$=\"solutions/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 5677,
+    "domNodes": 721,
+    "hScroll": false,
+    "h": [
+     "H1: Une infogérance proactive pour un système d’information disponible",
+     "H2: Votre système d’information ne peut pas s’arrêter",
+     "H3: Des incidents qui coûtent cher",
+     "H3: Des équipes absorbées par le quotidien",
+     "H3: Des coûts difficiles à maîtriser",
+     "H2: Notre approche",
+     "H3: Audit du parc",
+     "H3: Mise en place",
+     "H3: Exploitation",
+     "H3: Pilotage",
+     "H2: Nos capacités",
+     "H3: Centre de services",
+     "H3: Supervision et NOC",
+     "H3: Reporting et tableaux de bord",
+     "H3: Responsable Opérationnel de Compte",
+     "H3: Environnement de travail",
+     "H3: Sécurité du SI",
+     "H2: Trois niveaux d’infogérance",
+     "H3: Basic",
+     "H3: Semi-Managed",
+     "H3: Fully-Managed",
+     "H2: Bénéfices",
+     "H3: Disponibilité",
+     "H3: Maîtrise des coûts",
+     "H3: Transparence",
+     "H3: Recentrage",
+     "H2: Rapports inclus",
+     "H3: Rapport des incidents",
+     "H3: Rapport d’exploitation technique",
+     "H3: Rapport d’état du parc",
+     "H2: Les solutions associées",
+     "H3: Nova XSIEM",
+     "H3: OrbitFix",
+     "H3: BlackVault VX",
+     "H2: Parlons de votre contexte"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "id": "1770",
+  "url": "https://blackvault.ma/services/infogerance-supervision/"
+ },
+ "services__hyperautomatisation-ia": {
+  "390": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 9,
+     "targets": [
+      ".elementor-element-7b02bc4 > p",
+      ".elementor-element-cc66c95 > p",
+      ".elementor-element-51d0466 > p",
+      ".elementor-element-f32240a > p",
+      ".elementor-element-7e3954f > p",
+      ".elementor-element-fd63803 > p"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 31,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-69db7e0",
+      ".elementor-element-d1fdd48",
+      ".elementor-element-2582d43",
+      ".elementor-element-dcf94f0 > .elementor-size-md.elementor-button[href$=\"contact/\"] > .elementor-button-content-wrapper > .elementor-button-text",
+      "a[href$=\"solutions/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 8283,
+    "domNodes": 602,
+    "hScroll": false,
+    "h": [
+     "H1: Libérez vos équipes des tâches répétitives",
+     "H2: Le temps de vos équipes est précieux",
+     "H3: Des tâches chronophages",
+     "H3: Des données dispersées",
+     "H3: Des décisions tardives",
+     "H2: Notre approche",
+     "H3: Découverte",
+     "H3: Conception",
+     "H3: Déploiement",
+     "H3: Amélioration",
+     "H2: Nos capacités",
+     "H3: RPA",
+     "H3: BPM",
+     "H3: OCR et traitement documentaire",
+     "H3: Agents d’IA",
+     "H3: Données et tableaux de bord",
+     "H2: Bénéfices",
+     "H3: Productivité",
+     "H3: Qualité et conformité",
+     "H3: Pilotage",
+     "H2: Livrables",
+     "H3: Cartographie des processus",
+     "H3: Automatisations en production",
+     "H3: Indicateurs de performance",
+     "H2: Les solutions associées",
+     "H3: IA Orchestrator et ASTRO",
+     "H3: BlackCaseX",
+     "H3: Nova XSIEM",
+     "H2: Parlons de votre contexte"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "1440": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 9,
+     "targets": [
+      ".elementor-element-7b02bc4 > p",
+      ".elementor-element-cc66c95 > p",
+      ".elementor-element-51d0466 > p",
+      ".elementor-element-f32240a > p",
+      ".elementor-element-7e3954f > p",
+      ".elementor-element-fd63803 > p"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "nested-interactive",
+     "impact": "serious",
+     "help": "Interactive controls must not be nested",
+     "count": 4,
+     "targets": [
+      "#menu-item-2433 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2436 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2445 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2455 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]"
+     ],
+     "summary": "Fix any of the following:\n  Element has focusable descendants"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 31,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-69db7e0",
+      ".elementor-element-d1fdd48",
+      ".elementor-element-2582d43",
+      ".elementor-element-dcf94f0 > .elementor-size-md.elementor-button[href$=\"contact/\"] > .elementor-button-content-wrapper > .elementor-button-text",
+      "a[href$=\"solutions/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 4801,
+    "domNodes": 602,
+    "hScroll": false,
+    "h": [
+     "H1: Libérez vos équipes des tâches répétitives",
+     "H2: Le temps de vos équipes est précieux",
+     "H3: Des tâches chronophages",
+     "H3: Des données dispersées",
+     "H3: Des décisions tardives",
+     "H2: Notre approche",
+     "H3: Découverte",
+     "H3: Conception",
+     "H3: Déploiement",
+     "H3: Amélioration",
+     "H2: Nos capacités",
+     "H3: RPA",
+     "H3: BPM",
+     "H3: OCR et traitement documentaire",
+     "H3: Agents d’IA",
+     "H3: Données et tableaux de bord",
+     "H2: Bénéfices",
+     "H3: Productivité",
+     "H3: Qualité et conformité",
+     "H3: Pilotage",
+     "H2: Livrables",
+     "H3: Cartographie des processus",
+     "H3: Automatisations en production",
+     "H3: Indicateurs de performance",
+     "H2: Les solutions associées",
+     "H3: IA Orchestrator et ASTRO",
+     "H3: BlackCaseX",
+     "H3: Nova XSIEM",
+     "H2: Parlons de votre contexte"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "id": "1773",
+  "url": "https://blackvault.ma/services/hyperautomatisation-ia/"
+ },
+ "secteurs": {
+  "390": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 25,
+     "targets": [
+      ".elementor-element-033b571 > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-6d07800 > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-cfe9655 > .elementor-heading-title.elementor-size-default",
+      ".elementor-inline-item.elementor-icon-list-item:nth-child(1) > a[href$=\"soc-manage/\"] > .elementor-icon-list-text",
+      ".elementor-inline-item.elementor-icon-list-item:nth-child(2) > a[href$=\"blackcasex/\"] > .elementor-icon-list-text",
+      ".elementor-inline-item.elementor-icon-list-item:nth-child(3) > a[href$=\"plateforme/\"] > .elementor-icon-list-text"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.26 (foreground color: #2f80ed, background color: #e2edfc, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 36,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-d907ea6",
+      ".elementor-element-3f8afa0",
+      ".elementor-element-59010da",
+      ".elementor-element-0784571 > .elementor-size-md.elementor-button.elementor-button-link > .elementor-button-content-wrapper > .elementor-button-text",
+      "a[href$=\"solutions/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 6094,
+    "domNodes": 570,
+    "hScroll": false,
+    "h": [
+     "H1: Conçu pour les organisations régulées",
+     "H2: Banques et établissements de crédit",
+     "H2: Assurances et mutuelles",
+     "H2: Administrations et établissements publics",
+     "H2: Infrastructures d’importance vitale",
+     "H2: ETI, PME et filiales",
+     "H2: Pourquoi maintenant",
+     "H3: La pression réglementaire monte",
+     "H3: Le cloud tiers n’est plus une option",
+     "H3: Le temps humain ne suit plus",
+     "H2: Parlons de vos obligations"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "1440": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 25,
+     "targets": [
+      ".elementor-element-033b571 > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-6d07800 > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-cfe9655 > .elementor-heading-title.elementor-size-default",
+      ".elementor-inline-item.elementor-icon-list-item:nth-child(1) > a[href$=\"soc-manage/\"] > .elementor-icon-list-text",
+      ".elementor-inline-item.elementor-icon-list-item:nth-child(2) > a[href$=\"blackcasex/\"] > .elementor-icon-list-text",
+      ".elementor-inline-item.elementor-icon-list-item:nth-child(3) > a[href$=\"plateforme/\"] > .elementor-icon-list-text"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.26 (foreground color: #2f80ed, background color: #e2edfc, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "nested-interactive",
+     "impact": "serious",
+     "help": "Interactive controls must not be nested",
+     "count": 4,
+     "targets": [
+      "#menu-item-2433 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2436 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2445 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2455 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]"
+     ],
+     "summary": "Fix any of the following:\n  Element has focusable descendants"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 36,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-d907ea6",
+      ".elementor-element-3f8afa0",
+      ".elementor-element-59010da",
+      ".elementor-element-0784571 > .elementor-size-md.elementor-button.elementor-button-link > .elementor-button-content-wrapper > .elementor-button-text",
+      "a[href$=\"solutions/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 3720,
+    "domNodes": 570,
+    "hScroll": false,
+    "h": [
+     "H1: Conçu pour les organisations régulées",
+     "H2: Banques et établissements de crédit",
+     "H2: Assurances et mutuelles",
+     "H2: Administrations et établissements publics",
+     "H2: Infrastructures d’importance vitale",
+     "H2: ETI, PME et filiales",
+     "H2: Pourquoi maintenant",
+     "H3: La pression réglementaire monte",
+     "H3: Le cloud tiers n’est plus une option",
+     "H3: Le temps humain ne suit plus",
+     "H2: Parlons de vos obligations"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "id": "1776",
+  "url": "https://blackvault.ma/secteurs/"
+ },
+ "entreprise": {
+  "390": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 1,
+     "targets": [
+      ".elementor-element-cd00914 > .elementor-heading-title.elementor-size-default"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 30,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-42ba30a",
+      ".elementor-element-7c13ba5",
+      ".elementor-element-ba4a868",
+      ".elementor-element-c7d7b16 > .elementor-size-md.elementor-button[href$=\"contact/\"] > .elementor-button-content-wrapper > .elementor-button-text",
+      ".elementor-element-fee1b3a > .elementor-size-md.elementor-button[href$=\"carrieres/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 7086,
+    "domNodes": 539,
+    "hScroll": false,
+    "h": [
+     "H1: Éditeur, opérateur, innovateur, souverain",
+     "H2: Nous ne revendons pas la solution d’un autre",
+     "H3: Éditeur",
+     "H3: Opérateur",
+     "H3: Innovateur",
+     "H3: Souverain",
+     "H2: Les valeurs qui nous animent",
+     "H3: Engagement",
+     "H3: Confiance",
+     "H3: Ouverture",
+     "H2: Notre manière de travailler",
+     "H3: Des experts à votre écoute",
+     "H3: Le service au cœur de l’offre",
+     "H3: Des partenariats forts",
+     "H3: Qualité de service et performance",
+     "H2: Un siège à Casablanca, des clients partout",
+     "H2: Sécurisons ce qui compte."
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "1440": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 1,
+     "targets": [
+      ".elementor-element-cd00914 > .elementor-heading-title.elementor-size-default"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "nested-interactive",
+     "impact": "serious",
+     "help": "Interactive controls must not be nested",
+     "count": 4,
+     "targets": [
+      "#menu-item-2433 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2436 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2445 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2455 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]"
+     ],
+     "summary": "Fix any of the following:\n  Element has focusable descendants"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 30,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-42ba30a",
+      ".elementor-element-7c13ba5",
+      ".elementor-element-ba4a868",
+      ".elementor-element-c7d7b16 > .elementor-size-md.elementor-button[href$=\"contact/\"] > .elementor-button-content-wrapper > .elementor-button-text",
+      ".elementor-element-fee1b3a > .elementor-size-md.elementor-button[href$=\"carrieres/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 4149,
+    "domNodes": 539,
+    "hScroll": false,
+    "h": [
+     "H1: Éditeur, opérateur, innovateur, souverain",
+     "H2: Nous ne revendons pas la solution d’un autre",
+     "H3: Éditeur",
+     "H3: Opérateur",
+     "H3: Innovateur",
+     "H3: Souverain",
+     "H2: Les valeurs qui nous animent",
+     "H3: Engagement",
+     "H3: Confiance",
+     "H3: Ouverture",
+     "H2: Notre manière de travailler",
+     "H3: Des experts à votre écoute",
+     "H3: Le service au cœur de l’offre",
+     "H3: Des partenariats forts",
+     "H3: Qualité de service et performance",
+     "H2: Un siège à Casablanca, des clients partout",
+     "H2: Sécurisons ce qui compte."
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "id": "1779",
+  "url": "https://blackvault.ma/entreprise/"
+ },
+ "carrieres": {
+  "390": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 1,
+     "targets": [
+      ".wpcf7-list-item-label > a[href=\"/politique-de-confidentialite/\"]"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 10.1pt (13.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 5,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-d1d15fa",
+      ".elementor-element-69bd96f",
+      ".elementor-element-9819693",
+      ".elementor-element-5e382d0"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 3959,
+    "domNodes": 413,
+    "hScroll": false,
+    "h": [
+     "H1: Rejoignez une équipe qui construit ce qu’elle opère",
+     "H2: Ce qui nous anime",
+     "H3: Engagement",
+     "H3: Confiance",
+     "H3: Ouverture",
+     "H2: Candidature spontanée"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "1440": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "nested-interactive",
+     "impact": "serious",
+     "help": "Interactive controls must not be nested",
+     "count": 4,
+     "targets": [
+      "#menu-item-2433 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2436 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2445 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2455 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]"
+     ],
+     "summary": "Fix any of the following:\n  Element has focusable descendants"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 5,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-d1d15fa",
+      ".elementor-element-69bd96f",
+      ".elementor-element-9819693",
+      ".elementor-element-5e382d0"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 2361,
+    "domNodes": 413,
+    "hScroll": false,
+    "h": [
+     "H1: Rejoignez une équipe qui construit ce qu’elle opère",
+     "H2: Ce qui nous anime",
+     "H3: Engagement",
+     "H3: Confiance",
+     "H3: Ouverture",
+     "H2: Candidature spontanée"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "id": "1782",
+  "url": "https://blackvault.ma/carrieres/"
+ },
+ "contact": {
+  "390": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 1,
+     "targets": [
+      ".wpcf7-list-item-label > a[href=\"/politique-de-confidentialite/\"]"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.86 (foreground color: #2f80ed, background color: #ffffff, font size: 10.1pt (13.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 10,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-2252d58",
+      ".elementor-element-8f3d8ac",
+      ".elementor-element-a119192",
+      ".elementor-element-f95de86",
+      ".elementor-element-ff17e1d"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 4087,
+    "domNodes": 450,
+    "hScroll": false,
+    "h": [
+     "H1: Parlons de votre sécurité",
+     "H2: Votre demande",
+     "H2: Ce qui se passe ensuite",
+     "H3: Un échange de cadrage",
+     "H3: Une proposition adaptée",
+     "H3: Un pilote, si pertinent"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "1440": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "count": 1,
+     "targets": [
+      ".wpcf7-list-item-label > a[href=\"/politique-de-confidentialite/\"]"
+     ],
+     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.86 (foreground color: #2f80ed, background color: #ffffff, font size: 10.1pt (13.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "link-in-text-block",
+     "impact": "serious",
+     "help": "Links must be distinguishable without relying on color",
+     "count": 1,
+     "targets": [
+      ".wpcf7-list-item-label > a[href=\"/politique-de-confidentialite/\"]"
+     ],
+     "summary": "Fix any of the following:\n  The link has insufficient color contrast of 2.34:1 with the surrounding text. (Minimum contrast is 3:1, link text: #2f80ed, surrounding text: #3b4a5a)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+    },
+    {
+     "id": "nested-interactive",
+     "impact": "serious",
+     "help": "Interactive controls must not be nested",
+     "count": 4,
+     "targets": [
+      "#menu-item-2433 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2436 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2445 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2455 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]"
+     ],
+     "summary": "Fix any of the following:\n  Element has focusable descendants"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 10,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-2252d58",
+      ".elementor-element-8f3d8ac",
+      ".elementor-element-a119192",
+      ".elementor-element-f95de86",
+      ".elementor-element-ff17e1d"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 2087,
+    "domNodes": 450,
+    "hScroll": false,
+    "h": [
+     "H1: Parlons de votre sécurité",
+     "H2: Votre demande",
+     "H2: Ce qui se passe ensuite",
+     "H3: Un échange de cadrage",
+     "H3: Une proposition adaptée",
+     "H3: Un pilote, si pertinent"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "id": "1785",
+  "url": "https://blackvault.ma/contact/"
+ },
+ "politique-de-confidentialite": {
+  "390": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 2,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-1788"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 3293,
+    "domNodes": 356,
+    "hScroll": false,
+    "h": [
+     "H1: Politique de confidentialité",
+     "H2: Responsable du traitement",
+     "H2: Données collectées",
+     "H2: Finalités",
+     "H2: Durée de conservation",
+     "H2: Vos droits",
+     "H2: Cookies"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "1440": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "nested-interactive",
+     "impact": "serious",
+     "help": "Interactive controls must not be nested",
+     "count": 4,
+     "targets": [
+      "#menu-item-2433 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2436 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2445 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2455 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]"
+     ],
+     "summary": "Fix any of the following:\n  Element has focusable descendants"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 2,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-1788"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 1910,
+    "domNodes": 356,
+    "hScroll": false,
+    "h": [
+     "H1: Politique de confidentialité",
+     "H2: Responsable du traitement",
+     "H2: Données collectées",
+     "H2: Finalités",
+     "H2: Durée de conservation",
+     "H2: Vos droits",
+     "H2: Cookies"
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "id": "1788",
+  "url": "https://blackvault.ma/politique-de-confidentialite/"
+ },
+ "plateforme": {
+  "390": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 92,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-5c227c8",
+      ".elementor-element-a41be7c",
+      ".elementor-element-743a5ef",
+      ".elementor-element-94ffbfa > .elementor-size-md.elementor-button[href$=\"contact/#formulaire\"] > .elementor-button-content-wrapper > .elementor-button-text",
+      ".elementor-element-410a50d > .elementor-size-md.elementor-button[href$=\"contact/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 15454,
+    "domNodes": 1010,
+    "hScroll": false,
+    "h": [
+     "H1: Un écosystème intégré de cyberdéfense",
+     "H2: De la détection à la remédiation",
+     "H3: Détecter",
+     "H3: Qualifier",
+     "H3: Enrichir",
+     "H3: Investiguer",
+     "H3: Exposer",
+     "H3: Corriger",
+     "H2: Une architecture de bout en bout",
+     "H2: SOC traditionnel, SOC augmenté",
+     "H2: De la détection à la clôture, sans recopie",
+     "H3: Collecte",
+     "H3: Détection",
+     "H3: Triage IA",
+     "H3: Enrichissement",
+     "H3: Dossier",
+     "H3: Réponse",
+     "H3: Rapport",
+     "H3: Ce que voit l’analyste",
+     "H3: Ce que voit le client",
+     "H3: Ce qui reste humain",
+     "H2: Répondre vite, sans casser",
+     "H3: Réponse automatique et réversible",
+     "H3: Action soumise à approbation",
+     "H2: Ce que vous recevez",
+     "H3: Notification d’incident",
+     "H3: Rapport d’incident",
+     "H3: Bulletin de veille",
+     "H3: Tableaux de bord",
+     "H2: Une IA qui fonctionne sous notre contrôle",
+     "H2: Conforme et cloisonné par conception",
+     "H3: Données hébergées localement",
+     "H3: IA exécutée en interne",
+     "H3: Cloisonnement par client",
+     "H3: Accès privilégié maîtrisé",
+     "H3: Secrets jamais exposés",
+     "H3: Traçabilité et preuve",
+     "H2: Chez vous ou sur un cloud souverain : la même plateforme",
+     "H3: Dans votre datacenter",
+     "H3: Opérée par nos équipes",
+     "H2: Comment démarrer avec BLACKVAULT",
+     "H3: Atelier de cadrage",
+     "H3: Pilote sur périmètre réel",
+     "H3: Déploiement et exploitation",
+     "H2: Sécurisons ce qui compte."
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 500 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "1440": {
+   "external": [],
+   "failed": [],
+   "consoleErr": [],
+   "axe": [
+    {
+     "id": "landmark-one-main",
+     "impact": "moderate",
+     "help": "Document should have one main landmark",
+     "count": 1,
+     "targets": [
+      "html"
+     ],
+     "summary": "Fix all of the following:\n  Document does not have a main landmark"
+    },
+    {
+     "id": "nested-interactive",
+     "impact": "serious",
+     "help": "Interactive controls must not be nested",
+     "count": 4,
+     "targets": [
+      "#menu-item-2433 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2436 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2445 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+      "#menu-item-2455 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]"
+     ],
+     "summary": "Fix any of the following:\n  Element has focusable descendants"
+    },
+    {
+     "id": "region",
+     "impact": "moderate",
+     "help": "All page content should be contained by landmarks",
+     "count": 81,
+     "targets": [
+      ".hfe-skip-link",
+      ".elementor-element-5c227c8",
+      ".elementor-element-a41be7c",
+      ".elementor-element-743a5ef",
+      ".elementor-element-94ffbfa > .elementor-size-md.elementor-button[href$=\"contact/#formulaire\"] > .elementor-button-content-wrapper > .elementor-button-text",
+      ".elementor-element-410a50d > .elementor-size-md.elementor-button[href$=\"contact/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+     ],
+     "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+    },
+    {
+     "id": "skip-link",
+     "impact": "moderate",
+     "help": "The skip-link target should exist and be focusable",
+     "count": 1,
+     "targets": [
+      ".hfe-skip-link"
+     ],
+     "summary": "Fix any of the following:\n  No skip link target"
+    }
+   ],
+   "metrics": {
+    "docHeight": 9094,
+    "domNodes": 1010,
+    "hScroll": false,
+    "h": [
+     "H1: Un écosystème intégré de cyberdéfense",
+     "H2: De la détection à la remédiation",
+     "H3: Détecter",
+     "H3: Qualifier",
+     "H3: Enrichir",
+     "H3: Investiguer",
+     "H3: Exposer",
+     "H3: Corriger",
+     "H2: Une architecture de bout en bout",
+     "H2: SOC traditionnel, SOC augmenté",
+     "H2: De la détection à la clôture, sans recopie",
+     "H3: Collecte",
+     "H3: Détection",
+     "H3: Triage IA",
+     "H3: Enrichissement",
+     "H3: Dossier",
+     "H3: Réponse",
+     "H3: Rapport",
+     "H3: Ce que voit l’analyste",
+     "H3: Ce que voit le client",
+     "H3: Ce qui reste humain",
+     "H2: Répondre vite, sans casser",
+     "H3: Réponse automatique et réversible",
+     "H3: Action soumise à approbation",
+     "H2: Ce que vous recevez",
+     "H3: Notification d’incident",
+     "H3: Rapport d’incident",
+     "H3: Bulletin de veille",
+     "H3: Tableaux de bord",
+     "H2: Une IA qui fonctionne sous notre contrôle",
+     "H2: Conforme et cloisonné par conception",
+     "H3: Données hébergées localement",
+     "H3: IA exécutée en interne",
+     "H3: Cloisonnement par client",
+     "H3: Accès privilégié maîtrisé",
+     "H3: Secrets jamais exposés",
+     "H3: Traçabilité et preuve",
+     "H2: Chez vous ou sur un cloud souverain : la même plateforme",
+     "H3: Dans votre datacenter",
+     "H3: Opérée par nos équipes",
+     "H2: Comment démarrer avec BLACKVAULT",
+     "H3: Atelier de cadrage",
+     "H3: Pilote sur périmètre réel",
+     "H3: Déploiement et exploitation",
+     "H2: Sécurisons ce qui compte."
+    ],
+    "imgsNoDims": [
+     "blackvault-logo-blanc.png"
+    ],
+    "fonts": [
+     "Font Awesome 5 Free 900 normal",
+     "Sora 400 normal",
+     "Sora 500 normal",
+     "Sora 600 normal",
+     "IBM Plex Sans 400 normal",
+     "IBM Plex Sans 500 normal",
+     "IBM Plex Sans 600 normal",
+     "IBM Plex Mono 400 normal",
+     "IBM Plex Mono 500 normal"
+    ]
+   }
+  },
+  "id": "2335",
+  "url": "https://blackvault.ma/plateforme/"
+ }
+}
