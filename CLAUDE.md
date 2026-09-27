@@ -63,3 +63,8 @@ AUDIT.md, DIRECTIONS.md (+ liens Figma), tokens.json, tokens.css, ASSETS.md, CHA
 Français, concis. À chaque gate : fait / proposé / questions groupées. Doute sur une action irréversible : tu demandes.
 
 Première action : enregistre ce brief tel quel dans ./CLAUDE.md (il doit survivre entre les sessions), puis lance la phase 0.  Publier le une fois finalisé
+
+## Journal des décisions (ajouts en cours de projet)
+- 27/09/2026 : GO phase 0 donné, backup All-in-One WP Migration téléchargé par l'utilisateur (17:44 heure serveur).
+- 27/09/2026 : l'utilisateur supprime les STOP de validation (phases 3, 4, 6) : « tu drives en toute autonomie de A à Z, tu prends les décisions nécessaires ». Les garde-fous 2 à 10 restent en vigueur ; le OK pour les OG Yoast est considéré comme donné.
+- 27/09/2026 : logos ASTRO et IA Orchestrator fournis par l'utilisateur (`brand/sources/`). Accent unique : bleu BlackVault (teinte 206°), voir `brand/BRAND.md`.
