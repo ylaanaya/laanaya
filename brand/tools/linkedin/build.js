@@ -10,6 +10,11 @@ const OUT = path.join(REPO, 'assets/linkedin');
 const FONTS = path.join(REPO, 'plugin/blackvault-design/assets/fonts');
 const AVATAR = 'file://' + path.join(REPO, 'assets/favicon/blackvault-icon-512.png');
 const W = 1128, H = 188, EXPORT_W = 4200;
+// Paramètres facultatifs (maquettes de slogans) : L1, L2, LABELS (séparés par |), MOCK_OUT (chemin d'un PNG 2x, sans aperçus).
+const L1 = process.env.L1 || 'Un SOC qui décide,';
+const L2 = process.env.L2 || 'pas seulement qui alerte.';
+const LABELS = (process.env.LABELS || 'Cyberdéfense|IA souveraine|SOC 24/7').split('|');
+const MOCK = process.env.MOCK_OUT || '';
 const DSF = EXPORT_W / W; // 3,7234 -> 4200 x 700
 
 const C = { bg: '#070B10', bgAlt: '#0B121A', borderStrong: '#2A3B4D', ink: '#E6EDF4', muted: '#93A3B5', accentSoft: '#5EAAE3', signal: '#F2B138' };
@@ -109,10 +114,10 @@ h1 .second{color:${C.muted}}
 </style></head><body><div class="cover">
 ${svg}
 <div class="copy">
- <h1>Un SOC qui décide,<br><span class="second">pas seulement qui alerte.</span></h1>
- <p class="labels"><span>Cyberdéfense</span><span class="sep">·</span><span>IA souveraine</span><span class="sep">·</span><span>SOC 24/7</span></p>
+ <h1>${L1}${L2 ? `<br><span class="second">${L2}</span>` : ''}</h1>
+ <p class="labels">${LABELS.map((t) => `<span>${t}</span>`).join('<span class="sep">·</span>')}</p>
 </div></div></body></html>`;
-fs.writeFileSync(path.join(__dirname, 'cover.html'), html);
+fs.writeFileSync(path.join(__dirname, MOCK ? '_mock.html' : 'cover.html'), html);
 
 const SYS = '-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif';
 const desktop = (src) => `<!doctype html><html><head><meta charset="utf-8"><style>*{box-sizing:border-box;margin:0;padding:0}
@@ -135,9 +140,9 @@ body{width:390px;height:320px;background:#fff;font-family:${SYS};overflow:hidden
 
 (async () => {
   const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium', args: ['--allow-file-access-from-files'] });
-  const ctx = await b.newContext({ viewport: { width: W, height: H }, deviceScaleFactor: DSF });
+  const ctx = await b.newContext({ viewport: { width: W, height: H }, deviceScaleFactor: MOCK ? 2 : DSF });
   const p = await ctx.newPage();
-  await p.goto('file://' + path.join(__dirname, 'cover.html'));
+  await p.goto('file://' + path.join(__dirname, MOCK ? '_mock.html' : 'cover.html'));
   await p.evaluate(() => document.fonts.ready); await p.waitForTimeout(300);
   const info = await p.evaluate(() => {
     const fonts = []; document.fonts.forEach((x) => { if (x.status === 'loaded') fonts.push(x.family + ' ' + x.weight); });
@@ -145,6 +150,7 @@ body{width:390px;height:320px;background:#fff;font-family:${SYS};overflow:hidden
     return { fonts, h1: box('h1'), labels: box('.labels') };
   });
   const clip = { x: 0, y: 0, width: W, height: H };
+  if (MOCK) { await p.screenshot({ path: MOCK, clip }); await b.close(); fs.unlinkSync(path.join(__dirname, '_mock.html')); console.log(JSON.stringify(info)); return; }
   await p.screenshot({ path: path.join(OUT, 'blackvault-linkedin-couverture-4200x700.png'), clip });
   await p.screenshot({ path: path.join(OUT, 'blackvault-linkedin-couverture-4200x700.jpg'), clip, type: 'jpeg', quality: 92 });
   await ctx.close();
