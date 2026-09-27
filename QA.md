@@ -1,6 +1,6 @@
 # QA finale (phase 7) : blackvault.ma en ligne
 
-27/09/2026, après l'ouverture au public (CHANGELOG n° 9 à 11). Toutes les mesures portent sur le HTML public servi aux visiteurs anonymes, récupéré côté serveur et rejoué en local (même méthode que l'audit « avant »).
+27/09/2026, après l'ouverture au public et le passage aux logos officiels (CHANGELOG n° 9 à 13, plugin 1.1.0). Toutes les mesures portent sur le HTML public servi aux visiteurs anonymes, récupéré côté serveur et rejoué en local (même méthode que l'audit « avant »).
 
 ## Synthèse
 
@@ -20,7 +20,7 @@
 
 Détail : `phase1/lighthouse-compare.json` (24 pages, 3 passes, rendu en aperçu identique au rendu public) et `phase7/lighthouse-public.json` (6 pages de contrôle sur le rendu public final).
 
-Réserve de méthode : le TTFB local (environ 10 ms) est bien meilleur que celui du serveur (0,85 à 1,4 s en MISS, 20 ms en HIT). Les LCP réels restent donc au-dessus de ces valeurs de labo. Le LCP de 3,2 à 3,5 s tient au rendu de la police du titre sous 4G simulée ; la cible de 2,5 s demanderait un travail serveur (TTFB, HTTP/2 push ou 103 Early Hints), hors périmètre.
+Réserve de méthode : le TTFB local (environ 10 ms) est bien meilleur que celui du serveur (0,85 à 1,4 s en MISS, 20 ms en HIT). Les LCP réels restent donc au-dessus de ces valeurs de labo. Passer sous 2,5 s demanderait surtout un travail côté serveur et chargement (TTFB en MISS, 103 Early Hints, CSS critique), hors périmètre de ce projet.
 
 ## Contrôles
 
@@ -36,6 +36,7 @@ Réserve de méthode : le TTFB local (environ 10 ms) est bien meilleur que celui
 | Tiers et souveraineté | 0 requête hors `blackvault.ma` ; les seuls liens externes sont un lien Google Maps (clic volontaire) et `gmpg.org` (balise `rel=profile` du thème, sans requête) |
 | Polices chargées | Sora 400/500/600 et IBM Plex Mono 500, woff2 locaux ; Font Awesome et les polices Google locales d'Elementor ne sont plus chargés |
 | Garde-fou 7 (discours propriétaire) | 0 occurrence de noms d'outils tiers dans les visuels, fichiers et médias ajoutés |
+| Logos | Logos officiels des 7 solutions (cartes et héros de fiche), d'IA Orchestrator et d'ASTRO (écosystème, cartes, héros IA souveraine), aucun glyphe de substitution restant |
 | OG | `og:image` 1200 × 630 propre à chaque page sur les 24 pages |
 | Favicon | SVG + PNG 32/180/192 servis ; icône d'écran d'accueil 180 px |
 | Cache hébergeur | La version servie en HIT contient la nouvelle couche |
@@ -48,7 +49,7 @@ Réserve de méthode : le TTFB local (environ 10 ms) est bien meilleur que celui
 | 2 | Bouton CF7 invisible | Résolu |
 | 3 | LCP, FCP, CSS bloquants | Amélioré : FCP 2,9 à 2,1 s, poids divisé par 1,6 ; LCP labo encore au-dessus de 2,5 s |
 | 4 | Clavier et formulaires | Résolu |
-| 5 | Visuels et logos produit raster | Résolu à l'affichage (glyphes et SVG) ; les fichiers d'origine restent en médiathèque |
+| 5 | Visuels et logos produit raster | Visuels refaits en SVG ; logos produit officiels conservés à la demande de l'utilisateur, présentés sur tuiles et scènes sombres homogènes |
 | 6 | Spectre multicolore | Résolu : accent unique |
 | 7 | Contrastes AA | Résolu (0 violation de contraste axe) |
 | 8 | Hiérarchie d'action | Résolu : 2 variantes de bouton, 48 px |
@@ -56,7 +57,7 @@ Réserve de méthode : le TTFB local (environ 10 ms) est bien meilleur que celui
 | 10 | Iconographie | Résolu : Lucide |
 | 11 | Modules signature | Résolu : chaîne animée, compteurs, conversation ASTRO |
 | 12 | Dark-first rompu | Résolu |
-| 13 | Pages mobiles trop longues | Amélioré (hauteurs minimales et footer) ; la longueur restante tient au contenu |
+| 13 | Pages mobiles trop longues | Partiel : pied de page mobile réparé (2 rangées vides de 470 px supprimées) ; les pages restent de même longueur qu'avant à quelques pour cent près (police Sora plus large, boutons de 48 px) |
 | 14 | Gabarit SaaS | Amélioré par le rythme, les filets et la mesure ; la structure des sections (contenu Elementor) est inchangée |
 | 15 | Partage et identité technique | Résolu : 24 OG, favicon SVG et PNG |
 

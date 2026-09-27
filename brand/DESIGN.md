@@ -43,7 +43,7 @@ components:
   badges: "Mono 12,5 px en capitales, texte accent-soft sur teinte accent à 12 %, filet accent à 38 %, rayon 4."
   pipeline: "Rail horizontal 1 px, nœuds creux accent-soft, flux lumineux joué une fois ; rail vertical en mobile."
   astro: "Requêtes en bulles de conversation (émetteur « Analyste » en mono), indicateur de saisie en trois points ; aucune réponse inventée."
-  glyphs: "9 glyphes line-art maison (7 produits, IA Orchestrator, ASTRO), grille 24 px, trait 1,5, monochromes."
+  logos: "Logos officiels des 7 solutions, d'IA Orchestrator et d'ASTRO, jamais redessinés : tuile 64 px sur fond #0B121A dans les cartes, scène carrée à coins repères dans les héros, fond noir rendu transparent."
 dials:
   variance: 0.35
   density: 0.35
@@ -56,13 +56,13 @@ BLACKVAULT est un acteur de la cyberdéfense : plateforme propriétaire, SOC 24/
 
 ## Colors
 
-Un seul accent : le bleu du logo BlackVault (teinte 206°), partagé par les marques IA Orchestrator et ASTRO, en trois luminances.
+Un seul accent d'interface : le bleu du logo BlackVault (teinte 206°), partagé par les marques IA Orchestrator et ASTRO, en trois luminances. Les logos produit gardent leurs couleurs propres (verts compris) : ce sont des marques, pas des éléments d'interface.
 
 - `#1F74B5` : réservé aux éléments d'interface et aux fonds clairs.
 - `#2485D0` : texte sur fond sombre, conforme AA.
 - `#5EAAE3` : liens et labels sur fond nuit, conforme AAA.
 
-Le spectre multicolore et les couleurs produit sont retirés de l'interface. Les neutres sont bleutés et froids, jamais `#000`.
+Le spectre multicolore et les couleurs produit sont retirés de l'interface (textes, filets, boutons, badges). Les neutres sont bleutés et froids, jamais `#000`.
 
 ## Typography
 
@@ -78,11 +78,11 @@ La profondeur vient des surfaces et des filets, pas des ombres. Aucun halo lumin
 
 ## Shapes
 
-Rayons 4 (champs, badges), 8 (boutons), 12 (cartes). Coins de repère en équerre sur les tuiles de glyphe.
+Rayons 4 (champs, badges), 8 (boutons), 12 (cartes). Coins de repère en équerre sur les scènes de logo.
 
 ## Components
 
-Boutons, cartes, badges, rail « Détecter → Corriger », chiffres clés à compteur, bloc ASTRO en conversation, tuile glyphe produit, visuels SVG inline (signal, écosystème, périmètre souverain).
+Boutons, cartes, badges, rail « Détecter → Corriger », chiffres clés à compteur, bloc ASTRO en conversation, tuile et scène de logo produit, visuels SVG inline (signal, écosystème, périmètre souverain).
 
 ## Do's and Don'ts
 

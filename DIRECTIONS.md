@@ -34,11 +34,11 @@ Trois pistes ont été évaluées sur la matière réelle du site (captures « a
 |---|---|
 | Fond | Near-black `#070B10`, alt `#0B121A`, surfaces `#101923` / `#152231`, filets 1 px `#1E2C3A` |
 | Accent unique | Bleu BlackVault (teinte 206°), en trois luminances : `#1F74B5` (logo), `#2485D0` (texte AA), `#5EAAE3` (liens et labels, AAA) |
-| Spectre 4 couleurs et couleurs produit | Retirés de l'interface ; glyphes monochromes |
+| Spectre 4 couleurs et couleurs produit | Retirés de l'interface ; les logos produit gardent leurs couleurs |
 | Typographie | Sora 400 / 500 / 600 et IBM Plex Mono 500 ; latin + latin-ext ; échelle fluide `clamp()` |
 | Icônes | Lucide (ISC), trait 1,75, substitué aux 33 glyphes Font Awesome |
-| Glyphes produit | 9 glyphes line-art maison (7 produits, IA Orchestrator, ASTRO), grille 24 px |
-| Visuels | SVG inline : hero « signal », écosystème en orbite, périmètre souverain |
+| Logos produit | Logos officiels des 7 solutions, d'IA Orchestrator et d'ASTRO, posés sur des tuiles et scènes sombres (demande de l'utilisateur, 27/09). Les 9 glyphes line-art dessinés d'abord sont archivés dans `brand/boards/` |
+| Visuels | SVG inline : hero « signal », écosystème en orbite (icônes officielles), périmètre souverain |
 | Motion | Révélation jouée une fois, compteurs, flux sur le rail, conversation ASTRO ; coupés sous `prefers-reduced-motion` |
 | Rayons | 4 px (champs, badges), 8 px (boutons), 12 px (cartes) |
 
