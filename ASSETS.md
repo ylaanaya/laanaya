@@ -103,3 +103,17 @@ Tous les médias créés portent la méta `_bvd_created` (version du plugin), ce
 | « Session ASTRO » | En-tête du bloc conversation ASTRO | Oui, `aria-hidden="true"` |
 | « Accueil » et « Parler à un expert » | Deux liens ajoutés à la page 404 | Oui (« Parler à un expert » reprend le libellé du bouton d'en-tête) |
 | Landmark `<main id="content">` | Toutes les pages | Non (structure) |
+
+## 8. Couverture de la page LinkedIn (hors site)
+
+| Fichier | Détail |
+|---|---|
+| `assets/linkedin/blackvault-linkedin-couverture-4200x700.jpg` (200 Ko) | Fichier à téléverser : 4200 × 700 px, taille recommandée par LinkedIn pour la couverture d'une page entreprise (affichée à 1128 × 191), JPG qualité 92 |
+| `assets/linkedin/blackvault-linkedin-couverture-4200x700.png` (511 Ko) | Même visuel en PNG |
+| `assets/linkedin/apercu-desktop.png`, `apercu-mobile.png` | Mises en situation approximatives : logo de la page en bas à gauche ; recadrage mobile sur les 900 px centraux |
+| `brand/tools/linkedin/build.js`, `cover.html` | Générateur (HTML/SVG rendu par Chromium) ; `brand/boards/linkedin-variantes.png` montre les 3 pistes étudiées |
+
+Composition : piste « Signal » retenue par deux critiques indépendants, parmi trois (Signal, Écosystème avec logos produit, Souverain). Le slogan existant « Un SOC qui décide, pas seulement qui alerte. » et les libellés existants « Cyberdéfense · IA souveraine · SOC 24/7 », sans aucun ajout de texte. À droite, les rails du héros du site convergent vers un nœud creux, avec deux étoiles zellige ; une trame zellige très légère passe sous le logo de la page. Polices Sora 600 et IBM Plex Mono 500 (OFL), palette du site, aucun logo tiers.
+
+Zones de sécurité : texte entre x 336 et 798 sur 1128, hors de la zone du logo (bas gauche) et du coin bas droit, et dans les 900 px centraux gardés sur mobile. La variante avec les logos produit a été écartée : à 191 px de haut, les logos deviennent des taches illisibles, surtout sur mobile.
+
