@@ -1,4 +1,5 @@
-// Couverture LinkedIn BLACKVAULT, direction « Signal souverain » (variante A retenue, corrections des critiques).
+// Couverture LinkedIn BLACKVAULT, direction « Signal souverain » (piste A retenue, corrections des critiques).
+// Titre choisi par le client le 27/09 : « Votre cyberdéfense, conçue, intégrée, opérée. », libellés « Cyberdéfense · IA souveraine · SOC ».
 // Mise en page à 1128 x 188 px CSS (ratio 6:1), export 4200 x 700 (taille de téléversement recommandée par LinkedIn).
 // Usage : node build.js  -> écrit cover.html, puis les PNG/JPG et les aperçus dans assets/linkedin/.
 const fs = require('fs');
@@ -11,9 +12,13 @@ const FONTS = path.join(REPO, 'plugin/blackvault-design/assets/fonts');
 const AVATAR = 'file://' + path.join(REPO, 'assets/favicon/blackvault-icon-512.png');
 const W = 1128, H = 188, EXPORT_W = 4200;
 // Paramètres facultatifs (maquettes de slogans) : L1, L2, LABELS (séparés par |), MOCK_OUT (chemin d'un PNG 2x, sans aperçus).
-const L1 = process.env.L1 || 'Un SOC qui décide,';
-const L2 = process.env.L2 || 'pas seulement qui alerte.';
-const LABELS = (process.env.LABELS || 'Cyberdéfense|IA souveraine|SOC 24/7').split('|');
+const L1 = process.env.L1 || 'Votre cyberdéfense,';
+const L2 = process.env.L2 || 'conçue, intégrée, opérée.';
+const LABELS = (process.env.LABELS || 'Cyberdéfense|IA souveraine|SOC').split('|');
+// Position de la ligne de libellés : 'top' (sur-titre, comme sur le site) ou 'bottom'.
+const LABELS_POS = process.env.LABELS_POS || 'top';
+// Suffixe des fichiers exportés (variante), vide pour la version principale.
+const SUFFIX = process.env.SUFFIX || '';
 const MOCK = process.env.MOCK_OUT || '';
 const DSF = EXPORT_W / W; // 3,7234 -> 4200 x 700
 
@@ -21,7 +26,7 @@ const C = { bg: '#070B10', bgAlt: '#0B121A', borderStrong: '#2A3B4D', ink: '#E6E
 const f = (n) => Number(n.toFixed(1));
 
 // Rails : 13 lignes qui entrent par la droite et convergent vers un nœud creux.
-const node = { x: 930, y: H / 2, ring: 15 };
+const node = { x: 942, y: H / 2, ring: 15 };
 const railStartX = W + 6, span = railStartX - node.x, END_R = 28, LEAD = 46, MAXANG = 45;
 const offsets = [-132, -102, -76, -54, -35, -17, 0, 17, 35, 54, 76, 102, 132];
 const rails = offsets.map((o, i) => {
@@ -60,7 +65,7 @@ const star = (cx, cy, R) => {
 let lattice = '';
 for (let x = 24; x < 340; x += 48) for (let y = H / 2 - 96; y < H + 48; y += 48) lattice += star(x, y, 24);
 
-const out = { x1: 850, x2: node.x - node.ring - 2 };
+const out = { x1: 862, x2: node.x - node.ring - 2 };
 
 const LATIN = 'U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD';
 const LATIN_EXT = 'U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+1E00-1E9F, U+20A0-20AB, U+20AD-20C0, U+2C60-2C7F, U+A720-A7FF';
@@ -111,6 +116,7 @@ h1 .second{color:${C.muted}}
  color:${C.accentSoft};white-space:nowrap;display:flex;align-items:center;gap:10px}
 .labels::before{content:"";width:16px;height:1px;background:${C.accentSoft};opacity:.7;margin-right:2px}
 .labels .sep{color:${C.muted};opacity:.6;letter-spacing:0}
+${LABELS_POS === 'top' ? '.labels{order:-1}' : ''}
 </style></head><body><div class="cover">
 ${svg}
 <div class="copy">
@@ -151,11 +157,11 @@ body{width:390px;height:320px;background:#fff;font-family:${SYS};overflow:hidden
   });
   const clip = { x: 0, y: 0, width: W, height: H };
   if (MOCK) { await p.screenshot({ path: MOCK, clip }); await b.close(); fs.unlinkSync(path.join(__dirname, '_mock.html')); console.log(JSON.stringify(info)); return; }
-  await p.screenshot({ path: path.join(OUT, 'blackvault-linkedin-couverture-4200x700.png'), clip });
-  await p.screenshot({ path: path.join(OUT, 'blackvault-linkedin-couverture-4200x700.jpg'), clip, type: 'jpeg', quality: 92 });
+  await p.screenshot({ path: path.join(OUT, `blackvault-linkedin-couverture-4200x700${SUFFIX}.png`), clip });
+  await p.screenshot({ path: path.join(OUT, `blackvault-linkedin-couverture-4200x700${SUFFIX}.jpg`), clip, type: 'jpeg', quality: 92 });
   await ctx.close();
-  const src = 'file://' + path.join(OUT, 'blackvault-linkedin-couverture-4200x700.png');
-  for (const [name, htmlStr, vw, vh] of [['apercu-desktop.png', desktop(src), 1400, 520], ['apercu-mobile.png', mobile(src), 390, 320]]) {
+  const src = 'file://' + path.join(OUT, `blackvault-linkedin-couverture-4200x700${SUFFIX}.png`);
+  for (const [name, htmlStr, vw, vh] of [[`apercu-desktop${SUFFIX}.png`, desktop(src), 1400, 520], [`apercu-mobile${SUFFIX}.png`, mobile(src), 390, 320]]) {
     const tmp = path.join(__dirname, '_' + name + '.html'); fs.writeFileSync(tmp, htmlStr);
     const c2 = await b.newContext({ viewport: { width: vw, height: vh }, deviceScaleFactor: name.includes('mobile') ? 3 : 1 });
     const q = await c2.newPage(); await q.goto('file://' + tmp);

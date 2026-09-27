@@ -1,5 +1,7 @@
 # Slogans : propositions au-delà du SOC
 
+**Choix de l'utilisateur (27/09) : n° 2, « Votre cyberdéfense, conçue, intégrée, opérée. », avec « Cyberdéfense · IA souveraine · SOC » en libellés.** Appliqué à la couverture LinkedIn (`assets/linkedin/`).
+
 27/09/2026. Demande : ne plus limiter le message au SOC, et donner toute leur place à la cyberdéfense et à l'intégration de solutions. 47 propositions ont été rédigées sous 5 angles (intégration et cyberdéfense, de bout en bout, souveraineté, acteur institutionnel, signatures courtes). Deux critiques indépendants les ont notées : conformité et positionnement, puis force créative pour un lecteur RSSI ou DSI. Toutes s'appuient sur des formules existantes du site ou de la présentation ; aucune n'ajoute de chiffre, de garantie ou de superlatif. Planche : `boards/linkedin-slogans.png`.
 
 ## Titres pour la bannière (2 lignes)
