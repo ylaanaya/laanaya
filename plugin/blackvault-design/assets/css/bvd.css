@@ -349,11 +349,13 @@ body.elementor-kit-1685 .bvd-logo-stage::after {
 body.elementor-kit-1685 .bvd-logo-stage::before { top: -1px; left: -1px; border-right: 0; border-bottom: 0; }
 body.elementor-kit-1685 .bvd-logo-stage::after { right: -1px; bottom: -1px; border-left: 0; border-top: 0; }
 body.elementor-kit-1685 .bvd-logo-stage img { width: 100% !important; height: 100% !important; max-width: none !important; object-fit: contain; }
-body.elementor-kit-1685 .bvd-logo-duo { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: clamp(12px, 2vw, 28px); width: min(100%, 560px); margin-inline: auto; }
-body.elementor-kit-1685 .bvd-logo-duo img { width: 100% !important; height: auto !important; max-width: none !important; }
+body.elementor-kit-1685 .bvd-logo-hero { display: grid; place-items: center; width: min(100%, 340px); margin-inline: auto; }
+body.elementor-kit-1685 .bvd-logo-hero img { width: 100% !important; height: auto !important; max-width: none !important; }
+body.elementor-kit-1685 .bvd-section-logo { margin: 0 0 20px; }
+body.elementor-kit-1685 .bvd-section-logo img { display: block; width: clamp(150px, 12vw, 190px) !important; height: auto !important; max-width: none !important; }
 body.elementor-kit-1685 .bvd-card-logo { display: block; width: 72px; height: 72px; margin: 0 0 14px; }
-body.elementor-kit-1685 .elementor-widget-image:has(.bvd-logo-stage, .bvd-logo-duo) { width: 100%; }
-body.elementor-kit-1685 .elementor-widget-image:has(.bvd-logo-stage, .bvd-logo-duo) .elementor-widget-container { width: 100%; }
+body.elementor-kit-1685 .elementor-widget-image:has(.bvd-logo-stage, .bvd-logo-hero) { width: 100%; }
+body.elementor-kit-1685 .elementor-widget-image:has(.bvd-logo-stage, .bvd-logo-hero) .elementor-widget-container { width: 100%; }
 body.elementor-kit-1685 .elementor-widget-image:has(.bvd-visual, .bvd-glyph-hero) { width: 100%; }
 body.elementor-kit-1685 .elementor-widget-image:has(.bvd-glyph-hero) .elementor-widget-container { width: 100%; }
 body.elementor-kit-1685 .elementor-widget-image:has(.bvd-visual) .elementor-widget-container { width: 100%; }

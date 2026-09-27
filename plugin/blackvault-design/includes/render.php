@@ -99,12 +99,9 @@ function bvd_visual_svg( string $key, string $alt ): string {
 	);
 }
 
-/** Logos officiels d'IA Orchestrator et d'ASTRO, côte à côte (héros de la page IA souveraine). */
-function bvd_logo_duo(): string {
-	return '<div class="bvd-logo-duo">'
-		. '<img src="' . esc_url( bvd_brand_url( 'ia-orchestrator-logo' ) ) . '" width="400" height="506" alt="IA Orchestrator" fetchpriority="high" decoding="async">'
-		. '<img src="' . esc_url( bvd_brand_url( 'astro-logo' ) ) . '" width="400" height="434" alt="ASTRO" decoding="async">'
-		. '</div>';
+/** Logo officiel d'IA Orchestrator, centré (héros de la page IA souveraine). */
+function bvd_logo_hero(): string {
+	return '<div class="bvd-logo-hero"><img src="' . esc_url( bvd_brand_url( 'ia-orchestrator-logo' ) ) . '" width="400" height="506" alt="IA Orchestrator" fetchpriority="high" decoding="async"></div>';
 }
 
 /**
@@ -150,7 +147,7 @@ function bvd_filter_html( string $html ): string {
 				return '<div class="bvd-logo-stage">' . $m[0] . '</div>';
 			}
 			if ( 2178 === $id && 1749 === $page ) {
-				return bvd_logo_duo();
+				return bvd_logo_hero();
 			}
 			if ( array_key_exists( $id, BVD_VISUALS ) ) {
 				$svg = bvd_visual_svg( BVD_VISUALS[ $id ], bvd_img_alt( $m[0] ) );
@@ -160,6 +157,15 @@ function bvd_filter_html( string $html ): string {
 		},
 		$html
 	);
+	// 2 ter. Logo officiel d'ASTRO en tête de la section qui le décrit (page IA souveraine).
+	if ( 1749 === $page ) {
+		$html = (string) preg_replace(
+			'#(<div class="elementor-element elementor-element-[0-9a-f]+ bv-eyebrow[^>]*><p class="elementor-heading-title[^"]*">[^<]*</p></div>)(<div [^>]*><h2 class="elementor-heading-title[^"]*">ASTRO :)#',
+			'<div class="bvd-section-logo"><img src="' . esc_url( bvd_brand_url( 'astro-logo' ) ) . '" width="400" height="434" alt="ASTRO" loading="lazy" decoding="async"></div>$1$2',
+			$html,
+			1
+		);
+	}
 	// 2 bis. Emblèmes officiels devant les titres de carte « IA Orchestrator » et « ASTRO ».
 	$html = (string) preg_replace_callback(
 		'#<h3 class="elementor-heading-title[^"]*">(IA Orchestrator|ASTRO)</h3>#',

@@ -45,7 +45,7 @@ for pid,(slug,title) in sorted(pages.items()):
     else:
         lb=label.get(pid,''); lab=('<div class="lab">'+lb+'</div>') if lb and lb!=title else ''
         if pid in logo: tile=f'<div class="tile"><img src="file://{UP+logo[pid]}"></div>'
-        elif pid==1749: tile=f'<div class="tile duo"><img src="file://{BR}ia-orchestrator-logo.webp"><img src="file://{BR}astro-logo.webp"></div>'
+        elif pid==1749: tile=f'<div class="tile"><img src="file://{BR}ia-orchestrator-logo.webp"></div>'
         else: tile=f'<div class="tile"><svg viewBox="0 0 24 24">{inner(f"{PL}/icons/lucide/{icon[pid]}.svg")}</svg></div>'
         body=f'<div class="c"><div class="sig">{sig}</div><img class="logo" src="file://{LOGO}">{lab}<h1>{html.escape(title)}</h1>{tile}<div class="foot">blackvault.ma</div></div>'
     f=f'{P1}/og/og-{slug}.html'; os.makedirs(os.path.dirname(f),exist_ok=True)

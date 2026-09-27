@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       BLACKVAULT Design
  * Description:       Couche de design « Signal souverain » de blackvault.ma : polices auto-hébergées, tokens, composants, icônes Lucide, glyphes produit, visuels SVG, micro-interactions et correctifs d'accessibilité. Aucune donnée de page n'est modifiée ; désactiver le plugin rend le rendu d'origine.
- * Version:           1.1.0
+ * Version:           1.1.1
  * Requires at least: 6.9
  * Requires PHP:      8.1
  * Author:            BLACK VAULT SARL
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'BVD_VERSION', '1.1.0' );
+define( 'BVD_VERSION', '1.1.1' );
 define( 'BVD_FILE', __FILE__ );
 define( 'BVD_DIR', plugin_dir_path( __FILE__ ) );
 define( 'BVD_URL', plugin_dir_url( __FILE__ ) );
