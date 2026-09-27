@@ -1,6 +1,6 @@
 # QA finale (phase 7) : blackvault.ma en ligne
 
-27/09/2026, après l'ouverture au public et le passage aux logos officiels (CHANGELOG n° 9 à 14, plugin 1.1.1). Toutes les mesures portent sur le HTML public servi aux visiteurs anonymes, récupéré côté serveur et rejoué en local (même méthode que l'audit « avant »).
+27/09/2026, après l'ouverture au public et le passage aux logos officiels (CHANGELOG n° 9 à 15, plugin 1.1.1). Toutes les mesures portent sur le HTML public servi aux visiteurs anonymes, récupéré côté serveur et rejoué en local (même méthode que l'audit « avant »).
 
 ## Synthèse
 
@@ -30,7 +30,7 @@ Réserve de méthode : le TTFB local (environ 10 ms) est bien meilleur que celui
 | Contrôle | Résultat |
 |---|---|
 | Captures pleine page 1440 et 390 px | `screenshots/after/` (24 pages + 404) |
-| Texte et hiérarchie Hn | Identiques à l'état « avant » sur les 25 pages : 560 titres comparés, texte visible identique mot pour mot |
+| Texte et hiérarchie Hn | 560 titres identiques à l'état « avant » sur les 25 pages ; texte visible identique mot pour mot, sauf la phrase d'introduction du héros de l'accueil, remplacée à la demande de l'utilisateur (CHANGELOG n° 15) |
 | Clavier desktop | Lien d'évitement vers `main#content`, focus visible partout (2 px `#5EAAE3`), sous-menus aux flèches, Échap ferme et rend le focus |
 | Menu mobile | Bouton nommé « Basculer le menu », `aria-expanded` à jour, Échap ferme le menu |
 | Formulaires CF7 | Libellés associés, champs sombres, focus visible (filet `#5EAAE3` + halo 3 px), bouton d'envoi visible |
