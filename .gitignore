@@ -1,4 +1,5 @@
-# Données brutes du site (options, contenus, versions de plugins) :
-# non publiées tant que le dépôt ylaanaya/laanaya est public. Voir PREFLIGHT.md.
+# Données du site et constats de sécurité : non publiés tant que le dépôt
+# ylaanaya/laanaya est public (voir PREFLIGHT.md, non versionné).
 snapshots/
 phase0/
+PREFLIGHT.md
