@@ -2,20 +2,12 @@
  "404": {
   "390": {
    "external": [],
-   "failed": [
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js"
-   ],
-   "consoleErr": [
-    "Failed to load resource: the server responded with a status of 404 (Not Found)",
-    "Failed to load resource: the server responded with a status of 404 (Not Found)"
-   ],
+   "failed": [],
+   "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 3116,
-    "domNodes": 301,
+    "docHeight": 1945,
+    "domNodes": 300,
     "hScroll": false,
     "h": [
      "H1: La page ne peut pas être trouvée."
@@ -32,20 +24,12 @@
   },
   "1440": {
    "external": [],
-   "failed": [
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js"
-   ],
-   "consoleErr": [
-    "Failed to load resource: the server responded with a status of 404 (Not Found)",
-    "Failed to load resource: the server responded with a status of 404 (Not Found)"
-   ],
+   "failed": [],
+   "consoleErr": [],
    "axe": [],
    "metrics": {
     "docHeight": 1341,
-    "domNodes": 301,
+    "domNodes": 300,
     "hScroll": false,
     "h": [
      "H1: La page ne peut pas être trouvée."
@@ -66,20 +50,12 @@
  "accueil": {
   "390": {
    "external": [],
-   "failed": [
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js"
-   ],
-   "consoleErr": [
-    "Failed to load resource: the server responded with a status of 404 (Not Found)",
-    "Failed to load resource: the server responded with a status of 404 (Not Found)"
-   ],
+   "failed": [],
+   "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 21687,
-    "domNodes": 1396,
+    "docHeight": 20763,
+    "domNodes": 1331,
     "hScroll": false,
     "h": [
      "H1: Master your cyber exposure.",
@@ -150,20 +126,12 @@
   },
   "1440": {
    "external": [],
-   "failed": [
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js"
-   ],
-   "consoleErr": [
-    "Failed to load resource: the server responded with a status of 404 (Not Found)",
-    "Failed to load resource: the server responded with a status of 404 (Not Found)"
-   ],
+   "failed": [],
+   "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 11230,
-    "domNodes": 1396,
+    "docHeight": 11336,
+    "domNodes": 1331,
     "hScroll": false,
     "h": [
      "H1: Master your cyber exposure.",
@@ -238,16 +206,8 @@
  "solutions": {
   "390": {
    "external": [],
-   "failed": [
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js"
-   ],
-   "consoleErr": [
-    "Failed to load resource: the server responded with a status of 404 (Not Found)",
-    "Failed to load resource: the server responded with a status of 404 (Not Found)"
-   ],
+   "failed": [],
+   "consoleErr": [],
    "axe": [
     {
      "id": "heading-order",
@@ -261,8 +221,8 @@
     }
    ],
    "metrics": {
-    "docHeight": 10104,
-    "domNodes": 706,
+    "docHeight": 9180,
+    "domNodes": 683,
     "hScroll": false,
     "h": [
      "H1: Sept solutions, une seule chaîne de défense",
@@ -301,16 +261,8 @@
   },
   "1440": {
    "external": [],
-   "failed": [
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js"
-   ],
-   "consoleErr": [
-    "Failed to load resource: the server responded with a status of 404 (Not Found)",
-    "Failed to load resource: the server responded with a status of 404 (Not Found)"
-   ],
+   "failed": [],
+   "consoleErr": [],
    "axe": [
     {
      "id": "heading-order",
@@ -324,8 +276,8 @@
     }
    ],
    "metrics": {
-    "docHeight": 4924,
-    "domNodes": 706,
+    "docHeight": 5030,
+    "domNodes": 683,
     "hScroll": false,
     "h": [
      "H1: Sept solutions, une seule chaîne de défense",
@@ -368,20 +320,12 @@
  "solutions__nova-xsiem": {
   "390": {
    "external": [],
-   "failed": [
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js"
-   ],
-   "consoleErr": [
-    "Failed to load resource: the server responded with a status of 404 (Not Found)",
-    "Failed to load resource: the server responded with a status of 404 (Not Found)"
-   ],
+   "failed": [],
+   "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 10307,
-    "domNodes": 685,
+    "docHeight": 9232,
+    "domNodes": 660,
     "hScroll": false,
     "h": [
      "H1: Nova XSIEM",
@@ -416,20 +360,12 @@
   },
   "1440": {
    "external": [],
-   "failed": [
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js"
-   ],
-   "consoleErr": [
-    "Failed to load resource: the server responded with a status of 404 (Not Found)",
-    "Failed to load resource: the server responded with a status of 404 (Not Found)"
-   ],
+   "failed": [],
+   "consoleErr": [],
    "axe": [],
    "metrics": {
     "docHeight": 5591,
-    "domNodes": 685,
+    "domNodes": 660,
     "hScroll": false,
     "h": [
      "H1: Nova XSIEM",
@@ -468,20 +404,12 @@
  "solutions__blackcasex": {
   "390": {
    "external": [],
-   "failed": [
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js"
-   ],
-   "consoleErr": [
-    "Failed to load resource: the server responded with a status of 404 (Not Found)",
-    "Failed to load resource: the server responded with a status of 404 (Not Found)"
-   ],
+   "failed": [],
+   "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 10084,
-    "domNodes": 684,
+    "docHeight": 8991,
+    "domNodes": 659,
     "hScroll": false,
     "h": [
      "H1: BlackCaseX",
@@ -515,20 +443,12 @@
   },
   "1440": {
    "external": [],
-   "failed": [
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js"
-   ],
-   "consoleErr": [
-    "Failed to load resource: the server responded with a status of 404 (Not Found)",
-    "Failed to load resource: the server responded with a status of 404 (Not Found)"
-   ],
+   "failed": [],
+   "consoleErr": [],
    "axe": [],
    "metrics": {
     "docHeight": 5463,
-    "domNodes": 684,
+    "domNodes": 659,
     "hScroll": false,
     "h": [
      "H1: BlackCaseX",
@@ -566,20 +486,12 @@
  "solutions__blacktrace": {
   "390": {
    "external": [],
-   "failed": [
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js"
-   ],
-   "consoleErr": [
-    "Failed to load resource: the server responded with a status of 404 (Not Found)",
-    "Failed to load resource: the server responded with a status of 404 (Not Found)"
-   ],
+   "failed": [],
+   "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 9976,
-    "domNodes": 678,
+    "docHeight": 8901,
+    "domNodes": 653,
     "hScroll": false,
     "h": [
      "H1: BlackTrace",
@@ -613,20 +525,12 @@
   },
   "1440": {
    "external": [],
-   "failed": [
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js"
-   ],
-   "consoleErr": [
-    "Failed to load resource: the server responded with a status of 404 (Not Found)",
-    "Failed to load resource: the server responded with a status of 404 (Not Found)"
-   ],
+   "failed": [],
+   "consoleErr": [],
    "axe": [],
    "metrics": {
     "docHeight": 5429,
-    "domNodes": 678,
+    "domNodes": 653,
     "hScroll": false,
     "h": [
      "H1: BlackTrace",
@@ -664,20 +568,12 @@
  "solutions__the-hound": {
   "390": {
    "external": [],
-   "failed": [
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js"
-   ],
-   "consoleErr": [
-    "Failed to load resource: the server responded with a status of 404 (Not Found)",
-    "Failed to load resource: the server responded with a status of 404 (Not Found)"
-   ],
+   "failed": [],
+   "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 9955,
-    "domNodes": 685,
+    "docHeight": 8880,
+    "domNodes": 660,
     "hScroll": false,
     "h": [
      "H1: The Hound",
@@ -711,20 +607,12 @@
   },
   "1440": {
    "external": [],
-   "failed": [
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js"
-   ],
-   "consoleErr": [
-    "Failed to load resource: the server responded with a status of 404 (Not Found)",
-    "Failed to load resource: the server responded with a status of 404 (Not Found)"
-   ],
+   "failed": [],
+   "consoleErr": [],
    "axe": [],
    "metrics": {
     "docHeight": 5439,
-    "domNodes": 685,
+    "domNodes": 660,
     "hScroll": false,
     "h": [
      "H1: The Hound",
@@ -762,20 +650,12 @@
  "solutions__blackvault-vx": {
   "390": {
    "external": [],
-   "failed": [
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js"
-   ],
-   "consoleErr": [
-    "Failed to load resource: the server responded with a status of 404 (Not Found)",
-    "Failed to load resource: the server responded with a status of 404 (Not Found)"
-   ],
+   "failed": [],
+   "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 9896,
-    "domNodes": 678,
+    "docHeight": 8821,
+    "domNodes": 653,
     "hScroll": false,
     "h": [
      "H1: BlackVault VX",
@@ -809,20 +689,12 @@
   },
   "1440": {
    "external": [],
-   "failed": [
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js"
-   ],
-   "consoleErr": [
-    "Failed to load resource: the server responded with a status of 404 (Not Found)",
-    "Failed to load resource: the server responded with a status of 404 (Not Found)"
-   ],
+   "failed": [],
+   "consoleErr": [],
    "axe": [],
    "metrics": {
     "docHeight": 5429,
-    "domNodes": 678,
+    "domNodes": 653,
     "hScroll": false,
     "h": [
      "H1: BlackVault VX",
@@ -860,20 +732,12 @@
  "solutions__orbitfix": {
   "390": {
    "external": [],
-   "failed": [
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js"
-   ],
-   "consoleErr": [
-    "Failed to load resource: the server responded with a status of 404 (Not Found)",
-    "Failed to load resource: the server responded with a status of 404 (Not Found)"
-   ],
+   "failed": [],
+   "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 9940,
-    "domNodes": 678,
+    "docHeight": 8865,
+    "domNodes": 653,
     "hScroll": false,
     "h": [
      "H1: OrbitFix",
@@ -907,20 +771,12 @@
   },
   "1440": {
    "external": [],
-   "failed": [
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js"
-   ],
-   "consoleErr": [
-    "Failed to load resource: the server responded with a status of 404 (Not Found)",
-    "Failed to load resource: the server responded with a status of 404 (Not Found)"
-   ],
+   "failed": [],
+   "consoleErr": [],
    "axe": [],
    "metrics": {
     "docHeight": 5401,
-    "domNodes": 678,
+    "domNodes": 653,
     "hScroll": false,
     "h": [
      "H1: OrbitFix",
@@ -958,20 +814,12 @@
  "solutions__blackvault-nexus": {
   "390": {
    "external": [],
-   "failed": [
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js"
-   ],
-   "consoleErr": [
-    "Failed to load resource: the server responded with a status of 404 (Not Found)",
-    "Failed to load resource: the server responded with a status of 404 (Not Found)"
-   ],
+   "failed": [],
+   "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 10150,
-    "domNodes": 685,
+    "docHeight": 9075,
+    "domNodes": 660,
     "hScroll": false,
     "h": [
      "H1: BlackVault Nexus",
@@ -1005,20 +853,12 @@
   },
   "1440": {
    "external": [],
-   "failed": [
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js"
-   ],
-   "consoleErr": [
-    "Failed to load resource: the server responded with a status of 404 (Not Found)",
-    "Failed to load resource: the server responded with a status of 404 (Not Found)"
-   ],
+   "failed": [],
+   "consoleErr": [],
    "axe": [],
    "metrics": {
     "docHeight": 5524,
-    "domNodes": 685,
+    "domNodes": 660,
     "hScroll": false,
     "h": [
      "H1: BlackVault Nexus",
@@ -1060,8 +900,8 @@
    "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 11668,
-    "domNodes": 735,
+    "docHeight": 10868,
+    "domNodes": 702,
     "hScroll": false,
     "h": [
      "H1: IA Orchestrator et ASTRO",
@@ -1105,20 +945,12 @@
   },
   "1440": {
    "external": [],
-   "failed": [
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
-    "404 https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
-    "https://blackvault.ma/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js"
-   ],
-   "consoleErr": [
-    "Failed to load resource: the server responded with a status of 404 (Not Found)",
-    "Failed to load resource: the server responded with a status of 404 (Not Found)"
-   ],
+   "failed": [],
+   "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 6158,
-    "domNodes": 735,
+    "docHeight": 6225,
+    "domNodes": 702,
     "hScroll": false,
     "h": [
      "H1: IA Orchestrator et ASTRO",
@@ -1170,8 +1002,8 @@
    "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 7624,
-    "domNodes": 523,
+    "docHeight": 6453,
+    "domNodes": 522,
     "hScroll": false,
     "h": [
      "H1: Ce que nous faisons pour vous",
@@ -1209,7 +1041,7 @@
    "axe": [],
    "metrics": {
     "docHeight": 3447,
-    "domNodes": 523,
+    "domNodes": 522,
     "hScroll": false,
     "h": [
      "H1: Ce que nous faisons pour vous",
@@ -1250,8 +1082,8 @@
    "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 10955,
-    "domNodes": 654,
+    "docHeight": 9812,
+    "domNodes": 645,
     "hScroll": false,
     "h": [
      "H1: Un SOC managé qui décide, pas seulement qui alerte",
@@ -1307,8 +1139,8 @@
    "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 5685,
-    "domNodes": 654,
+    "docHeight": 5695,
+    "domNodes": 645,
     "hScroll": false,
     "h": [
      "H1: Un SOC managé qui décide, pas seulement qui alerte",
@@ -1368,8 +1200,8 @@
    "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 9866,
-    "domNodes": 629,
+    "docHeight": 8723,
+    "domNodes": 620,
     "hScroll": false,
     "h": [
      "H1: Mesurez votre résistance réelle aux attaques",
@@ -1419,8 +1251,8 @@
    "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 5073,
-    "domNodes": 629,
+    "docHeight": 5084,
+    "domNodes": 620,
     "hScroll": false,
     "h": [
      "H1: Mesurez votre résistance réelle aux attaques",
@@ -1474,8 +1306,8 @@
    "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 9891,
-    "domNodes": 633,
+    "docHeight": 8748,
+    "domNodes": 621,
     "hScroll": false,
     "h": [
      "H1: Des solutions de sécurité qui s’intègrent vraiment",
@@ -1526,8 +1358,8 @@
    "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 5033,
-    "domNodes": 633,
+    "docHeight": 5043,
+    "domNodes": 621,
     "hScroll": false,
     "h": [
      "H1: Des solutions de sécurité qui s’intègrent vraiment",
@@ -1582,8 +1414,8 @@
    "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 10099,
-    "domNodes": 627,
+    "docHeight": 8956,
+    "domNodes": 617,
     "hScroll": false,
     "h": [
      "H1: Alignez votre cybersécurité sur vos enjeux métier",
@@ -1633,8 +1465,8 @@
    "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 5175,
-    "domNodes": 627,
+    "docHeight": 5185,
+    "domNodes": 617,
     "hScroll": false,
     "h": [
      "H1: Alignez votre cybersécurité sur vos enjeux métier",
@@ -1688,8 +1520,8 @@
    "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 9958,
-    "domNodes": 623,
+    "docHeight": 8815,
+    "domNodes": 616,
     "hScroll": false,
     "h": [
      "H1: Une infrastructure hébergée, sécurisée et résiliente",
@@ -1741,8 +1573,8 @@
    "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 5149,
-    "domNodes": 623,
+    "docHeight": 5159,
+    "domNodes": 616,
     "hScroll": false,
     "h": [
      "H1: Une infrastructure hébergée, sécurisée et résiliente",
@@ -1798,8 +1630,8 @@
    "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 11313,
-    "domNodes": 739,
+    "docHeight": 10170,
+    "domNodes": 730,
     "hScroll": false,
     "h": [
      "H1: Une infogérance proactive pour un système d’information disponible",
@@ -1855,8 +1687,8 @@
    "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 5910,
-    "domNodes": 739,
+    "docHeight": 5920,
+    "domNodes": 730,
     "hScroll": false,
     "h": [
      "H1: Une infogérance proactive pour un système d’information disponible",
@@ -1916,8 +1748,8 @@
    "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 9468,
-    "domNodes": 625,
+    "docHeight": 8325,
+    "domNodes": 616,
     "hScroll": false,
     "h": [
      "H1: Libérez vos équipes des tâches répétitives",
@@ -1966,8 +1798,8 @@
    "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 4985,
-    "domNodes": 625,
+    "docHeight": 4995,
+    "domNodes": 616,
     "hScroll": false,
     "h": [
      "H1: Libérez vos équipes des tâches répétitives",
@@ -2020,8 +1852,8 @@
    "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 7131,
-    "domNodes": 585,
+    "docHeight": 5960,
+    "domNodes": 584,
     "hScroll": false,
     "h": [
      "H1: Conçu pour les organisations régulées",
@@ -2053,7 +1885,7 @@
    "axe": [],
    "metrics": {
     "docHeight": 3929,
-    "domNodes": 585,
+    "domNodes": 584,
     "hScroll": false,
     "h": [
      "H1: Conçu pour les organisations régulées",
@@ -2088,8 +1920,8 @@
    "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 8308,
-    "domNodes": 564,
+    "docHeight": 7137,
+    "domNodes": 563,
     "hScroll": false,
     "h": [
      "H1: Éditeur, opérateur, innovateur, souverain",
@@ -2129,7 +1961,7 @@
    "axe": [],
    "metrics": {
     "docHeight": 4319,
-    "domNodes": 564,
+    "domNodes": 563,
     "hScroll": false,
     "h": [
      "H1: Éditeur, opérateur, innovateur, souverain",
@@ -2176,8 +2008,8 @@
    ],
    "axe": [],
    "metrics": {
-    "docHeight": 5003,
-    "domNodes": 417,
+    "docHeight": 3832,
+    "domNodes": 416,
     "hScroll": false,
     "h": [
      "H1: Rejoignez une équipe qui construit ce qu’elle opère",
@@ -2208,7 +2040,7 @@
    "axe": [],
    "metrics": {
     "docHeight": 2542,
-    "domNodes": 417,
+    "domNodes": 416,
     "hScroll": false,
     "h": [
      "H1: Rejoignez une équipe qui construit ce qu’elle opère",
@@ -2242,8 +2074,8 @@
    ],
    "axe": [],
    "metrics": {
-    "docHeight": 5086,
-    "domNodes": 456,
+    "docHeight": 3914,
+    "domNodes": 455,
     "hScroll": false,
     "h": [
      "H1: Parlons de votre sécurité",
@@ -2274,7 +2106,7 @@
    "axe": [],
    "metrics": {
     "docHeight": 2222,
-    "domNodes": 456,
+    "domNodes": 455,
     "hScroll": false,
     "h": [
      "H1: Parlons de votre sécurité",
@@ -2304,8 +2136,8 @@
    "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 4241,
-    "domNodes": 352,
+    "docHeight": 3069,
+    "domNodes": 351,
     "hScroll": false,
     "h": [
      "H1: Politique de confidentialité",
@@ -2333,7 +2165,7 @@
    "axe": [],
    "metrics": {
     "docHeight": 2045,
-    "domNodes": 352,
+    "domNodes": 351,
     "hScroll": false,
     "h": [
      "H1: Politique de confidentialité",
@@ -2364,8 +2196,8 @@
    "consoleErr": [],
    "axe": [],
    "metrics": {
-    "docHeight": 17354,
-    "domNodes": 1156,
+    "docHeight": 16183,
+    "domNodes": 1113,
     "hScroll": false,
     "h": [
      "H1: Un écosystème intégré de cyberdéfense",
@@ -2431,7 +2263,7 @@
    "axe": [],
    "metrics": {
     "docHeight": 9450,
-    "domNodes": 1156,
+    "domNodes": 1113,
     "hScroll": false,
     "h": [
      "H1: Un écosystème intégré de cyberdéfense",

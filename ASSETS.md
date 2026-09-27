@@ -30,8 +30,8 @@ Font Awesome n'est plus chargé quand la couche est active.
 | Icônes produit, médiathèque ID 1693 à 1699 (`icone-*.webp`) | Médiathèque du site, identiques à la présentation « BLACKVAULT Présentation Plateforme » (diapos 8 à 10) | Cartes produit, posées dans une tuile sombre de 64 px (`.bvd-logo-box`), alt d'origine |
 | Logos produit, médiathèque ID 1700 à 1706 (`logo-*.webp`) | Idem (fiches produit, diapos 11 à 17) | Héros des 7 fiches Solution, sur une scène sombre à coins repères (`.bvd-logo-stage`), alt d'origine |
 | `assets/brand/products/{nova,casex,trace,hound,vx,orbitfix,nexus}.webp` (7 à 14 Ko) | Icônes 1693 à 1699 recadrées et réduites à 128 px | Nœuds du visuel écosystème |
-| `assets/brand/ia-orchestrator-emblem.webp` (20 Ko), `astro-emblem.webp` (17 Ko) | Logos fournis par l'utilisateur (`brand/sources/`), emblème seul, 160 px | Centre de l'écosystème ; devant les titres de carte « IA Orchestrator » et « ASTRO » (accueil, Solutions), `alt=""` car le titre suit |
-| `assets/brand/ia-orchestrator-logo.webp` (101 Ko), `astro-logo.webp` (65 Ko) | Idem, logo complet, 400 px | Héros de la page IA souveraine (duo), alt « IA Orchestrator » et « ASTRO » |
+| `assets/brand/ia-orchestrator-emblem.webp` (20 Ko), `astro-emblem.webp` (17 Ko) | Logos fournis par l'utilisateur (`brand/sources/`), emblème seul, 160 px | Centre de l'écosystème (IA Orchestrator seul) ; devant les titres de carte « IA Orchestrator » et « ASTRO » (accueil, Solutions), `alt=""` car le titre suit |
+| `assets/brand/ia-orchestrator-logo.webp` (101 Ko), `astro-logo.webp` (65 Ko) | Idem, logo complet, 400 px | Page IA souveraine : IA Orchestrator seul et centré dans le héros, ASTRO en tête de la section qui le décrit ; alt « IA Orchestrator » et « ASTRO » |
 
 Script : `brand/tools/logos_build.py` (fond noir vers transparence, fondu de bord). Les glyphes du projet restent dans `assets/glyphs/` et `brand/boards/glyphes.png`, sans usage sur le site.
 
@@ -40,7 +40,7 @@ Script : `brand/tools/logos_build.py` (fond noir vers transparence, fondu de bor
 | Fichier | Remplace | Usage | Alt |
 |---|---|---|---|
 | `assets/visuals/hero-signal.svg` (2,6 Ko) | fond du hero d'accueil (`visuel-signal.webp`, 332 Ko) | Arrière-plan décoratif CSS | Décoratif |
-| `assets/visuals/ecosystem.svg` (3,6 Ko) | `visuel-ecosysteme.webp` (ID 2177) | Écosystème : les 7 icônes produit officielles autour des emblèmes IA Orchestrator et ASTRO | Alt existant de l'image 2177 |
+| `assets/visuals/ecosystem.svg` (3,5 Ko) | `visuel-ecosysteme.webp` (ID 2177) | Écosystème : les 7 icônes produit officielles autour de l'emblème IA Orchestrator | Alt existant de l'image 2177 |
 | `assets/visuals/souverainete.svg` (3,0 Ko) | `visuel-souverainete.webp` (ID 2178) | Périmètre souverain | Alt existant de l'image 2178 |
 
 Les fichiers d'origine restent dans la médiathèque, intacts. Aucune capture de console réelle, aucun nom d'outil tiers dans les visuels.
@@ -98,7 +98,7 @@ Tous les médias créés portent la méta `_bvd_created` (version du plugin), ce
 |---|---|---|
 | Alt « BLACKVAULT : *titre de la page* » | 24 médias OG | Non (métadonnée) |
 | Alt « BLACKVAULT » | Média 2486 (icône) | Non |
-| Alt « IA Orchestrator » et « ASTRO » | Logos du héros de la page IA souveraine | Non |
+| Alt « IA Orchestrator » et « ASTRO » | Logos de la page IA souveraine (héros et section ASTRO) | Non |
 | « Analyste » | Émetteur des bulles de la conversation ASTRO | Oui, en `::before` (annoncé par les lecteurs d'écran avant chaque requête) |
 | « Session ASTRO » | En-tête du bloc conversation ASTRO | Oui, `aria-hidden="true"` |
 | « Accueil » et « Parler à un expert » | Deux liens ajoutés à la page 404 | Oui (« Parler à un expert » reprend le libellé du bouton d'en-tête) |
