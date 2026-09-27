@@ -1,0 +1,677 @@
+{
+ "desktopTabSequence": [
+  {
+   "tag": "A",
+   "text": "Passer au contenu principal",
+   "href": "#content",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": true,
+   "y": 0
+  },
+  {
+   "tag": "A",
+   "text": "",
+   "href": "/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": true,
+   "y": 14
+  },
+  {
+   "tag": "A",
+   "text": "Plateforme",
+   "href": "https://blackvault.ma/plateforme/",
+   "role": null,
+   "expanded": "true",
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": true,
+   "y": 29
+  },
+  {
+   "tag": "A",
+   "text": "Solutions",
+   "href": "https://blackvault.ma/solutions/",
+   "role": null,
+   "expanded": "true",
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": true,
+   "y": 29
+  },
+  {
+   "tag": "A",
+   "text": "Services",
+   "href": "https://blackvault.ma/services/",
+   "role": null,
+   "expanded": "true",
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": true,
+   "y": 29
+  },
+  {
+   "tag": "A",
+   "text": "Secteurs",
+   "href": "https://blackvault.ma/secteurs/",
+   "role": null,
+   "expanded": "false",
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": true,
+   "y": 29
+  },
+  {
+   "tag": "A",
+   "text": "Entreprise",
+   "href": "https://blackvault.ma/entreprise/",
+   "role": null,
+   "expanded": "true",
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": true,
+   "y": 29
+  },
+  {
+   "tag": "A",
+   "text": "Contact",
+   "href": "https://blackvault.ma/contact/",
+   "role": null,
+   "expanded": "false",
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": true,
+   "y": 29
+  },
+  {
+   "tag": "A",
+   "text": "Parler à un expert",
+   "href": "/contact/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": true,
+   "y": 23
+  },
+  {
+   "tag": "A",
+   "text": "Découvrir nos solutions",
+   "href": "/solutions/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": true,
+   "y": 626
+  },
+  {
+   "tag": "A",
+   "text": "Nos services de cybersécurité",
+   "href": "/services/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": true,
+   "y": 625
+  },
+  {
+   "tag": "A",
+   "text": "Parler à un expert",
+   "href": "/contact/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": true,
+   "y": 697
+  },
+  {
+   "tag": "A",
+   "text": "Découvrir l’entreprise",
+   "href": "/entreprise/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": false,
+   "y": 1175
+  },
+  {
+   "tag": "A",
+   "text": "Détecter\n\nNova XSIEM",
+   "href": "/solutions/nova-xsiem/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": false,
+   "y": 2999
+  },
+  {
+   "tag": "A",
+   "text": "Qualifier\n\nIA Orchestrator",
+   "href": "/plateforme/ia-souveraine/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": false,
+   "y": 2999
+  },
+  {
+   "tag": "A",
+   "text": "Enrichir\n\nThe Hound",
+   "href": "/solutions/the-hound/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": false,
+   "y": 2999
+  },
+  {
+   "tag": "A",
+   "text": "Investiguer\n\nBlackCaseX, BlackTrace",
+   "href": "/solutions/blackcasex/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": false,
+   "y": 2997
+  },
+  {
+   "tag": "A",
+   "text": "Exposer\n\nBlackVault VX, Nexus",
+   "href": "/solutions/blackvault-vx/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": false,
+   "y": 2997
+  },
+  {
+   "tag": "A",
+   "text": "Corriger\n\nOrbitFix",
+   "href": "/solutions/orbitfix/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": false,
+   "y": 2997
+  },
+  {
+   "tag": "A",
+   "text": "Explorer la plateforme",
+   "href": "/plateforme/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": false,
+   "y": 3161
+  },
+  {
+   "tag": "A",
+   "text": "Demander une démonstration",
+   "href": "/contact/#formulaire",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": false,
+   "y": 3160
+  },
+  {
+   "tag": "A",
+   "text": "Nova XSIEM",
+   "href": "/solutions/nova-xsiem/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": false,
+   "y": 3825
+  },
+  {
+   "tag": "A",
+   "text": "IA Orchestrator et ASTRO",
+   "href": "/plateforme/ia-souveraine/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": false,
+   "y": 3961
+  },
+  {
+   "tag": "A",
+   "text": "BlackCaseX",
+   "href": "/solutions/blackcasex/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": false,
+   "y": 4093
+  },
+  {
+   "tag": "A",
+   "text": "BlackTrace",
+   "href": "/solutions/blacktrace/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": false,
+   "y": 4093
+  },
+  {
+   "tag": "A",
+   "text": "The Hound",
+   "href": "/solutions/the-hound/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": false,
+   "y": 4093
+  },
+  {
+   "tag": "A",
+   "text": "BlackVault Nexus",
+   "href": "/solutions/blackvault-nexus/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": false,
+   "y": 4093
+  },
+  {
+   "tag": "A",
+   "text": "BlackVault VX",
+   "href": "/solutions/blackvault-vx/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": false,
+   "y": 4201
+  },
+  {
+   "tag": "A",
+   "text": "OrbitFix",
+   "href": "/solutions/orbitfix/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": false,
+   "y": 4201
+  },
+  {
+   "tag": "A",
+   "text": "Explorer la plateforme",
+   "href": "/plateforme/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": false,
+   "y": 4346
+  },
+  {
+   "tag": "A",
+   "text": "Toutes les solutions",
+   "href": "/solutions/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": false,
+   "y": 4737
+  },
+  {
+   "tag": "A",
+   "text": "DÉTECTION\n\nNova XSIEM\n\nCollecte, détecti",
+   "href": "/solutions/nova-xsiem/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": false,
+   "y": 4835
+  },
+  {
+   "tag": "A",
+   "text": "INVESTIGATION\n\nBlackCaseX\n\nLa mémoire du",
+   "href": "/solutions/blackcasex/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": false,
+   "y": 4835
+  },
+  {
+   "tag": "A",
+   "text": "FORENSICS\n\nBlackTrace\n\nForensics et thre",
+   "href": "/solutions/blacktrace/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": false,
+   "y": 4830
+  },
+  {
+   "tag": "A",
+   "text": "ENRICHISSEMENT\n\nThe Hound\n\nUn verdict un",
+   "href": "/solutions/the-hound/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": false,
+   "y": 4830
+  },
+  {
+   "tag": "A",
+   "text": "EXPOSITION\n\nBlackVault VX\n\nTous vos scan",
+   "href": "/solutions/blackvault-vx/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": false,
+   "y": 5132
+  },
+  {
+   "tag": "A",
+   "text": "REMÉDIATION\n\nOrbitFix\n\nLes correctifs ap",
+   "href": "/solutions/orbitfix/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": false,
+   "y": 5127
+  },
+  {
+   "tag": "A",
+   "text": "RENSEIGNEMENT\n\nBlackVault Nexus\n\nLa mena",
+   "href": "/solutions/blackvault-nexus/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": false,
+   "y": 5127
+  },
+  {
+   "tag": "A",
+   "text": "UN SEUL ÉCOSYSTÈME\n\nSept solutions, une ",
+   "href": "/plateforme/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": false,
+   "y": 5127
+  },
+  {
+   "tag": "A",
+   "text": "Découvrir l’IA souveraine",
+   "href": "/plateforme/ia-souveraine/",
+   "role": null,
+   "expanded": null,
+   "outline": "solid 2px rgb(94, 170, 227)",
+   "boxShadow": "none",
+   "visible": false,
+   "y": 7275
+  }
+ ],
+ "desktopSubmenu": {
+  "sub": "focused true",
+  "afterArrow": {
+   "active": "Solutions",
+   "submenus": [
+    "hidden/0",
+    "visible/1",
+    "hidden/0",
+    "hidden/0"
+   ]
+  }
+ },
+ "mobile": {
+  "tabSeq": [
+   {
+    "tag": "A",
+    "role": null,
+    "label": null,
+    "expanded": null,
+    "text": "Passer au contenu principal"
+   },
+   {
+    "tag": "A",
+    "role": null,
+    "label": null,
+    "expanded": null,
+    "text": ""
+   },
+   {
+    "tag": "DIV",
+    "role": "button",
+    "label": "Basculer le menu",
+    "expanded": "false",
+    "text": "Menu"
+   },
+   {
+    "tag": "A",
+    "role": null,
+    "label": null,
+    "expanded": null,
+    "text": "Découvrir nos solutions"
+   },
+   {
+    "tag": "A",
+    "role": null,
+    "label": null,
+    "expanded": null,
+    "text": "Nos services de cybersécurité"
+   },
+   {
+    "tag": "A",
+    "role": null,
+    "label": null,
+    "expanded": null,
+    "text": "Parler à un expert"
+   }
+  ],
+  "menuState": {
+   "expanded": "true",
+   "menuVisible": "flex/visible",
+   "items": 26,
+   "afterEscape": "false"
+  },
+  "smallTargets": [
+   {
+    "t": "Passer au contenu principal",
+    "w": 1,
+    "h": 1
+   }
+  ]
+ },
+ "reflow": {
+  "320 /": {
+   "scrollW": 320,
+   "innerW": 320,
+   "overflowing": [
+    "SPAN.hfe-menu-toggle.sub-arrow r=323"
+   ]
+  },
+  "320 /solutions/nova-xsiem/": {
+   "scrollW": 320,
+   "innerW": 320,
+   "overflowing": [
+    "SPAN.hfe-menu-toggle.sub-arrow r=323"
+   ]
+  },
+  "320 /services/soc-manage/": {
+   "scrollW": 320,
+   "innerW": 320,
+   "overflowing": [
+    "SPAN.hfe-menu-toggle.sub-arrow r=323"
+   ]
+  },
+  "320 /contact/": {
+   "scrollW": 320,
+   "innerW": 320,
+   "overflowing": [
+    "SPAN.hfe-menu-toggle.sub-arrow r=323"
+   ]
+  },
+  "zoom200_640 /": {
+   "scrollW": 640,
+   "innerW": 640,
+   "overflowing": []
+  },
+  "zoom200_640 /solutions/nova-xsiem/": {
+   "scrollW": 640,
+   "innerW": 640,
+   "overflowing": []
+  },
+  "zoom200_640 /services/soc-manage/": {
+   "scrollW": 640,
+   "innerW": 640,
+   "overflowing": []
+  },
+  "zoom200_640 /contact/": {
+   "scrollW": 640,
+   "innerW": 640,
+   "overflowing": []
+  }
+ },
+ "formFocus": [
+  {
+   "name": "nom",
+   "label": "Nom et prénom *",
+   "ariaLabel": null,
+   "required": "true",
+   "outline": "none 0px rgb(230, 237, 244)",
+   "border": "solid rgb(42, 59, 77)",
+   "bg": "rgb(7, 11, 16)",
+   "color": "rgb(230, 237, 244)",
+   "placeholder": null
+  },
+  {
+   "name": "societe",
+   "label": "Société *",
+   "ariaLabel": null,
+   "required": "true",
+   "outline": "none 0px rgb(230, 237, 244)",
+   "border": "solid rgb(42, 59, 77)",
+   "bg": "rgb(7, 11, 16)",
+   "color": "rgb(230, 237, 244)",
+   "placeholder": null
+  },
+  {
+   "name": "fonction",
+   "label": "Fonction",
+   "ariaLabel": null,
+   "required": null,
+   "outline": "none 0px rgb(230, 237, 244)",
+   "border": "solid rgb(42, 59, 77)",
+   "bg": "rgb(7, 11, 16)",
+   "color": "rgb(230, 237, 244)",
+   "placeholder": null
+  },
+  {
+   "name": "email",
+   "label": "E-mail professionnel *",
+   "ariaLabel": null,
+   "required": "true",
+   "outline": "none 0px rgb(230, 237, 244)",
+   "border": "solid rgb(42, 59, 77)",
+   "bg": "rgb(7, 11, 16)",
+   "color": "rgb(230, 237, 244)",
+   "placeholder": null
+  },
+  {
+   "name": "telephone",
+   "label": "Téléphone",
+   "ariaLabel": null,
+   "required": null,
+   "outline": "none 0px rgb(230, 237, 244)",
+   "border": "solid rgb(42, 59, 77)",
+   "bg": "rgb(7, 11, 16)",
+   "color": "rgb(230, 237, 244)",
+   "placeholder": null
+  },
+  {
+   "name": "sujet",
+   "label": "Votre demande concerne *Une démonstratio",
+   "ariaLabel": null,
+   "required": "true",
+   "outline": "none 0px rgb(230, 237, 244)",
+   "border": "solid rgb(42, 59, 77)",
+   "bg": "rgb(7, 11, 16)",
+   "color": "rgb(230, 237, 244)",
+   "placeholder": null
+  },
+  {
+   "name": "message",
+   "label": "Votre message *",
+   "ariaLabel": null,
+   "required": "true",
+   "outline": "none 0px rgb(230, 237, 244)",
+   "border": "solid rgb(42, 59, 77)",
+   "bg": "rgb(7, 11, 16)",
+   "color": "rgb(230, 237, 244)",
+   "placeholder": null
+  },
+  {
+   "name": "consentement",
+   "label": "J’accepte que BLACKVAULT utilise ces inf",
+   "ariaLabel": null,
+   "required": null,
+   "outline": "none 0px rgb(230, 237, 244)",
+   "border": "none rgb(230, 237, 244)",
+   "bg": "rgb(7, 11, 16)",
+   "color": "rgb(230, 237, 244)",
+   "placeholder": null
+  },
+  {
+   "name": "submit",
+   "label": null,
+   "ariaLabel": null,
+   "required": null,
+   "outline": "none 0px rgb(11, 18, 26)",
+   "border": "none rgb(11, 18, 26)",
+   "bg": "rgb(255, 255, 255)",
+   "color": "rgb(11, 18, 26)",
+   "placeholder": null
+  },
+  {
+   "name": "_wpcf7_ak_hp_textarea",
+   "label": "Δ",
+   "ariaLabel": null,
+   "required": null,
+   "outline": "none 0px rgb(230, 237, 244)",
+   "border": "solid rgb(42, 59, 77)",
+   "bg": "rgb(7, 11, 16)",
+   "color": "rgb(230, 237, 244)",
+   "placeholder": null
+  }
+ ]
+}
