@@ -20,7 +20,7 @@ Retour immédiat au mode aperçu (la couche reste visible pour les admins seulem
 update_option( 'bvd_public', 0 );
 ```
 
-Désactivation seule. Le rendu revient exactement à l'état « avant » une fois le Kit restauré (§ 2) :
+Désactivation seule. Le rendu revient exactement à l'état « avant » une fois le Kit (§ 2) et le CSS additionnel (§ 3) restaurés :
 
 ```php
 deactivate_plugins( 'blackvault-design/blackvault-design.php' );
@@ -49,9 +49,11 @@ $json = '<contenu de snapshots/2026-09-27_phase0/kit/1685-elementor_page_setting
 update_post_meta( 1685, '_elementor_page_settings', wp_slash( json_decode( $json, true ) ) );
 ```
 
-Puis purges (§ 0). Retour complet à l'état « avant » : § 2, puis § 1 (désactivation), puis § 0.
+Puis purges (§ 0). Retour complet à l'état « avant » : § 2, puis § 3 (le CSS additionnel a été vidé, ses règles vivent dans `legacy.css` du plugin), puis § 1 (désactivation), puis § 0.
 
-## 3. CSS additionnel du Customizer (post 1832)
+## 3. CSS additionnel du Customizer (post 1832, vidé le 27/09)
+
+Obligatoire avant toute désactivation du plugin. Contenu d'origine : révision 2459 du post 1832, ou le snapshot.
 
 ```php
 wp_update_custom_css_post( '<contenu de snapshots/2026-09-27_phase0/custom_css/1832-hello-elementor.css>', array( 'stylesheet' => 'hello-elementor' ) );

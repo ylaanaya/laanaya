@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-/** Icônes produit raster (médiathèque) vers glyphes maison. */
+/** Icônes produit officielles (médiathèque) : conservées, posées dans une tuile. */
 const BVD_PRODUCT_ICONS = array(
 	1696 => 'nova',
 	1693 => 'casex',
@@ -20,7 +20,7 @@ const BVD_PRODUCT_ICONS = array(
 	1695 => 'nexus',
 );
 
-/** Logos produit raster des heros de fiche vers composition glyphe. */
+/** Logos produit officiels des héros de fiche : conservés, posés sur une scène. */
 const BVD_PRODUCT_LOGOS = array(
 	1703 => 'nova',
 	1700 => 'casex',
@@ -72,79 +72,39 @@ function bvd_lucide_svg( string $name, string $extra_class = '' ): string {
 	return '<svg aria-hidden="true" focusable="false" class="' . esc_attr( $class ) . '" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">' . bvd_svg_inner( $svg ) . '</svg>';
 }
 
-/** SVG d'un glyphe produit. */
-function bvd_glyph_svg( string $key ): string {
-	$svg = bvd_svg_file( 'assets/glyphs/' . $key . '.svg' );
-	if ( '' === $svg ) {
-		return '';
-	}
-	return '<svg aria-hidden="true" focusable="false" class="bvd-glyph bvd-glyph-' . esc_attr( $key ) . '" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">' . bvd_svg_inner( $svg ) . '</svg>';
-}
-
 /** Texte alternatif d'une balise img. */
 function bvd_img_alt( string $html ): string {
 	return preg_match( '#<img\b[^>]*\balt="([^"]*)"#', $html, $m ) ? html_entity_decode( $m[1], ENT_QUOTES ) : '';
 }
 
-/** Remplace la première balise img du HTML. */
-function bvd_replace_img( string $html, string $replacement ): string {
-	return (string) preg_replace( '#<img\b[^>]*>#', str_replace( array( '\\', '$' ), array( '\\\\', '\\$' ), $replacement ), $html, 1 );
+/** URL d'un logo officiel embarqué dans le plugin (assets/brand). */
+function bvd_brand_url( string $key ): string {
+	$rel = is_file( BVD_DIR . 'assets/brand/' . $key . '.webp' ) ? 'assets/brand/' . $key . '.webp' : 'assets/brand/products/' . $key . '.webp';
+	return BVD_URL . $rel . '?ver=' . bvd_ver( $rel );
 }
 
-/**
- * Point d'entrée du filtre elementor/widget/render_content.
- *
- * @param string                       $content HTML du widget.
- * @param \Elementor\Widget_Base|mixed $widget  Widget.
- */
-function bvd_render_widget( string $content, $widget ): string {
-	$name = is_object( $widget ) && method_exists( $widget, 'get_name' ) ? (string) $widget->get_name() : '';
-
-	// 1. Font Awesome inline vers Lucide (icônes, listes, boutons, menus, footer).
-	if ( false !== strpos( $content, 'e-font-icon-svg' ) ) {
-		$map     = bvd_fa_map();
-		$content = (string) preg_replace_callback(
-			'#<svg\b[^>]*\bclass="e-font-icon-svg e-fa[srb]-([a-z0-9-]+)"[^>]*>.*?</svg>#s',
-			static function ( $m ) use ( $map ) {
-				$lucide = $map[ $m[1] ] ?? '';
-				if ( '' === $lucide ) {
-					return $m[0];
-				}
-				$svg = bvd_lucide_svg( $lucide );
-				return '' !== $svg ? $svg : $m[0];
-			},
-			$content
-		);
+/** Visuel SVG inline : texte alternatif et logos officiels résolus. */
+function bvd_visual_svg( string $key, string $alt ): string {
+	$svg = bvd_svg_file( 'assets/visuals/' . $key . '.svg' );
+	if ( '' === $svg ) {
+		return '';
 	}
+	$svg = str_replace( '__ALT__', esc_attr( $alt ), $svg );
+	return (string) preg_replace_callback(
+		'#__IMG_([a-z0-9-]+)__#',
+		static function ( $m ) {
+			return esc_url( bvd_brand_url( $m[1] ) );
+		},
+		$svg
+	);
+}
 
-	// 2. Images : icônes produit, logos produit, visuels.
-	if ( 'image' === $name && is_object( $widget ) && method_exists( $widget, 'get_settings' ) ) {
-		$image = (array) $widget->get_settings( 'image' );
-		$id    = isset( $image['id'] ) ? (int) $image['id'] : 0;
-		$alt   = bvd_img_alt( $content );
-
-		if ( array_key_exists( $id, BVD_PRODUCT_ICONS ) ) {
-			$linked = false !== strpos( $content, '<a ' );
-			$attrs  = $linked ? ' role="img" aria-label="' . esc_attr( $alt ) . '"' : ' aria-hidden="true"';
-			return bvd_replace_img( $content, '<span class="bvd-glyph-box"' . $attrs . '>' . bvd_glyph_svg( BVD_PRODUCT_ICONS[ $id ] ) . '</span>' );
-		}
-		if ( array_key_exists( $id, BVD_PRODUCT_LOGOS ) ) {
-			return bvd_replace_img( $content, '<div class="bvd-glyph-hero" role="img" aria-label="' . esc_attr( $alt ) . '">' . bvd_glyph_svg( BVD_PRODUCT_LOGOS[ $id ] ) . '</div>' );
-		}
-		if ( array_key_exists( $id, BVD_VISUALS ) ) {
-			$svg = bvd_svg_file( 'assets/visuals/' . BVD_VISUALS[ $id ] . '.svg' );
-			if ( '' !== $svg ) {
-				return bvd_replace_img( $content, str_replace( '__ALT__', esc_attr( $alt ), $svg ) );
-			}
-		}
-	}
-
-	// 3. Logo du header : dimensions intrinsèques pour réserver la place (CLS).
-	if ( 'site-logo' === $name && false === strpos( $content, ' width=' ) ) {
-		$content = (string) preg_replace( '#<img\b(?![^>]*\bwidth=)#', '<img width="488" height="184"', $content, 1 );
-	}
-
-	return $content;
+/** Logos officiels d'IA Orchestrator et d'ASTRO, côte à côte (héros de la page IA souveraine). */
+function bvd_logo_duo(): string {
+	return '<div class="bvd-logo-duo">'
+		. '<img src="' . esc_url( bvd_brand_url( 'ia-orchestrator-logo' ) ) . '" width="400" height="506" alt="IA Orchestrator" fetchpriority="high" decoding="async">'
+		. '<img src="' . esc_url( bvd_brand_url( 'astro-logo' ) ) . '" width="400" height="434" alt="ASTRO" decoding="async">'
+		. '</div>';
 }
 
 /**
@@ -178,22 +138,34 @@ function bvd_filter_html( string $html ): string {
 		$html
 	);
 	// 2. Images de la médiathèque repérées par leur classe wp-image-ID.
+	$page = (int) get_queried_object_id();
 	$html = (string) preg_replace_callback(
 		'#<img\b[^>]*\bwp-image-(\d+)\b[^>]*>#',
-		static function ( $m ) {
-			$id  = (int) $m[1];
-			$alt = bvd_img_alt( $m[0] );
+		static function ( $m ) use ( $page ) {
+			$id = (int) $m[1];
 			if ( array_key_exists( $id, BVD_PRODUCT_ICONS ) ) {
-				return '<span class="bvd-glyph-box" aria-hidden="true">' . bvd_glyph_svg( BVD_PRODUCT_ICONS[ $id ] ) . '</span>';
+				return '<span class="bvd-logo-box">' . $m[0] . '</span>';
 			}
 			if ( array_key_exists( $id, BVD_PRODUCT_LOGOS ) ) {
-				return '<div class="bvd-glyph-hero" role="img" aria-label="' . esc_attr( $alt ) . '">' . bvd_glyph_svg( BVD_PRODUCT_LOGOS[ $id ] ) . '</div>';
+				return '<div class="bvd-logo-stage">' . $m[0] . '</div>';
+			}
+			if ( 2178 === $id && 1749 === $page ) {
+				return bvd_logo_duo();
 			}
 			if ( array_key_exists( $id, BVD_VISUALS ) ) {
-				$svg = bvd_svg_file( 'assets/visuals/' . BVD_VISUALS[ $id ] . '.svg' );
-				return '' !== $svg ? str_replace( '__ALT__', esc_attr( $alt ), $svg ) : $m[0];
+				$svg = bvd_visual_svg( BVD_VISUALS[ $id ], bvd_img_alt( $m[0] ) );
+				return '' !== $svg ? $svg : $m[0];
 			}
 			return $m[0];
+		},
+		$html
+	);
+	// 2 bis. Emblèmes officiels devant les titres de carte « IA Orchestrator » et « ASTRO ».
+	$html = (string) preg_replace_callback(
+		'#<h3 class="elementor-heading-title[^"]*">(IA Orchestrator|ASTRO)</h3>#',
+		static function ( $m ) {
+			$key = 'ASTRO' === $m[1] ? 'astro-emblem' : 'ia-orchestrator-emblem';
+			return '<img class="bvd-card-logo" src="' . esc_url( bvd_brand_url( $key ) ) . '" width="160" height="160" alt="" loading="lazy" decoding="async">' . $m[0];
 		},
 		$html
 	);
