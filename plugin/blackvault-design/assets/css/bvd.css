@@ -1,0 +1,582 @@
+/* ==========================================================================
+   BLACKVAULT Design : « Signal souverain »
+   Couche technique chargée par le plugin blackvault-design.
+   Ordre : tokens > variables Elementor > base > sections > composants > modules
+   > pages spéciales > accessibilité et mouvement.
+   Les valeurs de marque vivent dans le Kit Elementor ; les surcharges de
+   variables --e-global-* ci-dessous reprennent exactement les valeurs écrites
+   dans le Kit, elles deviennent sans effet une fois le Kit à jour.
+   ========================================================================== */
+
+/* 1. Tokens ---------------------------------------------------------------- */
+:root {
+  --bvd-bg: #070B10;
+  --bvd-bg-alt: #0B121A;
+  --bvd-surface: #101923;
+  --bvd-surface-2: #152231;
+  --bvd-line: #1E2C3A;
+  --bvd-line-strong: #2A3B4D;
+  --bvd-ink: #E6EDF4;
+  --bvd-ink-2: #B8C3CF;
+  --bvd-muted: #93A3B5;
+  --bvd-subtle: #6A7B8D;
+
+  --bvd-accent: #2485D0;
+  --bvd-accent-logo: #1F74B5;
+  --bvd-accent-soft: #5EAAE3;
+  --bvd-accent-tint: rgba(36, 133, 208, .12);
+  --bvd-accent-line: rgba(94, 170, 227, .38);
+  --bvd-signal: #F2B138;
+  --bvd-error: #F2767A;
+
+  --bvd-font-sans: "Sora", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --bvd-font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --bvd-fs-display: clamp(2.5rem, 1.75rem + 3.4vw, 4.5rem);
+  --bvd-fs-h1: clamp(2.25rem, 1.7rem + 2.4vw, 3.5rem);
+  --bvd-fs-h2: clamp(1.75rem, 1.35rem + 1.8vw, 2.625rem);
+  --bvd-fs-h3: clamp(1.25rem, 1.15rem + .45vw, 1.5rem);
+  --bvd-fs-h4: clamp(1.0625rem, 1.03rem + .15vw, 1.125rem);
+  --bvd-fs-lead: clamp(1.0625rem, 1rem + .35vw, 1.25rem);
+  --bvd-fs-body: clamp(1rem, .96rem + .15vw, 1.0625rem);
+  --bvd-fs-small: .9375rem;
+  --bvd-fs-label: .8125rem;
+  --bvd-fs-stat: clamp(2.5rem, 2rem + 2.2vw, 3.5rem);
+
+  --bvd-s1: 8px; --bvd-s2: 16px; --bvd-s3: 24px; --bvd-s4: 32px;
+  --bvd-s6: 48px; --bvd-s8: 64px; --bvd-s12: 96px;
+  --bvd-section: clamp(72px, 48px + 6vw, 128px);
+
+  --bvd-r-xs: 4px; --bvd-r-sm: 8px; --bvd-r-md: 12px;
+  --bvd-ease: cubic-bezier(.2, .7, .2, 1);
+  --bvd-t-fast: 150ms; --bvd-t: 240ms; --bvd-t-slow: 400ms;
+}
+
+/* 2. Variables Elementor : palette à accent unique et typographie fluide ----- */
+body.elementor-kit-1685 {
+  --e-global-color-primary: #2485D0;
+  --e-global-color-secondary: #5EAAE3;
+  --e-global-color-accent: #5EAAE3;
+  --e-global-color-bvacc2: #5EAAE3;
+  --e-global-color-bvnova: #5EAAE3;
+  --e-global-color-bvcasex: #5EAAE3;
+  --e-global-color-bvtrace: #5EAAE3;
+  --e-global-color-bvhound: #5EAAE3;
+  --e-global-color-bvvx: #5EAAE3;
+  --e-global-color-bvorbit: #5EAAE3;
+  --e-global-color-bvnexus: #5EAAE3;
+  --e-global-color-bvsignal: #5EAAE3;
+
+  --e-global-typography-primary-font-family: "Sora";
+  --e-global-typography-secondary-font-family: "Sora";
+  --e-global-typography-text-font-family: "Sora";
+  --e-global-typography-accent-font-family: "Sora";
+  --e-global-typography-bvdisplay-font-family: "Sora";
+  --e-global-typography-bvh1-font-family: "Sora";
+  --e-global-typography-bvh2-font-family: "Sora";
+  --e-global-typography-bvh3-font-family: "Sora";
+  --e-global-typography-bvh4-font-family: "Sora";
+  --e-global-typography-bvlead-font-family: "Sora";
+  --e-global-typography-bvsmall-font-family: "Sora";
+  --e-global-typography-bvstat-font-family: "Sora";
+  --e-global-typography-bvquote-font-family: "Sora";
+  --e-global-typography-bvlabel-font-family: "IBM Plex Mono";
+
+  --e-global-typography-bvdisplay-font-size: var(--bvd-fs-display);
+  --e-global-typography-bvdisplay-line-height: 1.04;
+  --e-global-typography-bvdisplay-letter-spacing: -.03em;
+  --e-global-typography-primary-font-size: var(--bvd-fs-h1);
+  --e-global-typography-primary-line-height: 1.08;
+  --e-global-typography-primary-letter-spacing: -.025em;
+  --e-global-typography-bvh1-font-size: var(--bvd-fs-h1);
+  --e-global-typography-bvh1-line-height: 1.08;
+  --e-global-typography-bvh1-letter-spacing: -.025em;
+  --e-global-typography-bvh2-font-size: var(--bvd-fs-h2);
+  --e-global-typography-bvh2-line-height: 1.12;
+  --e-global-typography-bvh2-letter-spacing: -.02em;
+  --e-global-typography-secondary-font-size: var(--bvd-fs-h3);
+  --e-global-typography-secondary-line-height: 1.25;
+  --e-global-typography-secondary-letter-spacing: -.01em;
+  --e-global-typography-bvh3-font-size: var(--bvd-fs-h3);
+  --e-global-typography-bvh3-line-height: 1.25;
+  --e-global-typography-bvh3-letter-spacing: -.01em;
+  --e-global-typography-bvh4-font-size: var(--bvd-fs-h4);
+  --e-global-typography-bvh4-line-height: 1.3;
+  --e-global-typography-bvlead-font-size: var(--bvd-fs-lead);
+  --e-global-typography-bvlead-line-height: 1.55;
+  --e-global-typography-text-font-size: var(--bvd-fs-body);
+  --e-global-typography-text-line-height: 1.65;
+  --e-global-typography-bvsmall-font-size: var(--bvd-fs-small);
+  --e-global-typography-bvsmall-line-height: 1.6;
+  --e-global-typography-accent-font-size: .9375rem;
+  --e-global-typography-accent-letter-spacing: 0;
+  --e-global-typography-bvlabel-font-size: var(--bvd-fs-label);
+  --e-global-typography-bvlabel-letter-spacing: .12em;
+  --e-global-typography-bvlabel-line-height: 1.35;
+  --e-global-typography-bvstat-font-size: var(--bvd-fs-stat);
+  --e-global-typography-bvstat-letter-spacing: -.03em;
+  --e-global-typography-bvquote-font-size: clamp(1.25rem, 1.1rem + .6vw, 1.5rem);
+  --e-global-typography-bvquote-line-height: 1.4;
+}
+
+/* 3. Base : Theme Style pour fond sombre ------------------------------------- */
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body.elementor-kit-1685 {
+  background: var(--bvd-bg);
+  color: var(--bvd-ink-2);
+  font-family: var(--bvd-font-sans);
+  font-size: var(--bvd-fs-body);
+  line-height: 1.65;
+  font-feature-settings: "ss01" 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+body.elementor-kit-1685 :is(h1, h2, h3, h4, h5, h6) {
+  color: var(--bvd-ink);
+  font-family: var(--bvd-font-sans);
+  font-weight: 600;
+  text-wrap: balance;
+}
+body.elementor-kit-1685 :is(h1, h2, h3) { letter-spacing: -.02em; }
+body.elementor-kit-1685 p { text-wrap: pretty; }
+body.elementor-kit-1685 a { color: var(--bvd-accent-soft); }
+body.elementor-kit-1685 a:hover { color: var(--bvd-ink); }
+body.elementor-kit-1685 ::selection { background: rgba(36, 133, 208, .45); color: #fff; }
+body.elementor-kit-1685 .elementor-heading-title,
+body.elementor-kit-1685 .elementor-button,
+body.elementor-kit-1685 .elementor-icon-list-text,
+body.elementor-kit-1685 .hfe-nav-menu,
+body.elementor-kit-1685 .hfe-copyright-wrapper,
+body.elementor-kit-1685 .elementor-widget-text-editor { font-family: var(--bvd-font-sans); }
+body.elementor-kit-1685 .elementor-heading-title { text-wrap: balance; }
+body.elementor-kit-1685 .elementor-widget-text-editor p:last-child { margin-bottom: 0; }
+
+/* 4. Sections : dark-first, bascule des sections claires en surfaces graphite */
+body.elementor-kit-1685 :is(.bv-light, .bv-white, .bv-card-light) {
+  --e-global-color-bvink: #E6EDF4;
+  --e-global-color-text: #93A3B5;
+  --e-global-color-bvmutedl: #8A97A8;
+  --e-global-color-bvborderl: #1E2C3A;
+  --e-global-color-primary: #5EAAE3;
+  --e-global-color-bvdark: #152231;
+}
+body.elementor-kit-1685 .bv-light {
+  --e-global-color-bvbg: #0B121A;
+  --e-global-color-bvwhite: #101923;
+}
+body.elementor-kit-1685 .bv-white {
+  --e-global-color-bvwhite: #070B10;
+  --e-global-color-bvbg: #101923;
+}
+body.elementor-kit-1685 .bv-card-light { --e-global-color-bvwhite: #101923; --e-global-color-bvbg: #101923; }
+body.elementor-kit-1685 :is(.bv-light, .bv-white) .elementor-button { --e-global-color-bvwhite: #0B121A; }
+
+/* Couture entre sections : un filet plutôt qu'un changement de fond */
+body.elementor-kit-1685 .elementor > .e-con.bv-section + .e-con.bv-section { box-shadow: inset 0 1px 0 var(--bvd-line); }
+body.elementor-kit-1685 .elementor > .e-con.bv-hero + .e-con.bv-section { box-shadow: none; }
+
+/* Mesure de lecture */
+body.elementor-kit-1685 .bv-measure { max-width: 64ch; }
+body.elementor-kit-1685 .bv-measure.bv-center { max-width: 60ch; margin-left: auto; margin-right: auto; }
+
+/* Trame de points (héritée) : adoucie */
+body.elementor-kit-1685 .bv-dots { background-image: radial-gradient(rgba(147, 163, 181, .085) 1px, transparent 1px); background-size: 24px 24px; }
+
+/* 5. Accent unique : ni dégradé arc-en-ciel ni halo -------------------------- */
+body.elementor-kit-1685 .bv-grad {
+  background: none !important;
+  color: var(--bvd-accent-soft) !important;
+  -webkit-text-fill-color: var(--bvd-accent-soft) !important;
+  padding-bottom: 0;
+}
+body.elementor-kit-1685 .bv-spectrum {
+  background: linear-gradient(90deg, rgba(94, 170, 227, 0), var(--bvd-accent-soft) 18%, var(--bvd-accent) 82%, rgba(36, 133, 208, 0)) !important;
+}
+body.elementor-kit-1685 .e-con.bv-spectrum-card,
+body.elementor-kit-1685 .e-con.bv-spectrum-card:not(.e-lazyloaded) {
+  --e-global-color-bvink: #E6EDF4;
+  --e-global-color-bvdark: #E6EDF4;
+  --e-global-color-text: #93A3B5;
+  background: var(--bvd-surface-2) !important;
+  background-image: none !important;
+  border: 1px solid var(--bvd-accent-line) !important;
+  box-shadow: inset 0 2px 0 var(--bvd-accent);
+}
+body.elementor-kit-1685 .bv-spectrum-card :is(.elementor-heading-title, p, .elementor-button) { color: var(--bvd-ink) !important; }
+body.elementor-kit-1685 .bv-spectrum-card .bv-eyebrow .elementor-heading-title { color: var(--bvd-accent-soft) !important; }
+body.elementor-kit-1685 .bv-hl { box-shadow: inset 0 0 0 1px var(--bvd-accent-line); }
+
+/* 6. Composants ---------------------------------------------------------- */
+
+/* Eyebrow : mono discret, un trait d'accent en tête */
+body.elementor-kit-1685 .bv-eyebrow .elementor-heading-title {
+  font-family: var(--bvd-font-mono) !important;
+  font-weight: 500 !important;
+  font-size: var(--bvd-fs-label) !important;
+  letter-spacing: .12em !important;
+  text-transform: uppercase;
+  color: var(--bvd-muted) !important;
+  display: inline-flex; align-items: center; gap: 10px;
+}
+body.elementor-kit-1685 .bv-eyebrow .elementor-heading-title::before {
+  content: ""; width: 16px; height: 1px; background: var(--bvd-accent-soft); flex: 0 0 auto;
+}
+body.elementor-kit-1685 .bv-center .bv-eyebrow .elementor-heading-title,
+body.elementor-kit-1685 .bv-eyebrow.elementor-widget-heading[style*="center"] .elementor-heading-title { justify-content: center; }
+
+/* Badges et étiquettes : tag neutre à filet, accent texte AA */
+body.elementor-kit-1685 .bv-badge .elementor-heading-title,
+body.elementor-kit-1685 .elementor-widget.bv-badge {
+  color: var(--bvd-accent-soft) !important;
+  background-color: var(--bvd-accent-tint) !important;
+}
+body.elementor-kit-1685 .bv-badge .elementor-heading-title {
+  font-family: var(--bvd-font-mono) !important;
+  font-weight: 500 !important;
+  font-size: .78rem !important;
+  letter-spacing: .1em !important;
+  background: transparent !important;
+}
+body.elementor-kit-1685 .elementor-widget.bv-badge { border: 1px solid var(--bvd-accent-line) !important; border-radius: var(--bvd-r-xs) !important; }
+
+/* Cartes : surface graphite, filet, pas de halo, survol à l'accent */
+body.elementor-kit-1685 .e-con.bv-card {
+  border-radius: var(--bvd-r-md) !important;
+  border-color: var(--bvd-line) !important;
+  transition: border-color var(--bvd-t) var(--bvd-ease), transform var(--bvd-t) var(--bvd-ease), background-color var(--bvd-t) var(--bvd-ease);
+}
+body.elementor-kit-1685 .e-con.bv-card:hover,
+body.elementor-kit-1685 .e-con.bv-card:focus-within {
+  border-color: var(--bvd-accent-line) !important;
+  box-shadow: none !important;
+  transform: translateY(-2px);
+}
+body.elementor-kit-1685 .bv-card .bv-more .elementor-heading-title,
+body.elementor-kit-1685 .bv-card .bv-more .elementor-heading-title a { color: var(--bvd-ink) !important; }
+body.elementor-kit-1685 .bv-card .bv-more .elementor-heading-title::after { content: none; }
+body.elementor-kit-1685 .bv-card .bv-more .elementor-heading-title a::after {
+  content: ""; display: inline-block; width: 14px; height: 14px; margin-left: 8px; vertical-align: -2px;
+  background: currentColor;
+  -webkit-mask: url("../icons/lucide/arrow-right.svg") center / contain no-repeat; mask: url("../icons/lucide/arrow-right.svg") center / contain no-repeat;
+  transition: transform var(--bvd-t-fast) var(--bvd-ease);
+}
+body.elementor-kit-1685 .bv-card:hover .bv-more .elementor-heading-title a::after { transform: translateX(4px); }
+body.elementor-kit-1685 .bv-pic img { object-fit: contain; aspect-ratio: 1 / 1; }
+body.elementor-kit-1685 .e-con.bv-mini { border-radius: var(--bvd-r-md) !important; transition: border-color var(--bvd-t) var(--bvd-ease); }
+body.elementor-kit-1685 .e-con.bv-mini:hover { border-color: var(--bvd-accent-line) !important; }
+
+/* Boutons : 2 variantes, hauteur 48, une flèche */
+body.elementor-kit-1685 .elementor-button {
+  min-height: 48px; display: inline-flex; align-items: center; justify-content: center;
+  border-radius: var(--bvd-r-sm) !important; font-weight: 600; letter-spacing: 0;
+  transition: background-color var(--bvd-t-fast) var(--bvd-ease), border-color var(--bvd-t-fast) var(--bvd-ease), color var(--bvd-t-fast) var(--bvd-ease), transform var(--bvd-t-fast) var(--bvd-ease);
+}
+body.elementor-kit-1685 .elementor-button:active { transform: translateY(1px); }
+body.elementor-kit-1685 .bv-btn-primary .elementor-button { box-shadow: none !important; }
+body.elementor-kit-1685 .bv-btn-primary .elementor-button:hover { transform: none; box-shadow: 0 0 0 1px var(--bvd-accent-soft) !important; }
+body.elementor-kit-1685 .elementor-button .elementor-button-icon svg { width: 1em; height: 1em; }
+body.elementor-kit-1685 .bv-textlink .elementor-button { min-height: 44px; padding: 0 !important; background: none !important; justify-content: flex-start; }
+body.elementor-kit-1685 .bv-textlink .elementor-button:hover .elementor-button-text { text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 1px; }
+body.elementor-kit-1685 .bv-textlink .elementor-button-icon { transition: transform var(--bvd-t-fast) var(--bvd-ease); }
+body.elementor-kit-1685 .bv-textlink .elementor-button:hover .elementor-button-icon { transform: translateX(4px); }
+body.elementor-kit-1685 .bv-chip .elementor-button {
+  min-height: 32px; padding: 6px 12px !important; font-size: .8125rem !important; font-weight: 500;
+  border-radius: var(--bvd-r-xs) !important; background: var(--bvd-surface-2) !important;
+  border: 1px solid var(--bvd-line-strong) !important; color: var(--bvd-ink) !important;
+}
+body.elementor-kit-1685 .bv-chip .elementor-button:hover { border-color: var(--bvd-accent-line) !important; }
+@media (max-width: 767px) {
+  body.elementor-kit-1685 .bv-actions .elementor-widget-button:not(.bv-textlink):not(.bv-chip) .elementor-button { width: 100%; }
+}
+
+/* Icônes (Lucide, trait unique) */
+body.elementor-kit-1685 .bvd-icon { width: 1em; height: 1em; fill: none !important; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; }
+body.elementor-kit-1685 .bvd-icon * { fill: none !important; }
+body.elementor-kit-1685 .elementor-icon .bvd-icon, body.elementor-kit-1685 .elementor-icon-list-icon .bvd-icon { color: var(--bvd-accent-soft); }
+body.elementor-kit-1685 .elementor-view-default .elementor-icon { color: var(--bvd-accent-soft); }
+body.elementor-kit-1685 .elementor-icon-list-icon { color: var(--bvd-accent-soft); }
+body.elementor-kit-1685 .bv-feat-icon .elementor-icon { font-size: 22px !important; }
+
+/* Glyphes produit (SVG maison) */
+body.elementor-kit-1685 .bvd-glyph { display: block; color: var(--bvd-accent-soft); fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+body.elementor-kit-1685 .bvd-glyph-box {
+  display: inline-grid; place-items: center; width: 56px; height: 56px;
+  border: 1px solid var(--bvd-line-strong); border-radius: var(--bvd-r-sm); background: var(--bvd-bg-alt);
+}
+body.elementor-kit-1685 .bvd-glyph-box .bvd-glyph { width: 30px; height: 30px; }
+body.elementor-kit-1685 .bv-mini .bvd-glyph-box { width: 40px; height: 40px; }
+body.elementor-kit-1685 .bv-mini .bvd-glyph-box .bvd-glyph { width: 22px; height: 22px; }
+body.elementor-kit-1685 .bvd-glyph-hero {
+  position: relative; width: min(100%, 440px); aspect-ratio: 1; margin-inline: auto;
+  display: grid; place-items: center;
+  border: 1px solid var(--bvd-line); border-radius: var(--bvd-r-md);
+  background:
+    linear-gradient(var(--bvd-line) 1px, transparent 1px) 0 0 / 44px 44px,
+    linear-gradient(90deg, var(--bvd-line) 1px, transparent 1px) 0 0 / 44px 44px,
+    var(--bvd-bg-alt);
+}
+body.elementor-kit-1685 .bvd-glyph-hero::before,
+body.elementor-kit-1685 .bvd-glyph-hero::after {
+  content: ""; position: absolute; width: 18px; height: 18px; border: 1px solid var(--bvd-accent-soft);
+}
+body.elementor-kit-1685 .bvd-glyph-hero::before { top: -1px; left: -1px; border-right: 0; border-bottom: 0; }
+body.elementor-kit-1685 .bvd-glyph-hero::after { right: -1px; bottom: -1px; border-left: 0; border-top: 0; }
+body.elementor-kit-1685 .bvd-glyph-hero .bvd-glyph { width: 46%; height: 46%; stroke-width: .7; }
+body.elementor-kit-1685 .bvd-glyph-hero .bvd-glyph-name {
+  position: absolute; left: 16px; bottom: 12px; font: 500 .75rem/1 var(--bvd-font-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--bvd-muted);
+}
+body.elementor-kit-1685 .bv-product-logo img { filter: none; }
+
+/* Visuels SVG inline */
+body.elementor-kit-1685 .bvd-visual { display: block; width: 100%; height: auto; max-width: 560px; margin-inline: auto; color: var(--bvd-accent-soft); }
+body.elementor-kit-1685 .elementor-widget-image:has(.bvd-visual, .bvd-glyph-hero) { width: 100%; }
+body.elementor-kit-1685 .elementor-widget-image:has(.bvd-glyph-hero) .elementor-widget-container { width: 100%; }
+body.elementor-kit-1685 .elementor-widget-image:has(.bvd-visual) .elementor-widget-container { width: 100%; }
+body.elementor-kit-1685 .bvd-visual text { font-family: var(--bvd-font-mono); }
+
+/* Chiffres clés */
+body.elementor-kit-1685 .bv-stat .elementor-heading-title {
+  background: none !important; -webkit-text-fill-color: currentColor !important; color: var(--bvd-ink) !important;
+  font-variant-numeric: tabular-nums; font-feature-settings: "tnum" 1;
+}
+body.elementor-kit-1685 .bv-facts > .e-con { border-top-color: var(--bvd-line-strong) !important; }
+body.elementor-kit-1685 .bv-facts > .e-con::before {
+  content: ""; display: block; width: 24px; height: 2px; background: var(--bvd-accent-soft); margin: -1px 0 14px;
+}
+
+/* Pipeline « Détecter > Corriger » : rail et flux */
+body.elementor-kit-1685 .bv-pipeline { position: relative; }
+body.elementor-kit-1685 .bv-pipe-line {
+  background: var(--bvd-line-strong) !important; height: 1px !important; min-height: 1px !important; top: 6px; opacity: 1; overflow: hidden;
+}
+body.elementor-kit-1685 .bv-pipe-line::after {
+  content: ""; position: absolute; inset: 0 auto 0 0; width: 22%;
+  background: linear-gradient(90deg, rgba(94, 170, 227, 0), var(--bvd-accent-soft), rgba(94, 170, 227, 0));
+  transform: translateX(-110%);
+}
+body.elementor-kit-1685 .bvd-in .bv-pipe-line::after { animation: bvd-flow 2.4s var(--bvd-ease) 1 forwards; }
+body.elementor-kit-1685 .bv-pipe .bv-node .elementor-icon { filter: none !important; color: var(--bvd-accent-soft) !important; }
+body.elementor-kit-1685 .bv-pipe .bv-node .elementor-icon svg { fill: var(--bvd-bg) !important; stroke: var(--bvd-accent-soft); stroke-width: 2px; }
+body.elementor-kit-1685 .bv-stage { transition: transform var(--bvd-t) var(--bvd-ease); }
+body.elementor-kit-1685 .bv-stage:hover { transform: translateY(-2px); }
+@keyframes bvd-flow { to { transform: translateX(560%); } }
+
+/* Flux vertical (.bv-flow-step) : un seul accent */
+body.elementor-kit-1685 .bv-flow-step { border-left-color: var(--bvd-line-strong) !important; }
+body.elementor-kit-1685 .bv-flow-step::before,
+body.elementor-kit-1685 .bv-flow-step:nth-child(n)::before {
+  background: var(--bvd-bg) !important; border: 1.5px solid var(--bvd-accent-soft); box-shadow: none !important;
+  width: 9px; height: 9px; left: -5px; box-sizing: border-box;
+}
+body.elementor-kit-1685 .bvd-in .bv-flow-step::before { background: var(--bvd-accent-soft) !important; transition: background-color var(--bvd-t-slow) var(--bvd-ease); }
+
+/* Étapes horizontales */
+body.elementor-kit-1685 .bv-step { border-top-color: var(--bvd-line-strong) !important; }
+body.elementor-kit-1685 .bv-step::before { background: var(--bvd-accent-soft) !important; height: 1px; width: 40px; }
+
+/* Tableau comparatif */
+body.elementor-kit-1685 .bv-cmp-us { box-shadow: inset 1px 0 0 var(--bvd-accent-line); }
+
+/* 7. Module ASTRO : interface de conversation ------------------------------ */
+body.elementor-kit-1685 .bvd-astro { position: relative; }
+body.elementor-kit-1685 .bvd-astro-head {
+  display: flex; align-items: center; gap: 10px; margin: 4px 0 8px;
+  font: 500 .75rem/1 var(--bvd-font-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--bvd-muted);
+}
+body.elementor-kit-1685 .bvd-astro-head .bvd-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--bvd-accent-soft); }
+body.elementor-kit-1685 .bvd-msg {
+  align-self: flex-end; max-width: 92%;
+  background: var(--bvd-surface-2) !important; border: 1px solid var(--bvd-line-strong);
+  border-radius: 12px 12px 4px 12px !important;
+}
+body.elementor-kit-1685 .bvd-msg p { color: var(--bvd-ink) !important; }
+body.elementor-kit-1685 .bvd-msg::before {
+  content: attr(data-bvd-who); display: block; margin-bottom: 6px;
+  font: 500 .6875rem/1 var(--bvd-font-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--bvd-muted);
+}
+body.elementor-kit-1685 .bvd-typing {
+  align-self: flex-start; display: inline-flex; gap: 5px; padding: 12px 14px; margin: -2px 0 6px;
+  border: 1px solid var(--bvd-line); border-radius: 12px 12px 12px 4px; background: var(--bvd-bg-alt);
+}
+body.elementor-kit-1685 .bvd-typing i { width: 6px; height: 6px; border-radius: 50%; background: var(--bvd-accent-soft); opacity: .35; }
+body.elementor-kit-1685 .bvd-in .bvd-typing i { animation: bvd-typing 1.2s ease-in-out 2; }
+body.elementor-kit-1685 .bvd-in .bvd-typing i:nth-child(2) { animation-delay: .15s; }
+body.elementor-kit-1685 .bvd-in .bvd-typing i:nth-child(3) { animation-delay: .3s; }
+@keyframes bvd-typing { 0%, 100% { opacity: .35; transform: none; } 40% { opacity: 1; transform: translateY(-2px); } }
+
+/* 8. Header et navigation -------------------------------------------------- */
+#masthead { position: sticky; top: 0; z-index: 999; }
+.admin-bar #masthead { top: 32px; }
+@media (max-width: 782px) { .admin-bar #masthead { top: 0; } }
+body.elementor-kit-1685 .e-con.bv-header {
+  background-color: rgba(7, 11, 16, .82) !important;
+  border-bottom: 1px solid var(--bvd-line) !important;
+  -webkit-backdrop-filter: saturate(140%) blur(14px); backdrop-filter: saturate(140%) blur(14px);
+}
+body.elementor-kit-1685 .bv-nav .hfe-nav-menu a.hfe-menu-item,
+body.elementor-kit-1685 .bv-nav .hfe-nav-menu a.hfe-sub-menu-item { font-family: var(--bvd-font-sans) !important; font-weight: 500 !important; }
+body.elementor-kit-1685 .bv-nav .hfe-nav-menu > li > .hfe-has-submenu-container > a.hfe-menu-item,
+body.elementor-kit-1685 .bv-nav .hfe-nav-menu > li > a.hfe-menu-item { color: var(--bvd-ink-2) !important; }
+body.elementor-kit-1685 .bv-nav .hfe-nav-menu > li:is(.current-menu-item, .current-menu-ancestor, .current-menu-parent) > :is(a, .hfe-has-submenu-container > a) { color: #fff !important; }
+body.elementor-kit-1685 .bv-nav .hfe-pointer__underline > li:is(.current-menu-item, .current-menu-ancestor, .current-menu-parent) > :is(a, .hfe-has-submenu-container > a)::after { opacity: 1 !important; transform: none !important; background-color: var(--bvd-accent-soft) !important; }
+body.elementor-kit-1685 .bv-nav .hfe-pointer__underline a.hfe-menu-item::after { background-color: var(--bvd-accent-soft) !important; height: 1px !important; }
+body.elementor-kit-1685 .bv-nav .sub-arrow i.fa { display: none; }
+body.elementor-kit-1685 .bv-nav .sub-arrow::after {
+  content: ""; display: inline-block; width: 12px; height: 12px; margin-left: 2px; vertical-align: -1px;
+  background: currentColor;
+  -webkit-mask: url("../icons/lucide/chevron-down.svg") center / contain no-repeat; mask: url("../icons/lucide/chevron-down.svg") center / contain no-repeat;
+  transition: transform var(--bvd-t-fast) var(--bvd-ease);
+}
+body.elementor-kit-1685 .bv-nav li:is(:hover, :focus-within) > .hfe-has-submenu-container .sub-arrow::after,
+body.elementor-kit-1685 .bv-nav .hfe-has-submenu-container[aria-expanded="true"] .sub-arrow::after { transform: rotate(180deg); }
+body.elementor-kit-1685 .bv-nav .hfe-nav-menu .sub-menu {
+  background: var(--bvd-surface) !important; border: 1px solid var(--bvd-line-strong) !important; border-radius: var(--bvd-r-md) !important;
+  box-shadow: 0 24px 48px -24px rgba(0, 0, 0, .7) !important; padding: 6px !important;
+}
+body.elementor-kit-1685 .bv-nav .hfe-nav-menu .sub-menu a.hfe-sub-menu-item { border-radius: var(--bvd-r-sm); color: var(--bvd-ink-2) !important; background: transparent !important; }
+body.elementor-kit-1685 .bv-nav .hfe-nav-menu .sub-menu a.hfe-sub-menu-item:hover,
+body.elementor-kit-1685 .bv-nav .hfe-nav-menu .sub-menu a.hfe-sub-menu-item:focus-visible { background: var(--bvd-surface-2) !important; color: #fff !important; }
+body.elementor-kit-1685 .bv-nav .hfe-nav-menu .sub-menu .current-menu-item > a.hfe-sub-menu-item { color: var(--bvd-accent-soft) !important; }
+@media (min-width: 1025px) {
+  body.elementor-kit-1685 .bv-nav li.menu-item-has-children:focus-within > .sub-menu { visibility: visible !important; opacity: 1 !important; transform: none !important; }
+}
+body.elementor-kit-1685 .bv-nav li.bvd-closed > .sub-menu { visibility: hidden !important; opacity: 0 !important; }
+@media (max-width: 1024px) {
+  body.elementor-kit-1685 .hfe-nav-menu__toggle { width: 44px; height: 44px; display: flex !important; align-items: center; justify-content: center; border-radius: var(--bvd-r-sm); }
+  body.elementor-kit-1685 .hfe-nav-menu__toggle .hfe-nav-menu-icon { display: flex; }
+  body.elementor-kit-1685 .hfe-nav-menu__toggle .bvd-icon { width: 24px; height: 24px; color: var(--bvd-ink); }
+}
+@media (max-width: 1024px) {
+  body.elementor-kit-1685 .bv-nav :is(.hfe-nav-menu__layout-horizontal, nav.hfe-dropdown) { background: var(--bvd-bg-alt) !important; border-top: 1px solid var(--bvd-line); }
+  body.elementor-kit-1685 .bv-nav nav.hfe-dropdown a.hfe-menu-item,
+  body.elementor-kit-1685 .bv-nav nav.hfe-dropdown a.hfe-sub-menu-item { min-height: 44px; display: flex; align-items: center; }
+}
+
+/* 9. Footer ------------------------------------------------------------------ */
+body.elementor-kit-1685 .bv-footer { border-top: 1px solid var(--bvd-line) !important; border-image: none !important; }
+body.elementor-kit-1685 .bv-footer .elementor-icon-list-item a,
+body.elementor-kit-1685 .bv-footer .elementor-heading-title a { min-height: 24px; display: inline-flex; align-items: center; }
+body.elementor-kit-1685 .bv-footer a:hover { color: #fff !important; }
+body.elementor-kit-1685 .hfe-copyright-wrapper, body.elementor-kit-1685 .hfe-copyright-wrapper a { font-family: var(--bvd-font-sans) !important; color: var(--bvd-muted) !important; }
+@media (max-width: 767px) {
+  body.elementor-kit-1685 .bv-footer .e-grid { grid-template-columns: 1fr 1fr !important; gap: 32px 20px !important; }
+  body.elementor-kit-1685 .bv-footer .e-con { min-height: 0 !important; }
+}
+
+/* 10. Formulaires Contact Form 7 : champ sombre, focus visible ------------- */
+body.elementor-kit-1685 .bv-form label { font: 500 .875rem/1.4 var(--bvd-font-sans) !important; color: var(--bvd-ink) !important; }
+body.elementor-kit-1685 .bv-form :is(input[type=text], input[type=email], input[type=tel], input[type=url], select, textarea) {
+  background: var(--bvd-bg) !important; color: var(--bvd-ink) !important;
+  border: 1px solid var(--bvd-line-strong) !important; border-radius: var(--bvd-r-sm) !important;
+  font: 400 1rem/1.5 var(--bvd-font-sans) !important; min-height: 48px;
+}
+body.elementor-kit-1685 .bv-form select { appearance: none; background-image: url("../icons/lucide/chevron-down-muted.svg") !important; background-repeat: no-repeat !important; background-position: right 14px center !important; background-size: 16px !important; padding-right: 40px !important; }
+body.elementor-kit-1685 .bv-form :is(input, select, textarea):hover { border-color: #3A4D61 !important; }
+body.elementor-kit-1685 .bv-form :is(input, select, textarea):focus,
+body.elementor-kit-1685 .bv-form :is(input, select, textarea):focus-visible {
+  border-color: var(--bvd-accent-soft) !important; box-shadow: 0 0 0 3px rgba(94, 170, 227, .28) !important; outline: none !important;
+}
+body.elementor-kit-1685 .bv-form input[type=file] { max-width: 100%; color: var(--bvd-muted); font-family: var(--bvd-font-sans); }
+body.elementor-kit-1685 .bv-form input[type=file]::file-selector-button {
+  margin-right: 12px; padding: 10px 14px; border-radius: var(--bvd-r-sm); border: 1px solid var(--bvd-line-strong);
+  background: var(--bvd-surface-2); color: var(--bvd-ink); font: 500 .875rem var(--bvd-font-sans); cursor: pointer;
+}
+body.elementor-kit-1685 .bv-form input[type=checkbox] { width: 18px; height: 18px; accent-color: var(--bvd-accent); vertical-align: -3px; }
+body.elementor-kit-1685 .bv-form :is(.bv-consent, .bv-consent label) { color: var(--bvd-muted) !important; font-size: .875rem !important; }
+body.elementor-kit-1685 .bv-form .bv-consent a, body.elementor-kit-1685 .wpcf7 .wpcf7-list-item-label a { color: var(--bvd-accent-soft) !important; text-decoration: underline; text-underline-offset: 3px; }
+body.elementor-kit-1685 .bv-form input.wpcf7-submit,
+body.elementor-kit-1685.elementor-kit-1685 .bv-form input[type=submit] {
+  background: #fff !important; color: var(--bvd-bg-alt) !important; border: 0 !important; border-radius: var(--bvd-r-sm) !important;
+  min-height: 48px; padding: 14px 28px !important; font: 600 .9375rem/1.2 var(--bvd-font-sans) !important; cursor: pointer;
+}
+body.elementor-kit-1685 .bv-form input.wpcf7-submit:hover { background: var(--bvd-ink) !important; box-shadow: 0 0 0 1px var(--bvd-accent-soft); }
+body.elementor-kit-1685 .bv-form input.wpcf7-submit:disabled { opacity: .55; cursor: not-allowed; }
+body.elementor-kit-1685 .bv-form .wpcf7-not-valid-tip { color: var(--bvd-error) !important; font-size: .8125rem; }
+body.elementor-kit-1685 .bv-form .wpcf7-not-valid { border-color: var(--bvd-error) !important; }
+body.elementor-kit-1685 .wpcf7 form .wpcf7-response-output { border-radius: var(--bvd-r-sm); color: var(--bvd-ink); border-color: var(--bvd-line-strong) !important; background: var(--bvd-surface); }
+body.elementor-kit-1685 .wpcf7 form.sent .wpcf7-response-output { border-color: var(--bvd-accent-soft) !important; }
+body.elementor-kit-1685 .wpcf7 form.invalid .wpcf7-response-output, body.elementor-kit-1685 .wpcf7 form.failed .wpcf7-response-output { border-color: var(--bvd-error) !important; }
+
+/* 11. Pages hors Elementor : 404, contenu non stylé ------------------------ */
+body.elementor-kit-1685.error404 .site-main { max-width: 1280px; margin: 0 auto; padding: var(--bvd-section) 24px; min-height: 52vh; }
+body.elementor-kit-1685.error404 .page-header .entry-title { font-size: var(--bvd-fs-h1); line-height: 1.08; letter-spacing: -.025em; color: var(--bvd-ink); max-width: 18ch; margin: 0 0 var(--bvd-s3); }
+body.elementor-kit-1685.error404 .page-content { color: var(--bvd-ink-2); font-size: var(--bvd-fs-lead); max-width: 56ch; }
+body.elementor-kit-1685.error404 .site-main::before {
+  content: "404"; display: block; margin-bottom: var(--bvd-s3);
+  font: 500 var(--bvd-fs-label)/1 var(--bvd-font-mono); letter-spacing: .12em; color: var(--bvd-accent-soft);
+}
+body.elementor-kit-1685 .bvd-404-links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: var(--bvd-s4); }
+body.elementor-kit-1685 .bvd-404-links a {
+  display: inline-flex; align-items: center; min-height: 48px; padding: 0 20px; border-radius: var(--bvd-r-sm);
+  border: 1px solid var(--bvd-line-strong); color: var(--bvd-ink); text-decoration: none; font-weight: 600; font-size: .9375rem;
+}
+body.elementor-kit-1685 .bvd-404-links a:first-child { background: #fff; color: var(--bvd-bg-alt); border-color: #fff; }
+body.elementor-kit-1685 .bvd-404-links a:hover { border-color: var(--bvd-accent-soft); }
+
+
+/* 15. Corrections ciblées (éléments précis de pages) ------------------------ */
+/* Hero de l'accueil : visuel raster remplacé par le SVG « signal » (LCP). */
+body.elementor-kit-1685 .elementor-1722 .elementor-element.elementor-element-8a66694 {
+  background-image: url("../visuals/hero-signal.svg"), radial-gradient(rgba(147, 163, 181, .085) 1px, transparent 1px) !important;
+  background-size: auto 100%, 24px 24px !important;
+  background-position: right -22vw center, 0 0 !important;
+  background-repeat: no-repeat, repeat !important;
+}
+@media (max-width: 1024px) {
+  body.elementor-kit-1685 .elementor-1722 .elementor-element.elementor-element-8a66694 { background-size: auto 62%, 24px 24px !important; background-position: right -180px top 24px, 0 0 !important; }
+}
+@media (max-width: 767px) {
+  body.elementor-kit-1685 .elementor-1722 .elementor-element.elementor-element-8a66694 { background-size: auto 46%, 24px 24px !important; background-position: right -210px top 8px, 0 0 !important; }
+}
+/* Halo turquoise codé en dur : ramené à l'accent. */
+body.elementor-kit-1685 .elementor-element.elementor-element-2bfc144 {
+  background-image: radial-gradient(at top center, rgba(36, 133, 208, .13) 0%, #070B10 62%) !important;
+}
+/* Cartes d'appel sombres placées dans des sections claires (accueil, hub Services). */
+body.elementor-kit-1685 .e-con.elementor-element-547e28f,
+body.elementor-kit-1685 .e-con.elementor-element-46cb778,
+body.elementor-kit-1685 .e-con.elementor-element-5da240e,
+body.elementor-kit-1685 .e-con.elementor-element-0c85de5 {
+  --e-global-color-bvwhite: #E6EDF4;
+  --e-global-color-text: #B8C3CF;
+  background-color: var(--bvd-surface-2) !important;
+  border: 1px solid var(--bvd-accent-line) !important;
+  box-shadow: inset 0 2px 0 var(--bvd-accent);
+}
+body.elementor-kit-1685 :is(.elementor-element-547e28f, .elementor-element-46cb778, .elementor-element-5da240e, .elementor-element-0c85de5) p { color: var(--bvd-ink-2) !important; }
+
+/* Footer hors pages Elementor (404) : le CSS des listes d'icônes n'y est pas chargé. */
+body.elementor-kit-1685 .bv-footer .elementor-icon-list-items { list-style: none; margin: 0; padding: 0; }
+body.elementor-kit-1685 .bv-footer .elementor-icon-list-item { display: flex; align-items: flex-start; gap: 10px; margin: 0 0 10px; }
+body.elementor-kit-1685 .bv-footer .elementor-icon-list-icon { display: inline-flex; flex: 0 0 auto; margin-top: 4px; }
+body.elementor-kit-1685 .bv-footer .elementor-icon-list-icon svg { width: 16px; height: 16px; }
+
+/* 12. Accessibilité --------------------------------------------------------- */
+body.elementor-kit-1685 :is(a, button, [role="button"], .elementor-button, input, select, textarea, summary):focus-visible {
+  outline: 2px solid var(--bvd-accent-soft) !important; outline-offset: 3px !important; box-shadow: none;
+}
+body.elementor-kit-1685 .hfe-skip-link:focus { background: #fff; color: var(--bvd-bg-alt); padding: 12px 16px; border-radius: var(--bvd-r-sm); z-index: 100000; }
+body.elementor-kit-1685 main#content:focus { outline: none; }
+body.elementor-kit-1685 .elementor-widget-text-editor a:not(.elementor-button) { text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+[id] { scroll-margin-top: 96px; }
+
+/* 13. Mouvement : reveal joué une fois, tout coupé si mouvement réduit ------ */
+html.bvd-js body.elementor-kit-1685 .bvd-reveal { opacity: 0; transform: translateY(14px); }
+html.bvd-js body.elementor-kit-1685 .bvd-reveal.bvd-in { opacity: 1; transform: none; transition: opacity var(--bvd-t-slow) var(--bvd-ease), transform var(--bvd-t-slow) var(--bvd-ease); }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition-duration: .01ms !important; }
+  html.bvd-js body.elementor-kit-1685 .bvd-reveal { opacity: 1; transform: none; }
+  body.elementor-kit-1685 .bv-pipe-line::after { display: none; }
+  .elementor-invisible { visibility: visible !important; }
+}
+
+/* 14. Mobile : hauteurs héritées du desktop, rythme ------------------------ */
+@media (max-width: 1024px) {
+  body.elementor-kit-1685 .bv-section .e-con.bv-card { min-height: 0 !important; }
+  body.elementor-kit-1685 .bv-pipe-line { display: none !important; }
+}
+@media (max-width: 767px) {
+  body.elementor-kit-1685 .bv-section .e-con:not(.bv-hero) { min-height: 0 !important; }
+  body.elementor-kit-1685 .bv-sticky { position: static !important; }
+}

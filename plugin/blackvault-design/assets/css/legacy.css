@@ -1,0 +1,139 @@
+/* =====================================================================
+   BLACKVAULT : CSS complémentaire migré du Customizer (post 1832) vers le plugin blackvault-design
+   ---------------------------------------------------------------------
+   Couleurs, typographies et boutons : Elementor > Réglages du site.
+   Ce fichier ne contient que ce qu'Elementor (version gratuite) ne sait
+   pas faire nativement. Les classes se posent dans
+   Elementor > Avancé > Classes CSS.
+   Accent unique : bleu BlackVault. Les surcharges de design vivent dans bvd.css.
+   ===================================================================== */
+:root {
+  --bv-spectrum: linear-gradient(90deg, rgba(94, 170, 227, 0), #5EAAE3 18%, #2485D0 82%, rgba(36, 133, 208, 0));
+  --bv-spectrum-diag: linear-gradient(135deg, #152231 0%, #152231 100%);
+}
+body { background: #070B10; }
+
+/* 1. Texte en dégradé (.bv-grad) : à utiliser dans un titre, ex. <span class="bv-grad">mot</span> */
+.bv-grad { background: var(--bv-spectrum); -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-fill-color: transparent; padding-bottom: .06em; }
+
+/* 2. Barre et cartes spectre (.bv-spectrum, .bv-spectrum-card) */
+.bv-spectrum { background: var(--bv-spectrum) !important; }
+.bv-spectrum-card { background: var(--bv-spectrum-diag) !important; border: 0 !important; }
+
+/* 3. Trame de points sur les sections sombres (.bv-dots) */
+.bv-dots { background-image: radial-gradient(rgba(147, 163, 181, .13) 1px, transparent 1px); background-size: 28px 28px; }
+.bv-hero.bv-dots { background-blend-mode: normal; }
+
+/* 4. Largeur de lecture (.bv-measure) */
+.bv-measure { max-width: 68ch; }
+.bv-measure.bv-center { margin-left: auto; margin-right: auto; }
+.bv-measure p:last-child { margin-bottom: 0; }
+
+/* 5. Cartes (.bv-card) : survol avec halo discret */
+.bv-card { position: relative; transition: transform .28s ease, border-color .28s ease, box-shadow .28s ease; text-decoration: none; }
+.bv-card:hover { box-shadow: 0 24px 60px -30px rgba(94, 170, 227, .45); }
+.bv-card-light:hover { box-shadow: 0 22px 48px -28px rgba(11, 18, 26, .35); }
+.bv-card .bv-more .elementor-heading-title::after { content: "\2192"; display: inline-block; margin-left: 8px; transition: transform .2s ease; }
+.bv-card:hover .bv-more .elementor-heading-title::after { transform: translateX(5px); }
+.bv-pic img { object-fit: contain; aspect-ratio: 1 / 1; }
+.bv-hl { box-shadow: inset 0 0 0 1px #5EAAE3; }
+
+/* 6. Pipeline « Détecter > Corriger » (.bv-pipeline) */
+.bv-pipeline { position: relative; }
+.bv-pipe-line { position: absolute !important; left: 0; right: 0; top: 5px; height: 2px !important; min-height: 2px !important; border-radius: 2px; opacity: .9; }
+.bv-pipe .bv-node { margin-bottom: 6px; }
+.bv-pipe .bv-node .elementor-icon { filter: drop-shadow(0 0 10px currentColor); }
+.bv-stage { text-decoration: none; transition: transform .25s ease; }
+.bv-stage:hover { transform: translateY(-3px); }
+@media (max-width: 1024px) { .bv-pipe-line { display: none !important; } }
+
+/* 7. Flux vertical (.bv-flow / .bv-flow-step) : architecture et démarches */
+.bv-flow { position: relative; }
+.bv-flow-step { position: relative; border-left: 1px solid #1E2C3A; }
+.bv-flow-step::before { content: ""; position: absolute; left: -5px; top: 4px; width: 9px; height: 9px; border-radius: 50%; background: #5EAAE3; box-shadow: 0 0 12px rgba(94, 170, 227, .8); }
+.bv-flow-step:nth-child(2)::before { background: #5EAAE3; } .bv-flow-step:nth-child(4)::before { background: #5EAAE3; } .bv-flow-step:nth-child(5)::before { background: #5EAAE3; } .bv-flow-step:nth-child(6)::before { background: #5EAAE3; }
+.bv-flow-step:last-child { border-left-color: transparent; }
+.bv-section.bv-light .bv-flow-step, .bv-section.bv-white .bv-flow-step { border-left-color: #DCE3EA; }
+.bv-chip .elementor-button { padding: 7px 12px !important; font-size: 13px !important; }
+
+/* 8. Étapes horizontales (.bv-steps / .bv-step) */
+.bv-step { border-top: 1px solid #1E2C3A; position: relative; }
+.bv-step::before { content: ""; position: absolute; top: -1px; left: 0; width: 56px; height: 2px; background: var(--bv-spectrum); }
+
+/* 9. Chiffres clés (.bv-stat) */
+.bv-stat .elementor-heading-title { background: linear-gradient(180deg, #FFFFFF 30%, #93A3B5); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+.bv-light .bv-stat .elementor-heading-title, .bv-white .bv-stat .elementor-heading-title { background: none; -webkit-text-fill-color: #0B121A; }
+
+/* 10. Boutons : primaire lumineux sur fond sombre */
+.bv-btn-primary .elementor-button { box-shadow: 0 0 0 0 rgba(94, 170, 227, 0); transition: box-shadow .25s ease, background-color .25s ease, transform .2s ease; }
+.bv-btn-primary .elementor-button:hover { box-shadow: 0 10px 34px -10px rgba(94, 170, 227, .65); transform: translateY(-1px); }
+.bv-textlink .elementor-button { padding: 0 !important; background: none !important; }
+.bv-textlink .elementor-button-icon { transition: transform .2s ease; }
+.bv-textlink .elementor-button:hover .elementor-button-icon { transform: translateX(4px); }
+
+/* 11. Pastilles (.bv-badge) et conteneurs extensibles (.bv-grow) */
+.bv-badge { width: auto !important; max-width: max-content; }
+.e-con.bv-grow { --width: auto; flex: 1 1 0% !important; min-width: 0; }
+.bv-feat-icon { flex: 0 0 auto; width: auto !important; align-self: flex-start; margin-top: 3px; min-width: 18px; }
+.bv-push { margin-top: auto; }
+.bv-mini { text-decoration: none; transition: border-color .2s ease; }
+.bv-mini img { width: 36px; height: 36px; object-fit: contain; }
+
+/* 12. Visuels (.bv-visual, .bv-product-logo) */
+.bv-visual img { width: 100%; max-width: 620px; height: auto; }
+.bv-product-logo img { filter: drop-shadow(0 20px 60px rgba(0, 0, 0, .5)); }
+
+/* 13. Colonnes collantes en desktop (.bv-sticky) */
+@media (min-width: 1025px) { .bv-sticky { position: sticky; top: 110px; align-self: flex-start; } }
+
+/* 14. Tableau comparatif (.bv-cmp) */
+@media (max-width: 767px) { .bv-cmp-spacer { display: none !important; } }
+
+/* 15. Header collant en verre dépoli (Ultimate Addons for Elementor) */
+#masthead { position: sticky; top: 0; z-index: 999; }
+.admin-bar #masthead { top: 32px; }
+@media (max-width: 782px) { .admin-bar #masthead { top: 0; } }
+.bv-header { -webkit-backdrop-filter: saturate(160%) blur(14px); backdrop-filter: saturate(160%) blur(14px); }
+.bv-nav .hfe-nav-menu .sub-menu { box-shadow: 0 24px 60px -24px rgba(0, 0, 0, .8); overflow: hidden; }
+@media (min-width: 1025px) { .bv-nav .hfe-nav-menu { flex-wrap: nowrap !important; } .bv-nav .hfe-nav-menu > li > a { white-space: nowrap; } }
+@media (max-width: 1024px) {
+  .bv-header > .e-con-inner { flex-wrap: nowrap !important; }
+  .bv-header .bv-grow { justify-content: flex-end; }
+  .bv-header .bv-nav { margin-left: auto; }
+  .bv-header .elementor-widget-navigation-menu { margin-left: auto; }
+  .bv-header .hfe-nav-menu__toggle { margin-left: auto !important; margin-right: 0 !important; }
+  .bv-nav .hfe-nav-menu__layout-horizontal, .bv-nav nav.hfe-dropdown { background: #0B121A !important; }
+}
+.bv-footer { border-top: 1px solid transparent; border-image: var(--bv-spectrum) 1; }
+
+/* 16. Accessibilité : focus visible et mouvement réduit */
+a:focus-visible, button:focus-visible, .elementor-button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px solid #5EAAE3; outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+  .elementor-invisible { visibility: visible !important; }
+}
+html { scroll-behavior: smooth; }
+[id] { scroll-margin-top: 96px; }
+
+/* 17. Formulaires Contact Form 7 (.bv-form) */
+.bv-form .bv-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px 20px; margin-bottom: 18px; }
+.bv-form .bv-grid > p { display: contents; }
+.bv-form .bv-grid br, .bv-form label > br { display: none; }
+.bv-form fieldset.hidden-fields-container { display: none; }
+@media (max-width: 767px) { .bv-form .bv-grid { grid-template-columns: 1fr; } }
+.bv-form p { margin: 0 0 18px; }
+.bv-form label { display: block; font: 500 14px/1.4 "Sora", sans-serif; color: #0B121A; }
+.bv-form .wpcf7-form-control-wrap { display: block; margin-top: 7px; }
+.bv-form .wpcf7-form-control:not(.wpcf7-submit):not(.wpcf7-acceptance):not(.wpcf7-file) { width: 100%; box-sizing: border-box; }
+.bv-form input[type=text], .bv-form input[type=email], .bv-form input[type=tel], .bv-form input[type=url], .bv-form select, .bv-form textarea {
+  width: 100%; padding: 12px 14px; border: 1px solid #DCE3EA; border-radius: 8px; background: #fff;
+  font: 400 15px/1.5 "Sora", sans-serif; color: #0B121A; transition: border-color .2s ease, box-shadow .2s ease;
+}
+.bv-form textarea { min-height: 150px; resize: vertical; }
+.bv-form input:focus, .bv-form select:focus, .bv-form textarea:focus { border-color: #2485D0; box-shadow: 0 0 0 3px rgba(36, 133, 208, .15); outline: none; }
+.bv-form .bv-consent, .bv-form .bv-consent label { font-size: 13.5px; font-weight: 400; color: #3B4A5A; }
+.bv-form .wpcf7-list-item { margin: 0; }
+.bv-form .wpcf7-submit { background: #0B121A; color: #fff; border: 0; border-radius: 8px; padding: 15px 28px; cursor: pointer; font: 600 15px/1.2 "Sora", sans-serif; transition: background-color .2s ease; }
+.bv-form .wpcf7-submit:hover { background: #2485D0; }
+.bv-form .wpcf7-not-valid-tip { font-size: 13px; color: #C0392B; margin-top: 6px; }
+.bv-form .wpcf7-response-output { margin: 18px 0 0 !important; padding: 12px 16px !important; border-radius: 8px; font-size: 14px; }
