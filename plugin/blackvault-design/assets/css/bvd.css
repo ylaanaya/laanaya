@@ -444,7 +444,7 @@ body.elementor-kit-1685 .bv-nav li.bvd-closed > .sub-menu { visibility: hidden !
 @media (max-width: 1024px) {
   body.elementor-kit-1685 .hfe-nav-menu__toggle { width: 44px; height: 44px; display: flex !important; align-items: center; justify-content: center; border-radius: var(--bvd-r-sm); }
   body.elementor-kit-1685 .hfe-nav-menu__toggle .hfe-nav-menu-icon { display: flex; }
-  body.elementor-kit-1685 .hfe-nav-menu__toggle .bvd-icon { width: 24px; height: 24px; color: var(--bvd-ink); }
+  body.elementor-kit-1685 .hfe-nav-menu__toggle svg { width: 24px; height: 24px; color: var(--bvd-ink); fill: none; }
 }
 @media (max-width: 1024px) {
   body.elementor-kit-1685 .bv-nav :is(.hfe-nav-menu__layout-horizontal, nav.hfe-dropdown) { background: var(--bvd-bg-alt) !important; border-top: 1px solid var(--bvd-line); }

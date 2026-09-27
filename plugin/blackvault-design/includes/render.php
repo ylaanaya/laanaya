@@ -146,3 +146,58 @@ function bvd_render_widget( string $content, $widget ): string {
 
 	return $content;
 }
+
+/**
+ * Substitutions sur le HTML complet de la page (tampon de sortie).
+ * Nécessaire car le cache d'éléments d'Elementor sert le HTML des widgets
+ * sans repasser par le filtre elementor/widget/render_content.
+ */
+function bvd_filter_html( string $html ): string {
+	if ( false === stripos( $html, '<html' ) ) {
+		return $html;
+	}
+	$map = bvd_fa_map();
+	// 1. Font Awesome inline vers Lucide.
+	$html = (string) preg_replace_callback(
+		'#<svg\b[^>]*\bclass="e-font-icon-svg e-fa[srb]-([a-z0-9-]+)"[^>]*>.*?</svg>#s',
+		static function ( $m ) use ( $map ) {
+			$lucide = $map[ $m[1] ] ?? '';
+			$svg    = '' !== $lucide ? bvd_lucide_svg( $lucide ) : '';
+			return '' !== $svg ? $svg : $m[0];
+		},
+		$html
+	);
+	// 1 bis. Mêmes icônes, échappées dans des attributs data-* (bascule du menu mobile HFE).
+	$html = (string) preg_replace_callback(
+		'#&lt;svg\b(?:(?!&gt;).)*?class=&quot;e-font-icon-svg e-fa[srb]-([a-z0-9-]+)&quot;.*?&lt;/svg&gt;#s',
+		static function ( $m ) use ( $map ) {
+			$lucide = $map[ $m[1] ] ?? '';
+			$svg    = '' !== $lucide ? bvd_lucide_svg( $lucide ) : '';
+			return '' !== $svg ? htmlspecialchars( $svg, ENT_QUOTES ) : $m[0];
+		},
+		$html
+	);
+	// 2. Images de la médiathèque repérées par leur classe wp-image-ID.
+	$html = (string) preg_replace_callback(
+		'#<img\b[^>]*\bwp-image-(\d+)\b[^>]*>#',
+		static function ( $m ) {
+			$id  = (int) $m[1];
+			$alt = bvd_img_alt( $m[0] );
+			if ( array_key_exists( $id, BVD_PRODUCT_ICONS ) ) {
+				return '<span class="bvd-glyph-box" aria-hidden="true">' . bvd_glyph_svg( BVD_PRODUCT_ICONS[ $id ] ) . '</span>';
+			}
+			if ( array_key_exists( $id, BVD_PRODUCT_LOGOS ) ) {
+				return '<div class="bvd-glyph-hero" role="img" aria-label="' . esc_attr( $alt ) . '">' . bvd_glyph_svg( BVD_PRODUCT_LOGOS[ $id ] ) . '</div>';
+			}
+			if ( array_key_exists( $id, BVD_VISUALS ) ) {
+				$svg = bvd_svg_file( 'assets/visuals/' . BVD_VISUALS[ $id ] . '.svg' );
+				return '' !== $svg ? str_replace( '__ALT__', esc_attr( $alt ), $svg ) : $m[0];
+			}
+			return $m[0];
+		},
+		$html
+	);
+	// 3. Logo du header : dimensions intrinsèques (CLS).
+	$html = (string) preg_replace( '#(<img\b)(?![^>]*\bwidth=)([^>]*\bhfe-site-logo-img\b)#', '$1 width="488" height="184"$2', $html, 1 );
+	return $html;
+}

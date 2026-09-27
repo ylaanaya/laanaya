@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       BLACKVAULT Design
  * Description:       Couche de design « Signal souverain » de blackvault.ma : polices auto-hébergées, tokens, composants, icônes Lucide, glyphes produit, visuels SVG, micro-interactions et correctifs d'accessibilité. Aucune donnée de page n'est modifiée ; désactiver le plugin rend le rendu d'origine.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Requires at least: 6.9
  * Requires PHP:      8.1
  * Author:            BLACK VAULT SARL
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'BVD_VERSION', '1.0.0' );
+define( 'BVD_VERSION', '1.0.1' );
 define( 'BVD_FILE', __FILE__ );
 define( 'BVD_DIR', plugin_dir_path( __FILE__ ) );
 define( 'BVD_URL', plugin_dir_url( __FILE__ ) );
@@ -220,19 +220,22 @@ add_action(
 );
 
 /* -------------------------------------------------------------------------
- * Substitutions au rendu (icônes, glyphes, visuels) : voir includes/render.php
+ * Substitutions sur le HTML servi (icônes, glyphes, visuels) : voir includes/render.php
  * ---------------------------------------------------------------------- */
 
-add_filter(
-	'elementor/widget/render_content',
-	static function ( $content, $widget ) {
-		if ( ! bvd_is_enabled() || bvd_is_elementor_editing() || ! is_string( $content ) ) {
-			return $content;
+add_action(
+	'template_redirect',
+	static function () {
+		if ( ! bvd_is_enabled() || bvd_is_elementor_editing() || is_feed() || wp_doing_ajax() || ( defined( 'REST_REQUEST' ) && REST_REQUEST ) ) {
+			return;
 		}
-		return bvd_render_widget( $content, $widget );
+		ob_start(
+			static function ( $html ) {
+				return is_string( $html ) ? bvd_filter_html( $html ) : $html;
+			}
+		);
 	},
-	20,
-	2
+	0
 );
 
 /** Données pour le script : libellés d'interface (micro-labels). */
