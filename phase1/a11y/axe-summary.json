@@ -6,7 +6,6 @@
    "carrieres",
    "contact",
    "entreprise",
-   "plateforme__ia-souveraine",
    "secteurs",
    "services",
    "services__audit-tests-intrusion",
@@ -25,20 +24,20 @@
    "solutions__orbitfix",
    "solutions__the-hound"
   ],
-  "nodes": 251,
+  "nodes": 205,
   "impact": "serious",
   "help": "Elements must meet minimum color contrast ratio thresholds",
   "targets": [
    ".elementor-element-033b571 > .elementor-heading-title.elementor-size-default",
    ".elementor-element-0542d24 > .elementor-heading-title.elementor-size-default",
-   ".elementor-element-0716ae6 > .elementor-heading-title.elementor-size-default",
-   ".elementor-element-13c8bc4 > .elementor-heading-title.elementor-size-default",
    ".elementor-element-186d2d0 > .elementor-heading-title.elementor-size-default",
    ".elementor-element-2509958 > p",
    ".elementor-element-2801c17 > p",
    ".elementor-element-2f18417 > p",
    ".elementor-element-334bd60 > .elementor-heading-title.elementor-size-default",
-   ".elementor-element-36a19a5 > p"
+   ".elementor-element-36a19a5 > p",
+   ".elementor-element-4515ad0 > .elementor-heading-title.elementor-size-default",
+   ".elementor-element-46d8c01 > p"
   ],
   "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #0b121a, background color: #070b10, font size: 43.5pt (58px), font weight: normal). Expected contrast ratio of 3:1"
  },

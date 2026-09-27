@@ -36,7 +36,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "1440": {
    "external": [],
@@ -88,7 +89,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "id": "404",
   "url": "https://blackvault.ma/page-inexistante-bv-test/"
@@ -103,14 +105,14 @@
      "id": "color-contrast",
      "impact": "serious",
      "help": "Elements must meet minimum color contrast ratio thresholds",
-     "count": 12,
+     "count": 9,
      "targets": [
       ".elementor-element-36a19a5 > p",
-      ".elementor-element-3c12642 > p",
-      ".elementor-element-878de41 > h3",
-      ".elementor-element-5f089e4 > .elementor-heading-title.elementor-size-default",
       ".elementor-element-4ee5620 > p",
-      ".elementor-element-92da57a > .elementor-heading-title.elementor-size-default"
+      ".elementor-element-92da57a > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-3b8c6e4 > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-962a33c > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-123c4d7 > .elementor-heading-title.elementor-size-default"
      ],
      "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #3d8bef, background color: #162940, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
     },
@@ -151,7 +153,7 @@
     }
    ],
    "metrics": {
-    "docHeight": 19192,
+    "docHeight": 19426,
     "domNodes": 1139,
     "hScroll": false,
     "h": [
@@ -223,7 +225,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "1440": {
    "external": [],
@@ -234,14 +237,14 @@
      "id": "color-contrast",
      "impact": "serious",
      "help": "Elements must meet minimum color contrast ratio thresholds",
-     "count": 12,
+     "count": 9,
      "targets": [
       ".elementor-element-36a19a5 > p",
-      ".elementor-element-3c12642 > p",
-      ".elementor-element-878de41 > h3",
-      ".elementor-element-5f089e4 > .elementor-heading-title.elementor-size-default",
       ".elementor-element-4ee5620 > p",
-      ".elementor-element-92da57a > .elementor-heading-title.elementor-size-default"
+      ".elementor-element-92da57a > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-3b8c6e4 > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-962a33c > .elementor-heading-title.elementor-size-default",
+      ".elementor-element-123c4d7 > .elementor-heading-title.elementor-size-default"
      ],
      "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #3d8bef, background color: #162940, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
     },
@@ -367,7 +370,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "id": "1722",
   "url": "https://blackvault.ma/"
@@ -476,7 +480,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "1440": {
    "external": [],
@@ -594,7 +599,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "id": "1725",
   "url": "https://blackvault.ma/solutions/"
@@ -691,7 +697,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "1440": {
    "external": [],
@@ -797,7 +804,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "id": "1728",
   "url": "https://blackvault.ma/solutions/nova-xsiem/"
@@ -893,7 +901,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "1440": {
    "external": [],
@@ -998,7 +1007,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "id": "1731",
   "url": "https://blackvault.ma/solutions/blackcasex/"
@@ -1094,7 +1104,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "1440": {
    "external": [],
@@ -1199,7 +1210,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "id": "1734",
   "url": "https://blackvault.ma/solutions/blacktrace/"
@@ -1295,7 +1307,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "1440": {
    "external": [],
@@ -1400,7 +1413,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "id": "1737",
   "url": "https://blackvault.ma/solutions/the-hound/"
@@ -1496,7 +1510,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "1440": {
    "external": [],
@@ -1601,7 +1616,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "id": "1740",
   "url": "https://blackvault.ma/solutions/blackvault-vx/"
@@ -1697,7 +1713,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "1440": {
    "external": [],
@@ -1802,7 +1819,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "id": "1743",
   "url": "https://blackvault.ma/solutions/orbitfix/"
@@ -1898,7 +1916,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "1440": {
    "external": [],
@@ -2003,7 +2022,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "id": "1746",
   "url": "https://blackvault.ma/solutions/blackvault-nexus/"
@@ -2014,21 +2034,6 @@
    "failed": [],
    "consoleErr": [],
    "axe": [
-    {
-     "id": "color-contrast",
-     "impact": "serious",
-     "help": "Elements must meet minimum color contrast ratio thresholds",
-     "count": 8,
-     "targets": [
-      ".elementor-element-13c8bc4 > .elementor-heading-title.elementor-size-default",
-      ".elementor-element-620e35d > h3",
-      ".elementor-element-0716ae6 > .elementor-heading-title.elementor-size-default",
-      ".elementor-element-dc377cd > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(1) > .elementor-icon-list-text",
-      ".elementor-element-dc377cd > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(2) > .elementor-icon-list-text",
-      ".elementor-element-dc377cd > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(3) > .elementor-icon-list-text"
-     ],
-     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #0b121a, background color: #070b10, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
-    },
     {
      "id": "landmark-one-main",
      "impact": "moderate",
@@ -2112,28 +2117,14 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "1440": {
    "external": [],
    "failed": [],
    "consoleErr": [],
    "axe": [
-    {
-     "id": "color-contrast",
-     "impact": "serious",
-     "help": "Elements must meet minimum color contrast ratio thresholds",
-     "count": 8,
-     "targets": [
-      ".elementor-element-13c8bc4 > .elementor-heading-title.elementor-size-default",
-      ".elementor-element-620e35d > h3",
-      ".elementor-element-0716ae6 > .elementor-heading-title.elementor-size-default",
-      ".elementor-element-dc377cd > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(1) > .elementor-icon-list-text",
-      ".elementor-element-dc377cd > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(2) > .elementor-icon-list-text",
-      ".elementor-element-dc377cd > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(3) > .elementor-icon-list-text"
-     ],
-     "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #0b121a, background color: #070b10, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
-    },
     {
      "id": "landmark-one-main",
      "impact": "moderate",
@@ -2230,7 +2221,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "id": "1749",
   "url": "https://blackvault.ma/plateforme/ia-souveraine/"
@@ -2327,7 +2319,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "1440": {
    "external": [],
@@ -2433,7 +2426,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "id": "1752",
   "url": "https://blackvault.ma/services/"
@@ -2448,7 +2442,7 @@
      "id": "color-contrast",
      "impact": "serious",
      "help": "Elements must meet minimum color contrast ratio thresholds",
-     "count": 10,
+     "count": 7,
      "targets": [
       ".elementor-element-ae6d96d > p",
       ".elementor-element-efc9f6c > p",
@@ -2550,7 +2544,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "1440": {
    "external": [],
@@ -2561,7 +2556,7 @@
      "id": "color-contrast",
      "impact": "serious",
      "help": "Elements must meet minimum color contrast ratio thresholds",
-     "count": 10,
+     "count": 7,
      "targets": [
       ".elementor-element-ae6d96d > p",
       ".elementor-element-efc9f6c > p",
@@ -2676,7 +2671,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "id": "1755",
   "url": "https://blackvault.ma/services/soc-manage/"
@@ -2786,7 +2782,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "1440": {
    "external": [],
@@ -2905,7 +2902,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "id": "1758",
   "url": "https://blackvault.ma/services/audit-tests-intrusion/"
@@ -3016,7 +3014,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "1440": {
    "external": [],
@@ -3136,7 +3135,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "id": "1761",
   "url": "https://blackvault.ma/services/integration-solutions-securite/"
@@ -3151,14 +3151,13 @@
      "id": "color-contrast",
      "impact": "serious",
      "help": "Elements must meet minimum color contrast ratio thresholds",
-     "count": 8,
+     "count": 5,
      "targets": [
       ".elementor-element-46d8c01 > p",
       ".elementor-element-93e3cbf > p",
       ".elementor-element-fa100c2 > p",
       ".elementor-element-378fbce > p",
-      ".elementor-element-9b49040 > p",
-      ".elementor-element-5f2b53d > p"
+      ".elementor-element-9b49040 > p"
      ],
      "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
     },
@@ -3247,7 +3246,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "1440": {
    "external": [],
@@ -3258,14 +3258,13 @@
      "id": "color-contrast",
      "impact": "serious",
      "help": "Elements must meet minimum color contrast ratio thresholds",
-     "count": 8,
+     "count": 5,
      "targets": [
       ".elementor-element-46d8c01 > p",
       ".elementor-element-93e3cbf > p",
       ".elementor-element-fa100c2 > p",
       ".elementor-element-378fbce > p",
-      ".elementor-element-9b49040 > p",
-      ".elementor-element-5f2b53d > p"
+      ".elementor-element-9b49040 > p"
      ],
      "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
     },
@@ -3367,7 +3366,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "id": "1764",
   "url": "https://blackvault.ma/services/gouvernance-risques-conformite/"
@@ -3382,14 +3382,14 @@
      "id": "color-contrast",
      "impact": "serious",
      "help": "Elements must meet minimum color contrast ratio thresholds",
-     "count": 9,
+     "count": 6,
      "targets": [
       ".elementor-element-6d995f2 > p",
       ".elementor-element-2801c17 > p",
       ".elementor-element-7952294 > p",
       ".elementor-element-7dc1d9a > p",
       ".elementor-element-aa9f2b5 > p",
-      ".elementor-element-b144f55 > p"
+      ".elementor-element-37ac72a > p"
      ],
      "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
     },
@@ -3478,7 +3478,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "1440": {
    "external": [],
@@ -3489,14 +3490,14 @@
      "id": "color-contrast",
      "impact": "serious",
      "help": "Elements must meet minimum color contrast ratio thresholds",
-     "count": 9,
+     "count": 6,
      "targets": [
       ".elementor-element-6d995f2 > p",
       ".elementor-element-2801c17 > p",
       ".elementor-element-7952294 > p",
       ".elementor-element-7dc1d9a > p",
       ".elementor-element-aa9f2b5 > p",
-      ".elementor-element-b144f55 > p"
+      ".elementor-element-37ac72a > p"
      ],
      "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
     },
@@ -3598,7 +3599,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "id": "1767",
   "url": "https://blackvault.ma/services/cloud-hebergement-continuite/"
@@ -3714,7 +3716,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "1440": {
    "external": [],
@@ -3839,7 +3842,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "id": "1770",
   "url": "https://blackvault.ma/services/infogerance-supervision/"
@@ -3854,14 +3858,14 @@
      "id": "color-contrast",
      "impact": "serious",
      "help": "Elements must meet minimum color contrast ratio thresholds",
-     "count": 9,
+     "count": 6,
      "targets": [
       ".elementor-element-7b02bc4 > p",
       ".elementor-element-cc66c95 > p",
       ".elementor-element-51d0466 > p",
       ".elementor-element-f32240a > p",
       ".elementor-element-7e3954f > p",
-      ".elementor-element-fd63803 > p"
+      ".elementor-element-ee8d36d > p"
      ],
      "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
     },
@@ -3949,7 +3953,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "1440": {
    "external": [],
@@ -3960,14 +3965,14 @@
      "id": "color-contrast",
      "impact": "serious",
      "help": "Elements must meet minimum color contrast ratio thresholds",
-     "count": 9,
+     "count": 6,
      "targets": [
       ".elementor-element-7b02bc4 > p",
       ".elementor-element-cc66c95 > p",
       ".elementor-element-51d0466 > p",
       ".elementor-element-f32240a > p",
       ".elementor-element-7e3954f > p",
-      ".elementor-element-fd63803 > p"
+      ".elementor-element-ee8d36d > p"
      ],
      "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #2f80ed, background color: #f4f7fa, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
     },
@@ -4068,7 +4073,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "id": "1773",
   "url": "https://blackvault.ma/services/hyperautomatisation-ia/"
@@ -4160,7 +4166,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "1440": {
    "external": [],
@@ -4261,7 +4268,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "id": "1776",
   "url": "https://blackvault.ma/secteurs/"
@@ -4354,7 +4362,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "1440": {
    "external": [],
@@ -4456,7 +4465,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "id": "1779",
   "url": "https://blackvault.ma/entreprise/"
@@ -4537,7 +4547,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "1440": {
    "external": [],
@@ -4617,7 +4628,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "id": "1782",
   "url": "https://blackvault.ma/carrieres/"
@@ -4699,7 +4711,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "1440": {
    "external": [],
@@ -4800,7 +4813,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "id": "1785",
   "url": "https://blackvault.ma/contact/"
@@ -4868,7 +4882,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "1440": {
    "external": [],
@@ -4946,7 +4961,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "id": "1788",
   "url": "https://blackvault.ma/politique-de-confidentialite/"
@@ -5058,7 +5074,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "1440": {
    "external": [],
@@ -5179,7 +5196,8 @@
      "IBM Plex Mono 400 normal",
      "IBM Plex Mono 500 normal"
     ]
-   }
+   },
+   "unloaded": []
   },
   "id": "2335",
   "url": "https://blackvault.ma/plateforme/"
