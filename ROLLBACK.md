@@ -14,7 +14,13 @@ Cache hébergeur (en-tête `x-cache-status`) : les URL versionnées se renouvell
 
 ## 1. Plugin `blackvault-design`
 
-Désactivation seule. Le rendu revient exactement à l'état « avant », tant que le Kit n'a pas été réécrit (§ 2) :
+Retour immédiat au mode aperçu (la couche reste visible pour les admins seulement). À combiner avec le § 2, sinon le nouveau Kit sombre s'applique à l'ancienne mise en page :
+
+```php
+update_option( 'bvd_public', 0 );
+```
+
+Désactivation seule. Le rendu revient exactement à l'état « avant » une fois le Kit restauré (§ 2) :
 
 ```php
 deactivate_plugins( 'blackvault-design/blackvault-design.php' );
@@ -28,14 +34,22 @@ delete_option( 'bvd_preview_token' ); delete_option( 'bvd_public' );
 // Suppression du dossier wp-content/plugins/blackvault-design/ (créé par le projet) via le gestionnaire d'extensions ou novamira/delete-file.
 ```
 
-## 2. Kit Elementor 1685 (après l'écriture du Kit)
+## 2. Kit Elementor 1685 (écrit le 27/09 à 19:57)
+
+Copie de l'état « avant » conservée côté serveur dans l'option non chargée `bvd_kit_backup_20260927` (md5 de son JSON : `e8a4d0501a040f937cc5cc2f7d5e3649`, identique au snapshot) :
+
+```php
+update_post_meta( 1685, '_elementor_page_settings', wp_slash( get_option( 'bvd_kit_backup_20260927' ) ) );
+```
+
+Source alternative, locale :
 
 ```php
 $json = '<contenu de snapshots/2026-09-27_phase0/kit/1685-elementor_page_settings.json>';
-update_post_meta( 1685, '_elementor_page_settings', json_decode( $json, true ) );
+update_post_meta( 1685, '_elementor_page_settings', wp_slash( json_decode( $json, true ) ) );
 ```
 
-Puis purges (§ 0).
+Puis purges (§ 0). Retour complet à l'état « avant » : § 2, puis § 1 (désactivation), puis § 0.
 
 ## 3. CSS additionnel du Customizer (post 1832)
 
@@ -53,7 +67,18 @@ Deux sources au choix :
 ## 5. Médias et OG Yoast
 
 - Médias ajoutés par le projet : listés dans `ASSETS.md` avec leur ID. On peut les supprimer, car ils ont été créés par le projet.
-- OG par page : `delete_post_meta( $id, '_yoast_wpseo_opengraph-image' ); delete_post_meta( $id, '_yoast_wpseo_opengraph-image-id' );`, pour les pages listées dans le CHANGELOG.
+- Médias 2462 à 2486 : marqués par la méta `_bvd_created`. Suppression : `wp_delete_attachment( $id, true );`, seulement si `get_post_meta( $id, '_bvd_created', true )` est non vide.
+- OG par page (24 pages, CHANGELOG n° 7), puis reconstruction de l'indexable Yoast :
+
+```php
+$w = YoastSEO()->classes->get( 'Yoast\\WP\\SEO\\Integrations\\Watchers\\Indexable_Post_Watcher' );
+foreach ( array( 1722, 1725, 1728, 1731, 1734, 1737, 1740, 1743, 1746, 1749, 1752, 1755, 1758, 1761, 1764, 1767, 1770, 1773, 1776, 1779, 1782, 1785, 1788, 2335 ) as $id ) {
+	delete_post_meta( $id, '_yoast_wpseo_opengraph-image' );
+	delete_post_meta( $id, '_yoast_wpseo_opengraph-image-id' );
+	$w->build_indexable( $id );
+}
+```
+
 - Icône du site : `update_option( 'site_icon', 1689 );`.
 
 ## Dernier recours
