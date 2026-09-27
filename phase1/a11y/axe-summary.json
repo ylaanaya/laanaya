@@ -1,0 +1,221 @@
+{
+ "color-contrast": {
+  "pages": [
+   "404",
+   "accueil",
+   "carrieres",
+   "contact",
+   "entreprise",
+   "plateforme__ia-souveraine",
+   "secteurs",
+   "services",
+   "services__audit-tests-intrusion",
+   "services__cloud-hebergement-continuite",
+   "services__gouvernance-risques-conformite",
+   "services__hyperautomatisation-ia",
+   "services__infogerance-supervision",
+   "services__integration-solutions-securite",
+   "services__soc-manage",
+   "solutions",
+   "solutions__blackcasex",
+   "solutions__blacktrace",
+   "solutions__blackvault-nexus",
+   "solutions__blackvault-vx",
+   "solutions__nova-xsiem",
+   "solutions__orbitfix",
+   "solutions__the-hound"
+  ],
+  "nodes": 251,
+  "impact": "serious",
+  "help": "Elements must meet minimum color contrast ratio thresholds",
+  "targets": [
+   ".elementor-element-033b571 > .elementor-heading-title.elementor-size-default",
+   ".elementor-element-0542d24 > .elementor-heading-title.elementor-size-default",
+   ".elementor-element-0716ae6 > .elementor-heading-title.elementor-size-default",
+   ".elementor-element-13c8bc4 > .elementor-heading-title.elementor-size-default",
+   ".elementor-element-186d2d0 > .elementor-heading-title.elementor-size-default",
+   ".elementor-element-2509958 > p",
+   ".elementor-element-2801c17 > p",
+   ".elementor-element-2f18417 > p",
+   ".elementor-element-334bd60 > .elementor-heading-title.elementor-size-default",
+   ".elementor-element-36a19a5 > p"
+  ],
+  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #0b121a, background color: #070b10, font size: 43.5pt (58px), font weight: normal). Expected contrast ratio of 3:1"
+ },
+ "nested-interactive": {
+  "pages": [
+   "404",
+   "accueil",
+   "carrieres",
+   "contact",
+   "entreprise",
+   "plateforme",
+   "plateforme__ia-souveraine",
+   "politique-de-confidentialite",
+   "secteurs",
+   "services",
+   "services__audit-tests-intrusion",
+   "services__cloud-hebergement-continuite",
+   "services__gouvernance-risques-conformite",
+   "services__hyperautomatisation-ia",
+   "services__infogerance-supervision",
+   "services__integration-solutions-securite",
+   "services__soc-manage",
+   "solutions",
+   "solutions__blackcasex",
+   "solutions__blacktrace",
+   "solutions__blackvault-nexus",
+   "solutions__blackvault-vx",
+   "solutions__nova-xsiem",
+   "solutions__orbitfix",
+   "solutions__the-hound"
+  ],
+  "nodes": 100,
+  "impact": "serious",
+  "help": "Interactive controls must not be nested",
+  "targets": [
+   "#menu-item-2433 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+   "#menu-item-2436 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]",
+   "#menu-item-2445 > .hfe-has-submenu-container[role=\"button\"][aria-haspopup=\"true\"]"
+  ],
+  "summary": "Fix any of the following:\n  Element has focusable descendants"
+ },
+ "landmark-one-main": {
+  "pages": [
+   "accueil",
+   "carrieres",
+   "contact",
+   "entreprise",
+   "plateforme",
+   "plateforme__ia-souveraine",
+   "politique-de-confidentialite",
+   "secteurs",
+   "services",
+   "services__audit-tests-intrusion",
+   "services__cloud-hebergement-continuite",
+   "services__gouvernance-risques-conformite",
+   "services__hyperautomatisation-ia",
+   "services__infogerance-supervision",
+   "services__integration-solutions-securite",
+   "services__soc-manage",
+   "solutions",
+   "solutions__blackcasex",
+   "solutions__blacktrace",
+   "solutions__blackvault-nexus",
+   "solutions__blackvault-vx",
+   "solutions__nova-xsiem",
+   "solutions__orbitfix",
+   "solutions__the-hound"
+  ],
+  "nodes": 48,
+  "impact": "moderate",
+  "help": "Document should have one main landmark",
+  "targets": [
+   "html"
+  ],
+  "summary": "Fix all of the following:\n  Document does not have a main landmark"
+ },
+ "region": {
+  "pages": [
+   "accueil",
+   "carrieres",
+   "contact",
+   "entreprise",
+   "plateforme",
+   "plateforme__ia-souveraine",
+   "politique-de-confidentialite",
+   "secteurs",
+   "services",
+   "services__audit-tests-intrusion",
+   "services__cloud-hebergement-continuite",
+   "services__gouvernance-risques-conformite",
+   "services__hyperautomatisation-ia",
+   "services__infogerance-supervision",
+   "services__integration-solutions-securite",
+   "services__soc-manage",
+   "solutions",
+   "solutions__blackcasex",
+   "solutions__blacktrace",
+   "solutions__blackvault-nexus",
+   "solutions__blackvault-vx",
+   "solutions__nova-xsiem",
+   "solutions__orbitfix",
+   "solutions__the-hound"
+  ],
+  "nodes": 1957,
+  "impact": "moderate",
+  "help": "All page content should be contained by landmarks",
+  "targets": [
+   ".elementor-1788",
+   ".elementor-element-0de7968",
+   ".elementor-element-2252d58",
+   ".elementor-element-2a555fe",
+   ".elementor-element-3f8afa0",
+   ".elementor-element-40be89d",
+   ".elementor-element-42ba30a",
+   ".elementor-element-4315039",
+   ".elementor-element-45fc110",
+   ".elementor-element-5c227c8"
+  ],
+  "summary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+ },
+ "skip-link": {
+  "pages": [
+   "accueil",
+   "carrieres",
+   "contact",
+   "entreprise",
+   "plateforme",
+   "plateforme__ia-souveraine",
+   "politique-de-confidentialite",
+   "secteurs",
+   "services",
+   "services__audit-tests-intrusion",
+   "services__cloud-hebergement-continuite",
+   "services__gouvernance-risques-conformite",
+   "services__hyperautomatisation-ia",
+   "services__infogerance-supervision",
+   "services__integration-solutions-securite",
+   "services__soc-manage",
+   "solutions",
+   "solutions__blackcasex",
+   "solutions__blacktrace",
+   "solutions__blackvault-nexus",
+   "solutions__blackvault-vx",
+   "solutions__nova-xsiem",
+   "solutions__orbitfix",
+   "solutions__the-hound"
+  ],
+  "nodes": 48,
+  "impact": "moderate",
+  "help": "The skip-link target should exist and be focusable",
+  "targets": [
+   ".hfe-skip-link"
+  ],
+  "summary": "Fix any of the following:\n  No skip link target"
+ },
+ "heading-order": {
+  "pages": [
+   "solutions"
+  ],
+  "nodes": 2,
+  "impact": "moderate",
+  "help": "Heading levels should only increase by one",
+  "targets": [
+   ".elementor-element-4bf6bee > h3"
+  ],
+  "summary": "Fix any of the following:\n  Heading order invalid"
+ },
+ "link-in-text-block": {
+  "pages": [
+   "contact"
+  ],
+  "nodes": 1,
+  "impact": "serious",
+  "help": "Links must be distinguishable without relying on color",
+  "targets": [
+   ".wpcf7-list-item-label > a[href=\"/politique-de-confidentialite/\"]"
+  ],
+  "summary": "Fix any of the following:\n  The link has insufficient color contrast of 2.34:1 with the surrounding text. (Minimum contrast is 3:1, link text: #2f80ed, surrounding text: #3b4a5a)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+ }
+}
